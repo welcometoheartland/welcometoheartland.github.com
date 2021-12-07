@@ -1,7 +1,7 @@
 
 
 body {
-  background: rgb(34, 32, 32);
+  background: rgb(44, 42, 42);
   color: #333;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
@@ -10,13 +10,12 @@ body {
 }
 
 h1{
+  -webkit-animation: fade-in 1s 0s forwards ease-out;
+          animation: fade-in 1s 0s forwards ease-out;
   text-align: center;
-  -webkit-animation: fade-in 2s 1s forwards ease-out;
-          animation: fade-in 2s 1s forwards ease-out;
-  text-align:center;
   opacity: 0;
   color: rgb(167, 50, 50);
-  font-size: 300%;
+  font-size: 420%;
 
 } 
 .span1{
@@ -25,7 +24,7 @@ h1{
 
 
   padding:0px 6px 0px 6px;
-  position:fixed;
+  position:absolute;
     top: 0;
     right: 66.6%;
   height:0;
@@ -37,31 +36,112 @@ h1{
             animation: linea 1s 0.2s forwards ease-out;
 
     padding:0px 6px 0px 6px;
-    position:fixed;
+    position:absolute;
       top: 0;
       right: 33.3%;
     height:0;
     opacity: 30%;
     border-left: 3px solid rgb(167, 50, 50);
     }
-  
+
+    .span3{
+      animation: glow 15s linear infinite;
+        padding:100% 1px 0px 1px;
+        position:absolute;
+          top: 0%;
+          right: 67.4%;
+        height:0;
+        opacity: 0%;
+        background:rgb(167, 50, 50) ;
+        border-left: 1px solid rgb(167, 50, 50);
+        box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+    
+     
+      }
+      .span4{ 
+        animation: glow 15s linear infinite;
+        padding:100% 1px 0px 1px;
+        position:absolute;
+          top: 0%;
+          right: 34%;
+        height:0;
+        opacity: 0%;
+        background:rgb(167, 50, 50) ;
+        border-left: 1px solid rgb(167, 50, 50);
+        box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+        }
+      
+
 
 
 
 
 
 /* Button styles */
+.st {
+  width: 100%;
+  font-size: 6em;
+  transition: 0.5s;
+  width: fit-content;
+  -webkit-animation: fade-in 1s 0.7s forwards ease-out;
+          animation: fade-in 1s 0.7s forwards ease-out;
+
+  color: rgb(80, 80, 58);
+  font-size: 250%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  top:40%;
+  left:43%;
+  
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-reflect: below -30px linear-gradient(transparent, #0004);
+}
+
+.st span{
+
+  animation: ruyuan 5s 2s linear infinite;
+}
+
+.st:hover{
+
+  animation:stop 0 forwards ease-outs;
+  opacity: 1;
+  color: rgb(232, 233, 159);
+  color: rgb(232, 233, 159);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159),
+              0 0 160px rgb(232, 233, 159),
+              0 0 400px rgb(232, 233, 159);
+    
+}
+
+
+
 .show-card {
+  transition: 0.5s;
+  width: fit-content;
   transform: rotate(20deg);
   -webkit-animation: fade-in 1s 0.7s forwards ease-out;
           animation: fade-in 1s 0.7s forwards ease-out;
 
   color: rgb(167, 50, 50);
-  font-size: 180%;
+  font-size: 230%;
   line-height: 1.5;
   opacity: 0;
-  padding: 0.5em 1em 0.5em 1em;
-  position:fixed;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
     top:20%;
     left:5%;
   outline: none;
@@ -69,22 +149,45 @@ h1{
   text-decoration: none;
 }
 
+
+.show-card:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+.show-card1:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+
+
+
 .show-card.hide {
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
 /* Image on the button */
 .show-card1 {
+  transition: 0.5s;
+  width: fit-content;
   transform: rotate(-40deg);
   -webkit-animation: fade-in 1s 0.7s forwards ease-out;
           animation: fade-in 1s 0.7s forwards ease-out;
 
-  color: rgb(167, 50, 50);
-  font-size: 160%;
+  color: rgb(190, 69, 69);
+  font-size: 250%;
   line-height: 1.5;
   opacity: 0;
-  padding: 0.5em 1em 0.5em 1em;
-  position:fixed;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
     top:60%;
     left:20%;
   outline: none;
@@ -93,6 +196,7 @@ h1{
 }
 
 .show-card1.hide {
+  
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
@@ -108,7 +212,7 @@ h1{
 }
 
 .close {
-  color: rgb(34, 32, 32);
+  color: rgb(44, 42, 42);
   font-weight:normal;
   font-size: 160%;
   cursor: pointer;
@@ -133,7 +237,7 @@ h1{
 
 .name {
   
-  color: rgb(0, 0, 0);
+  color: rgb(44, 42, 42);
   font-weight: bold;
   opacity: 0;
   margin: 0.75em 0 0;
@@ -141,7 +245,7 @@ h1{
 
 .description {
   text-align: left;
-  color: rgb(0, 0, 0);
+  color: rgb(44, 42, 42);
   font-size: 1em;
   font-weight:bolder;
   line-height: 1.5;
@@ -160,10 +264,11 @@ h1{
   position: absolute;
   transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
   width: 29%;
+  
 }
 
 .close1 {
-  color: rgb(34, 32, 32);
+  color: rgb(44, 42, 42);
   font-weight:normal;
   font-size: 160%;
   cursor: pointer;
@@ -188,7 +293,7 @@ h1{
 
 .name1 {
   
-  color: rgb(0, 0, 0);
+  color: rgb(44, 42, 42);
   font-weight: bold;
   opacity: 0;
   margin: 0.75em 0 0;
@@ -196,7 +301,7 @@ h1{
 
 .description1 {
   text-align: left;
-  color: rgb(0, 0, 0);
+  color: rgb(44, 42, 42);
   font-size: 1em;
   font-weight:bolder;
   line-height: 1.5;
@@ -270,8 +375,117 @@ h1{
           animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
 
+.st.hide{
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+
+
+.storycard {
+  top: 2%;
+  display: none;
+  height: 92%;
+  left: 2%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.sdetails {
+  position: absolute;
+  top:0;
+  background: #ffffff;
+  height:0;
+  overflow: auto;
+  text-align: center;
+  width: 95%;
+}
+
+
+.sdescription {
+  text-align: left;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  opacity: 0;
+  margin: 0.75em 1.2em 1.2em;
+}
+
+.storycard.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+.scard.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+
+
+
 
 /* Animations */
+
+@keyframes ruyuan{
+  0%,18%,25%,50.1%,60%,65.1%,80%,90.1%,92%{
+    color: rgb(80, 80, 58);
+    text-shadow: none;
+  }
+  18.1%,20.1%, 30%,50%,60.1%,80.1%,90%,92.1%,100%
+  {
+              color: rgb(255, 255, 255);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159),
+              0 0 160px rgb(232, 233, 159),
+              0 0 400px rgb(232, 233, 159);}
+}
+@-webkit-keyframes stop {
+  0%{
+  opacity: 1;}
+
+  100%{
+    opacity: 1;
+
+  }
+}
+
+  @keyframes stop{
+    0%{
+      opacity: 1;}
+    100%{
+      opacity: 1;
+  
+    }
+  
+}
+
+
+@keyframes glow {
+  40% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 50%;
+  }
+}
+
 
 @-webkit-keyframes fade-in {
   0% {

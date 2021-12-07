@@ -27,3 +27,12 @@ $('.card1 .close1').click(function(e) {
   $('.show-card1').removeClass('hide');
   $('.show-card').removeClass('hide');
 });
+
+
+$('.st').click(function(e) {
+  $('.st').addClass('hide');
+  setTimeout(function() {
+    $('.storycard').css('display', 'none').removeClass('show').removeClass('hide');
+  }, 600);
+  
+});
