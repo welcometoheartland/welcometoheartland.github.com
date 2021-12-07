@@ -31,8 +31,10 @@ $('.card1 .close1').click(function(e) {
 
 $('.st').click(function(e) {
   $('.st').addClass('hide');
-  setTimeout(function() {
-    $('.storycard').css('display', 'none').removeClass('show').removeClass('hide');
-  }, 600);
+  setTimeout("javascript:location.href='start.html'", 1000);
   
 });
+
+
+
+  
