@@ -1,5 +1,6 @@
 $('.show-card').click(function(e) {
   var music = new Audio('open.mp3');
+  music.volume=0.5;
   music.play();
   $('.card').addClass('show').css('display', 'block');
   $('.show-card').addClass('hide');
@@ -8,6 +9,7 @@ $('.show-card').click(function(e) {
 
 $('.card .close').click(function(e) {
   var music = new Audio('open.mp3');
+  music.volume=0.5;
   music.play();
   $('.card').addClass('hide');
   setTimeout(function() {
@@ -19,6 +21,7 @@ $('.card .close').click(function(e) {
 
 $('.show-card1').click(function(e) {
   var music = new Audio('open.mp3');
+  music.volume=0.5;
   music.play();
   $('.card1').addClass('show').css('display', 'block');
   $('.show-card1').addClass('hide');
@@ -27,6 +30,7 @@ $('.show-card1').click(function(e) {
 
 $('.card1 .close1').click(function(e) {
   var music = new Audio('open.mp3');
+  music.volume=0.5;
   music.play();
   $('.card1').addClass('hide');
   setTimeout(function() {
@@ -57,6 +61,9 @@ $('.st').click(function(e) {
 
 $('.openm').click(function(e) {
     
+  var music = new Audio('open.mp3');
+  music.volume=0.5;
+  music.play();
   $('.open').addClass('hide');
   $('.openm').addClass('hide');
     $('.open').css('display', 'none').removeClass('show').removeClass('hide');
