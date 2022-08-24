@@ -5,6 +5,7 @@ $('.show-card').click(function(e) {
   $('.card').addClass('show').css('display', 'block');
   $('.show-card').addClass('hide');
   $('.show-card1').addClass('hide');
+  $('.show-card2').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
