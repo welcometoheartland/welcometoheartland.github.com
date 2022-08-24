@@ -219,9 +219,9 @@ $('.st').click(function(e) {
   });
 
 $('.openm').click(function(e) {
-  var music = new Audio('data/se/open.mp3');
-  music.volume=0.5;
-  music.play();
+  // var music = new Audio('data/se/open.mp3');
+  // music.volume=0.5;
+  // music.play();
   $('.open').addClass('hide');
   $('.openm').addClass('hide');
     $('.open').css('display', 'none').removeClass('show').removeClass('hide');

@@ -8,6 +8,12 @@ body {
 }
 
 .open{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   border:1px solid rgb(167, 50, 50);
   
   padding: 0.5em 0em 2.2em 1.3em;
@@ -28,6 +34,12 @@ body {
 }
 
 .openm{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   border:1px solid rgb(167, 50, 50);
   padding: 0em 0.5em 0em 0.5em;
   -webkit-animation: fade-in 1.5s 2s forwards ease-out;
@@ -43,6 +55,12 @@ body {
 
 
 h1{
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
   display: none;
   animation-name:fade-in, glow1;
   animation-duration:1.5s, 15s;
@@ -59,6 +77,12 @@ h1{
 } 
 
 h3{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   animation-name:glow1;
   animation-duration:15s;
   animation-timing-function: linear;
@@ -126,6 +150,12 @@ h3{
 /* Button styles */
 
 .st {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   z-index: 777;
   -webkit-animation: fade-in 1s 0.7s forwards ease-out;
   animation: fade-in 1s 0.7s forwards ease-out;
@@ -143,6 +173,12 @@ h3{
 }
 
 .show-card {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
   transition: 0.5s;
   transform: rotate(-30deg);
@@ -163,6 +199,12 @@ h3{
 }
 
 .show-card2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
   transition: 0.5s;
   transform: rotate(7deg);
@@ -184,6 +226,12 @@ h3{
 
 
 .ashow-card {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: 0.5s;
   transform: rotate(-30deg);
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -203,6 +251,12 @@ h3{
 }
 
 .ashow-card2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: 0.5s;
   transform: rotate(7deg);
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -224,6 +278,7 @@ h3{
 
 
 .show-card:hover {
+  
   background-color: rgb(167, 50, 50);
   color: rgb(44, 42, 42);
   box-shadow: 0 0 5px rgb(167, 50, 50),
@@ -289,6 +344,12 @@ h3{
 
 /* Image on the button */
 .show-card1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
  /*display: none;*/
  display: none;
   transition: 0.5s;
@@ -309,6 +370,12 @@ h3{
   text-decoration: none;
 }
 .ashow-card1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
    transition: 0.5s;
    transform: rotate(17deg);
    -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -340,6 +407,12 @@ h3{
 }
 
 .card {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   top: 2%;
   display: none;
   height: 96%;
@@ -350,6 +423,12 @@ h3{
 }
 
 .card2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   top: 2%;
   display: none;
   height: 96%;
@@ -360,6 +439,12 @@ h3{
 }
 
 .shang {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -379,6 +464,12 @@ h3{
   text-decoration: none;
 }
 .xia {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -398,6 +489,12 @@ h3{
   text-decoration: none;
 }
 .zuo {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -417,6 +514,12 @@ h3{
   text-decoration: none;
 }
 .you {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
@@ -436,6 +539,12 @@ h3{
 }
 
 .shang1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: 0s;
   -webkit-animation: fade-in 0s 0s forwards ease-out;
           animation: fade-in 0s 0s forwards ease-out;
@@ -454,6 +563,12 @@ h3{
   text-decoration: none;
 }
 .xia1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: 0s;
   -webkit-animation: fade-in 0s 0s forwards ease-out;
           animation: fade-in 0s 0s forwards ease-out;
@@ -472,6 +587,12 @@ h3{
   text-decoration: none;
 }
 .zuo1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: 0s;
   -webkit-animation: fade-in 0s 0s forwards ease-out;
           animation: fade-in 0s 0s forwards ease-out;
@@ -490,6 +611,12 @@ h3{
   text-decoration: none;
 }
 .you1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: 0s;
   -webkit-animation: fade-in 0s 0s forwards ease-out;
           animation: fade-in 0s 0s forwards ease-out;
@@ -509,6 +636,12 @@ h3{
 }
 
 .close {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   color: rgb(44, 42, 42);
   font-weight:normal;
   font-size: 160%;
@@ -523,6 +656,12 @@ h3{
 }
 
 .details {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: absolute;
   top:0;
   background:rgb(190, 69, 69);
@@ -563,7 +702,12 @@ h3{
 
 
 .name {
-  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   color: rgb(44, 42, 42);
   font-weight: bold;
   opacity: 0;
@@ -571,6 +715,12 @@ h3{
 }
 
 .description {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   text-align: left;
   color: rgb(44, 42, 42);
   font-size: 1em;
@@ -584,6 +734,12 @@ h3{
 
 
 .card1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
     top: 2%;
     display: none;
     height: 96%;
@@ -595,6 +751,12 @@ h3{
 }
 
 .close1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
     color: rgb(44, 42, 42);
     font-weight:normal;
     font-size: 160%;
@@ -609,6 +771,12 @@ h3{
 }
 
 .details1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
     position: absolute;
     top:0;
     background:rgb(190, 69, 69);
@@ -622,7 +790,12 @@ h3{
 }
 
 .name1 {
-  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   color: rgb(44, 42, 42);
   font-weight: bold;
   opacity: 0;
@@ -630,6 +803,12 @@ h3{
 }
 
 .description1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   text-align: center;
   color: rgb(44, 42, 42);
   font-size: 1em;
