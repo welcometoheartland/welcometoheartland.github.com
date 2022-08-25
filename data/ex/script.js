@@ -227,19 +227,19 @@ $('.openm').click(function(e) {
   $('.openm').addClass('hide');
     $('.open').css('display', 'none').removeClass('show').removeClass('hide');
     $('.openm').css('display', 'none').removeClass('show').removeClass('hide');
-    var $bgm = new Audio('data/se/indexs.wav'); 
-    if (typeof $bgm.loop == 'boolean')
-    {
-        $bgm.loop = true;
-    }
-    else
-    {
-        $bgm.addEventListener('ended', function() {
-            this.currentTime = 0;
-            this.play();
-        }, false);
-    }
-    $bgm.volume = 0.2;
+    // var $bgm = new Audio('data/se/indexs.wav'); 
+    // if (typeof $bgm.loop == 'boolean')
+    // {
+    //     $bgm.loop = true;
+    // }
+    // else
+    // {
+    //     $bgm.addEventListener('ended', function() {
+    //         this.currentTime = 0;
+    //         this.play();
+    //     }, false);
+    // }
+    // $bgm.volume = 0.2;
   
     $bgm.play();
     

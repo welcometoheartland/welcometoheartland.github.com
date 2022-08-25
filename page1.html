@@ -15,9 +15,13 @@
 
 </head>
 <iframe src="data/se/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-<audio autoplay>
+<audio autoplay id="indexs">
 <source src="data/se/indexs.wav" type="audio/mp3">
 </audio>
+<script>
+  var audio = document.getElementById("indexs");
+  audio.volume = 0.2;
+</script>
 
 <body>
 
