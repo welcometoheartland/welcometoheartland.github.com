@@ -95,6 +95,29 @@ $('.show-card7').click(function(e) {
   $('.you').addClass('hide');
 });
 
+$('.show-card8').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card8').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.show-card9').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card9').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
 
 
 
@@ -146,6 +169,77 @@ $('.ashow-card3').click(function(e) {
   $('.you').addClass('hide');
 });
 
+
+$('.ashow-card4').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card4').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+$('.ashow-card5').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card5').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.ashow-card6').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card6').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.ashow-card7').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card7').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.ashow-card8').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card8').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.ashow-card9').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card9').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
 
 
 $('.card .close').click(function(e) {
@@ -259,6 +353,36 @@ $('.card7 .close').click(function(e) {
   $('.card7').addClass('hide');
   setTimeout(function() {
     $('.card7').css('display', 'none').removeClass('show').removeClass('hide');
+  }, 600);
+  $('.message').removeClass('hide');
+  $('.shang').removeClass('hide');
+  $('.xia').removeClass('hide');
+  $('.zuo').removeClass('hide');
+  $('.you').removeClass('hide');
+});
+
+$('.card8 .close').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.card8').addClass('hide');
+  setTimeout(function() {
+    $('.card8').css('display', 'none').removeClass('show').removeClass('hide');
+  }, 600);
+  $('.message').removeClass('hide');
+  $('.shang').removeClass('hide');
+  $('.xia').removeClass('hide');
+  $('.zuo').removeClass('hide');
+  $('.you').removeClass('hide');
+});
+
+$('.card9 .close').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.card9').addClass('hide');
+  setTimeout(function() {
+    $('.card9').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
   $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
