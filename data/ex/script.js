@@ -2,10 +2,8 @@ $('.show-card').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  $('.message').addClass('hide');
   $('.card').addClass('show').css('display', 'block');
-  $('.show-card').addClass('hide');
-  $('.show-card1').addClass('hide');
-  $('.show-card2').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -16,10 +14,8 @@ $('.show-card1').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  $('.message').addClass('hide');
   $('.card1').addClass('show').css('display', 'block');
-  $('.show-card1').addClass('hide');
-  $('.show-card').addClass('hide');
-  $('.show-card2').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -31,10 +27,68 @@ $('.show-card2').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  $('.message').addClass('hide');
   $('.card2').addClass('show').css('display', 'block');
-  $('.show-card1').addClass('hide');
-  $('.show-card').addClass('hide');
-  $('.show-card2').addClass('hide');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+
+
+$('.show-card3').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card3').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+$('.show-card4').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card4').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+$('.show-card5').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card5').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.show-card6').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card6').addClass('show').css('display', 'block');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+$('.show-card7').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.message').addClass('hide');
+  $('.card7').addClass('show').css('display', 'block');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -49,8 +103,7 @@ $('.ashow-card').click(function(e) {
   music.volume=0.5;
   music.play();
   $('.card').addClass('show').css('display', 'block');
-  $('.show-card').addClass('hide');
-  $('.show-card1').addClass('hide');
+  $('.message').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -62,9 +115,7 @@ $('.ashow-card1').click(function(e) {
   music.volume=0.5;
   music.play();
   $('.card1').addClass('show').css('display', 'block');
-  $('.show-card1').addClass('hide');
-  $('.show-card').addClass('hide');
-  $('.show-card2').addClass('hide');
+  $('.message').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -77,14 +128,26 @@ $('.ashow-card2').click(function(e) {
   music.volume=0.5;
   music.play();
   $('.card2').addClass('show').css('display', 'block');
-  $('.show-card1').addClass('hide');
-  $('.show-card').addClass('hide');
-  $('.show-card2').addClass('hide');
+  $('.message').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
   $('.you').addClass('hide');
 });
+$('.ashow-card3').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.card3').addClass('show').css('display', 'block');
+  $('.message').addClass('hide');
+  $('.shang').addClass('hide');
+  $('.xia').addClass('hide');
+  $('.zuo').addClass('hide');
+  $('.you').addClass('hide');
+});
+
+
+
 $('.card .close').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
@@ -93,9 +156,7 @@ $('.card .close').click(function(e) {
   setTimeout(function() {
     $('.card').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
-  $('.show-card').removeClass('hide');
-  $('.show-card1').removeClass('hide'); 
-  $('.show-card2').removeClass('hide'); 
+  $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
   $('.xia').removeClass('hide');
   $('.zuo').removeClass('hide');
@@ -111,16 +172,12 @@ $('.card1 .close').click(function(e) {
   setTimeout(function() {
     $('.card1').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
-  $('.show-card1').removeClass('hide');
-  $('.show-card').removeClass('hide');
-  $('.show-card2').removeClass('hide');
+  $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
   $('.xia').removeClass('hide');
   $('.zuo').removeClass('hide');
   $('.you').removeClass('hide');
 });
-
-
 
 $('.card2 .close').click(function(e) {
   var music = new Audio('data/se/open.mp3');
@@ -129,69 +186,92 @@ $('.card2 .close').click(function(e) {
   $('.card2').addClass('hide');
   setTimeout(function() {
     $('.card2').css('display', 'none').removeClass('show').removeClass('hide');
-  }, 600);
-  $('.show-card1').removeClass('hide');
-  $('.show-card').removeClass('hide');
-  $('.show-card2').removeClass('hide');
+  }, 600);  
+  $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
   $('.xia').removeClass('hide');
   $('.zuo').removeClass('hide');
   $('.you').removeClass('hide');
 });
 
-$('.acard .close').click(function(e) {
+$('.card3 .close').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
-  $('.card').addClass('hide');
+  $('.card3').addClass('hide');
   setTimeout(function() {
-    $('.card').css('display', 'none').removeClass('show').removeClass('hide');
+    $('.card3').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
-  $('.show-card').removeClass('hide');
-  $('.show-card1').removeClass('hide'); 
-  $('.show-card2').removeClass('hide'); 
+  $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
   $('.xia').removeClass('hide');
   $('.zuo').removeClass('hide');
   $('.you').removeClass('hide');
 });
-
-
-$('.acard1 .close').click(function(e) {
+$('.card4 .close').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
-  $('.card1').addClass('hide');
+  $('.card4').addClass('hide');
   setTimeout(function() {
-    $('.card1').css('display', 'none').removeClass('show').removeClass('hide');
+    $('.card4').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
-  $('.show-card1').removeClass('hide');
-  $('.show-card').removeClass('hide');
-  $('.show-card2').removeClass('hide');
+  $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
   $('.xia').removeClass('hide');
   $('.zuo').removeClass('hide');
   $('.you').removeClass('hide');
 });
-
-
-
-$('.acard2 .close').click(function(e) {
+$('.card5 .close').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
-  $('.card2').addClass('hide');
+  $('.card5').addClass('hide');
   setTimeout(function() {
-    $('.card2').css('display', 'none').removeClass('show').removeClass('hide');
+    $('.card5').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
-  $('.show-card1').removeClass('hide');
-  $('.show-card').removeClass('hide');
-  $('.show-card2').removeClass('hide');
+  $('.message').removeClass('hide');
   $('.shang').removeClass('hide');
   $('.xia').removeClass('hide');
   $('.zuo').removeClass('hide');
   $('.you').removeClass('hide');
 });
+
+$('.card6 .close').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.card6').addClass('hide');
+  setTimeout(function() {
+    $('.card6').css('display', 'none').removeClass('show').removeClass('hide');
+  }, 600);
+  $('.message').removeClass('hide');
+  $('.shang').removeClass('hide');
+  $('.xia').removeClass('hide');
+  $('.zuo').removeClass('hide');
+  $('.you').removeClass('hide');
+});
+
+$('.card7 .close').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  $('.card7').addClass('hide');
+  setTimeout(function() {
+    $('.card7').css('display', 'none').removeClass('show').removeClass('hide');
+  }, 600);
+  $('.message').removeClass('hide');
+  $('.shang').removeClass('hide');
+  $('.xia').removeClass('hide');
+  $('.zuo').removeClass('hide');
+  $('.you').removeClass('hide');
+});
+
+
+
+
+
+
 
 $('.st').click(function(e) {
   $(this).attr("disabled","disabled"); 
@@ -212,14 +292,17 @@ $('.st').click(function(e) {
     $('.you').addClass('show').css('display', 'block');
     $('.show-card').removeClass('hide');
     $('.show-card1').removeClass('hide');
+    $('.show-card2').removeClass('hide');
     $('.show-card').addClass('show').css('display', 'block');
     $('.show-card1').addClass('show').css('display', 'block');
-    $('.show-card2').removeClass('hide');
     $('.show-card2').addClass('show').css('display', 'block');
   }, 1000);
   });
 
 $('.openm').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
   // var music = new Audio('data/se/open.mp3');
   // music.volume=0.5;
   // music.play();
@@ -241,7 +324,7 @@ $('.openm').click(function(e) {
     // }
     // $bgm.volume = 0.2;
   
-    $bgm.play();
+    //$bgm.play();
     
     setTimeout(function(){
       $('h1').addClass('show').css('display', 'block');
@@ -256,18 +339,6 @@ $('.openm').click(function(e) {
 });
 
 
-$('.shang').click(function(e) {
-  var music = new Audio('data/se/open.mp3');
-  music.volume=0.5;
-  music.play();
-  $('.show-card').addClass('hide');
-  $('.show-card1').addClass('hide');
-  $('.shang').addClass('hide');
-  $('.xia').addClass('hide');
-  $('.zuo').addClass('hide');
-  $('.you').addClass('hide');
-  window.location="./page1.html";
-});
 
 
 
