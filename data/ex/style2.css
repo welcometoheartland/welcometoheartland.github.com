@@ -528,7 +528,7 @@ h3{
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
     top:60%;
-    right:0%;
+    right:5%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -788,8 +788,7 @@ h3{
 }
 
 
-.show-card3 {
-  
+.show-card9 {
   display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -798,7 +797,7 @@ h3{
   -ms-user-select: none;
   user-select: none;
   transition: 0.5s;
-  transform: rotate(-40deg);
+  transform: rotate(160deg);
   
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
@@ -806,12 +805,12 @@ h3{
   opacity: 0;
 
   color: rgb(190, 69, 69);
-  font-size: 160%;
+  font-size: 240%;
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:40%;
-    left:0%;
+    top:45%;
+    right:5%;
   outline: none;
   text-align: center;
   text-decoration: none;
