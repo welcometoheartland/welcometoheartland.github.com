@@ -1,0 +1,2582 @@
+
+
+body {
+  background: rgb(44, 42, 42);
+
+
+  
+}
+
+.open{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border:1px solid rgb(167, 50, 50);
+  
+  padding: 0.5em 0em 2.2em 1.3em;
+  -webkit-animation: fade-in 1.5s 0.5s forwards ease-out;
+          animation: fade-in 1.5s 0.5s forwards ease-out;
+  color: rgb(167, 50, 50);
+  font-size: 300%;
+  line-height: 1.5;
+  opacity: 0;
+  position: absolute;
+    width:800px;
+    height:100px;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+
+.openm{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border:1px solid rgb(167, 50, 50);
+  padding: 0em 0.5em 0em 0.5em;
+  -webkit-animation: fade-in 1.5s 2s forwards ease-out;
+          animation: fade-in 1.5s 2s forwards ease-out;
+  color: rgb(167, 50, 50);
+  font-size: 300%;
+  line-height: 1.5;
+  opacity: 0;
+  position: absolute;
+    top:51%;
+    left:45%;
+}
+
+
+h1{
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+  display: none;
+  animation-name:fade-in, glow1;
+  animation-duration:1.5s, 15s;
+  animation-timing-function:linear, linear;
+  animation-delay:0s, 3s;
+  animation-iteration-count:1, infinite;
+  animation-fill-mode:forwards, forwards;
+  animation-direction:normal, normal;
+  text-align: center;
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 450%;
+  
+
+} 
+
+h3{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  animation-name:glow1;
+  animation-duration:15s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+  animation-fill-mode: forwards;
+  animation-direction:normal;
+  opacity: 100;
+  color: rgb(167, 50, 50);
+  font-size: 450%;
+  position: absolute;
+  top:-3.2%;
+  left: 35.92%;
+} 
+
+.span1 {
+    display: none;
+    -webkit-animation: linea 1s 0.2s forwards ease-out;
+          animation: linea 1s 0.2s forwards ease-out;
+
+    border-left: 3px solid rgb(167, 50, 50);
+    height:0;
+    position: absolute;
+    left: 33.3%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .span2{
+    display: none;
+    -webkit-animation: linea 1s 0.2s forwards ease-out;
+            animation: linea 1s 0.2s forwards ease-out;
+
+            border-left: 3px solid rgb(167, 50, 50);
+            height:0;
+            position: absolute;
+            right: 33.3%;
+            margin-left: -3px;
+            top: 0;
+    }
+  .span3 {
+    -webkit-animation: linea 0s 0s forwards ease-out;
+          animation: linea 0s 0s forwards ease-out;
+
+    border-left: 3px solid rgb(167, 50, 50);
+    height:0;
+    position: absolute;
+    left: 33.3%;
+    margin-left: -3px;
+    top: 0;
+  }
+  
+  .span4{
+    -webkit-animation: linea 0s 0s forwards ease-out;
+            animation: linea 0s 0s forwards ease-out;
+
+            border-left: 3px solid rgb(167, 50, 50);
+            height:0;
+            position: absolute;
+            right: 33.3%;
+            margin-left: -3px;
+            top: 0;
+  }
+
+/* Button styles */
+
+.st {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 777;
+  -webkit-animation: fade-in 1s 0.7s forwards ease-out;
+  animation: fade-in 1s 0.7s forwards ease-out;
+  display: none;
+  margin: 10%;
+    text-align: center;
+    font-size: 6em;
+ 
+
+    color: rgb(80, 80, 58);
+    font-size: 250%;
+    opacity: 0;
+    
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
+}
+.message {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message1 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message2 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message3 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message4 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message5 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message6 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message7 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message8 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message9 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message10 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+
+
+.show-card {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  transform: rotate(-30deg);
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 150%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:10%;
+    left:-2%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ /*display: none;*/
+ display: none;
+  transition: 0.5s;
+  transform: rotate(17deg);
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 210%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:18%;
+    left:-2%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card2 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  transform: rotate(7deg);
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 153%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:30%;
+    left:0%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card3 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 190%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    right:0%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card4 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-30deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 500%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:50%;
+    right:3%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card5 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(10deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 400%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    right:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card6 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-10deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 130%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:10%;
+    left:15%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card7 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-5deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 200%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:70%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card8 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 160%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:86%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card9 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-15deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 240%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:85%;
+    right:8%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.show-card10 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(10deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 390%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:10%;
+    right:10%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.show-card11 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  transform: rotate(30deg);
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 150%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:30%;
+    right:0%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card12 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 190%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:0%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.show-card3 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 160%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:40%;
+    left:0%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.show-card:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card1:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+
+.show-card2:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card3:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card4:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card5:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+.show-card6:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+
+.show-card7:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card8:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card9:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+.show-card10:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card11:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+
+.show-card12:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.openm:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+
+
+
+
+/* Image on the button */
+
+
+
+.show-card1.hide {
+    opacity: 0;
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+
+
+.message.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message1.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message2.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message3.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message4.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message5.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message6.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message7.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message8.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message9.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message10.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message11.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+.card {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.card2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.card3 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card4 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card5 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card6 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.card7 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.card8 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.card9 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card10 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card11 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card12 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card13 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card14 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card15 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card16 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card17 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card18 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card19 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card20 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.shang {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 210%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:80%;
+    left:50%;
+    bottom:0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.xia {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 210%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:85%;
+    left:50%;
+    bottom:0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.zuo {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 210%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:83%;
+    left:45%;
+    bottom:0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.you {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 210%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:83%;
+    left:55%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.close {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(44, 42, 42);
+  font-weight:normal;
+  font-size: 160%;
+  cursor: pointer;
+  height: 1em;
+  opacity: 0;
+  position: absolute;
+  right: 1em;
+  top: 1;
+  width: 1em;
+  z-index: 10;
+}
+
+.details {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  top:0;
+  background:rgb(190, 69, 69);
+  height:0;
+  overflow:scroll;
+  text-align: center;
+  width: 95%;
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50);
+
+}
+
+
+.details::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.details {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.details1::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.details1 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+
+.name {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(44, 42, 42);
+  font-weight: bold;
+  opacity: 0;
+  margin: 0.75em 0 0;
+}
+
+.description {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  opacity: 0;
+  margin: 0.75em 1.2em 1.2em;
+}
+
+
+
+
+.card1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    top: 2%;
+    display: none;
+    height: 96%;
+    left: 36.5%;
+    position: absolute;
+    transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+    width: 29%;
+  
+}
+
+.close1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    color: rgb(44, 42, 42);
+    font-weight:normal;
+    font-size: 160%;
+    cursor: pointer;
+    height: 1em;
+    opacity: 0;
+    position: absolute;
+    right: 1em;
+    top: 1;
+    width: 1em;
+    z-index: 10;
+}
+
+.details1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  top:0;
+  background:rgb(190, 69, 69);
+  height:0;
+  overflow:scroll;
+  text-align: center;
+  width: 95%;
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50);
+
+}
+
+.name1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(44, 42, 42);
+  font-weight: bold;
+  opacity: 0;
+  margin: 0.75em 0 0;
+}
+
+.description1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  opacity: 0;
+  margin: 0.75em 1.2em 1.2em;
+}
+
+.changecolor{
+    text-align: center;
+    font-size: 1em;
+    font-weight:bolder;
+    line-height: 1.5;
+    opacity: 0;
+    margin: 0.75em 1.2em 1.2em;
+    background: linear-gradient(to bottom,rgb(44, 42, 42) 30% , rgb(121, 16, 16) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.changecolor1{
+    text-align: center;
+    font-size: 1em;
+    font-weight:bolder;
+    line-height: 1.5;
+    opacity: 0;
+    margin: 0.75em 1.2em 1.2em;
+    background: linear-gradient(to right,rgb(121, 16, 16) 20% , rgb(211, 0, 0) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+.zhuji{
+  text-align: left;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  opacity: 0;
+  margin: 0.75em 1.2em 1.2em;
+}
+
+
+
+
+
+
+/*animation*/
+
+.h3 span{
+
+  animation: ruyuan 1s 2.5s linear infinite;
+}
+
+.h3:hover{
+  opacity: 1;
+  color: rgb(232, 233, 159);
+  color: rgb(232, 233, 159);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159);
+    
+}
+
+
+.st span{
+
+    animation: ruyuan 5s 2.5s linear infinite;
+  }
+
+
+.st span.stop {
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+.st:hover{
+  opacity: 1;
+  color: rgb(232, 233, 159);
+  color: rgb(232, 233, 159);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159);
+    
+}
+
+
+  
+
+/* Show state */
+
+/* card show 4 */
+
+.card.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card1.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card1.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card1.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card1.show  .changecolor {
+    -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+            animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+  .card1.show  .changecolor1 {
+    -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+            animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+  .card1.show  .zhuji {
+    -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+            animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card1.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card2.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card2.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card2.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card2.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card3.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card3.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card3.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card3.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card4.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card4.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card4.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card4.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card5.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card5.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card5.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card5.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card6.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card6.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card6.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card6.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card7.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card7.show .name1 {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card7.show  .description1 {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card7.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card8.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card8.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card8.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card8.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card9.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card9.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card9.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card9.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card10.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card10.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card10.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card10.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card11.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card11.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card11.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card11.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card12.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card12.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card12.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card12.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card13.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card13.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card13.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card13.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card14.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card14.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card14.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card14.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card15.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card15.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card15.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card15.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card16.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card16.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card16.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card16.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card17.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card17.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card17.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card17.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card18.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card18.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card18.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card18.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card19.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card19.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card19.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card19.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card20.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card20.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card20.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card20.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+
+
+
+
+
+
+
+/* Hide state */
+
+/* 其他hide */
+.open.hide{
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+  animation: fade-out 0.4s forwards ease-out;
+  z-index:0
+
+}
+
+.openm.hide{
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+  animation: fade-out 0.4s forwards ease-out;
+  z-index:0
+}
+
+.shang.hide{
+    
+  -webkit-animation: fade-out 0s forwards ease-out;
+          animation: fade-out 0s forwards ease-out;
+}
+
+.xia.hide{
+    
+  -webkit-animation: fade-out 0s forwards ease-out;
+          animation: fade-out 0s forwards ease-out;
+}
+.zuo.hide{
+    
+  -webkit-animation: fade-out 0s forwards ease-out;
+          animation: fade-out 0s forwards ease-out;
+}
+.you.hide{
+    
+  -webkit-animation: fade-out 0s forwards ease-out;
+          animation: fade-out 0s forwards ease-out;
+}
+
+
+.st.hide{
+  -webkit-animation: stop 2.5s 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: stop 2.5s 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+/* card hide */
+
+.card.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+.card1.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+.card2.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card3.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card4.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card5.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card6.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card7.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card8.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card9.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card10.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card11.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card12.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card13.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card14.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card15.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card16.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card17.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card18.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card19.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card20.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+
+
+.storycard {
+  top: 2%;
+  display: none;
+  height: 92%;
+  left: 2%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.sdetails {
+  position: absolute;
+  top:0;
+  background: #ffffff;
+  height:0;
+  overflow: hidden;
+  text-align: center;
+  width: 95%;
+}
+
+
+.sdescription {
+  text-align: left;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  opacity: 0;
+  margin: 0.75em 1.2em 1.2em;
+}
+
+.storycard.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
+.scard.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+
+
+
+
+
+
+
+
+@keyframes ru{
+  0%{
+
+    opacity: 1;
+  color: rgb(232, 233, 159);
+  color: rgb(232, 233, 159);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159);
+  }
+  100%{
+color: rgb(255, 255, 255);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159),
+              0 0 160px rgb(232, 233, 159),
+              0 0 400px rgb(232, 233, 159);
+}}
+/* Animations */
+
+@keyframes ruyuan{
+  0%,18%,25%,50.1%,60%,65.1%,80%,90.1%,92%{
+    color: rgb(80, 80, 58);
+    text-shadow: none;
+  }
+  18.1%,20.1%, 30%,50%,60.1%,80.1%,90%,92.1%,100%
+  {
+              color: rgb(255, 255, 255);
+              text-shadow: 0 0 10px rgb(232, 233, 159),
+              0 0 20px rgb(232, 233, 159),
+              0 0 40px rgb(232, 233, 159),
+              0 0 80px rgb(232, 233, 159),
+              0 0 160px rgb(232, 233, 159),
+              0 0 400px rgb(232, 233, 159);}
+}
+@-webkit-keyframes stop {
+  0%{
+  opacity: 1;}
+  30%{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(232, 233, 159),
+    0 0 20px rgb(232, 233, 159),
+    0 0 40px rgb(232, 233, 159),
+    0 0 80px rgb(232, 233, 159),
+    0 0 160px rgb(232, 233, 159),
+    0 0 400px rgb(232, 233, 159);}
+  100%{
+    opacity: 0;
+
+  }
+}
+
+  @keyframes stop{
+    0%{
+      opacity: 1;}
+      30%{
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px rgb(232, 233, 159),
+        0 0 20px rgb(232, 233, 159),
+        0 0 40px rgb(232, 233, 159),
+        0 0 80px rgb(232, 233, 159),
+        0 0 160px rgb(232, 233, 159),
+        0 0 400px rgb(232, 233, 159);}
+      100%{
+        opacity: 0;
+    
+      }
+  
+}
+
+@keyframes glow {
+  0%{opacity: 1;}
+    50% {
+      opacity: 1;
+    }
+  
+    50.2% {
+      opacity: 1;
+      background:rgb(167, 50, 50) ;
+          box-shadow: 0 0 5px rgb(167, 50, 50),
+                0 0 25px rgb(167, 50, 50),
+                0 0 50px rgb(167, 50, 50),
+                0 0 75px rgb(167, 50, 50);
+      
+    }
+    50.5% {
+      opacity: 1;
+    }
+    100%{opacity: 1;}
+  }
+  
+  @keyframes glow1 {
+    0%{opacity: 1;}
+      49% {
+        opacity: 1;
+        color:rgb(167, 50, 50);
+                text-shadow: none;
+                opacity: 1;
+      }
+    
+      50%,50.15%,50.35% {
+        opacity: 1;
+          color:rgb(167, 50, 50);
+          text-shadow: 0 0 10px rgb(167, 50, 50),
+              0 0 20px rgb(167, 50, 50),
+              0 0 40px rgb(167, 50, 50),
+              0 0 80px rgb(167, 50, 50),
+              0 0 160px rgb(167, 50, 50),
+              0 0 400px rgb(167, 50, 50);}
+              50.1%,50.2% {
+                color:rgb(167, 50, 50);
+                text-shadow: none;
+                opacity: 1;
+              }
+     
+      
+      60% {
+        opacity: 1;
+        color:rgb(167, 50, 50);
+                text-shadow: none;
+                opacity: 1;
+        
+      }
+      100%{opacity: 1;
+        color:rgb(167, 50, 50);
+        text-shadow: none;
+        opacity: 1;
+      }
+      
+    }
+
+    
+    @-webkit-keyframes fade-in1 {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 70%;
+      }
+    }
+    
+    @keyframes fade-in1 {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 70%;
+      }
+    }
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 50%;
+  }
+}
+
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes sm{
+  0% {
+  font-size: 450%;
+    opacity: 1;
+  }
+  100% {
+    font-size: 430%;
+    opacity: 1;
+  }
+}
+
+@keyframes sm {
+  0% {
+    font-size: 450%;
+      opacity: 1;
+    }
+    100% {
+      font-size: 430%;
+      opacity: 1;
+    }
+}
+
+
+
+@keyframes ri {
+  0% {
+      opacity: 1;
+      position: absolute;
+      right: 31.1%;
+    }
+    100% {
+      opacity: 1;
+      position: absolute;
+      right: 33.1%;
+    }
+}
+
+
+@-webkit-keyframes le{
+  0% {
+    border-left: 3px solid rgb(167, 50, 50);
+    height:0;
+    position: absolute;
+    left: 31.9%;
+    margin-left: -3px;
+    top: 0;
+    opacity: 1;
+    position: absolute;
+
+  }
+  100% {
+    border-left: 3px solid rgb(167, 50, 50);
+    height:0;
+    position: absolute;
+    margin-left: -3px;
+    opacity: 1;
+    
+    position: absolute;
+    left: 33.9%;
+  }
+}
+
+@keyframes le {
+  0% {
+      opacity: 1;
+      position: absolute;
+      left: 31.9%;
+    }
+    100% {
+      opacity: 1;
+      position: absolute;
+      left: 33.9%;
+    }
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes show-detail-container {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes show-detail-container {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@-webkit-keyframes pop-in {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@-webkit-keyframes drop-card {
+  100% {
+    bottom: -100%;
+    
+    opacity: 0;
+  }
+}
+
+@keyframes drop-card {
+  100% {
+    bottom: -100%;
+    opacity: 0;
+  }
+}
+@keyframes linea {
+  0% {
+    opacity: 30%;
+    height: 0%;
+
+  }
+  100% {
+    height: 100%;
+    opacity: 100%;
+  }
+  
+}
+
+@keyframes lineb {
+  0% {
+    opacity: 100%;
+
+  }
+  100% {
+    opacity: 20%;
+  }
+  
+}
