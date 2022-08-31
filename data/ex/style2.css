@@ -425,8 +425,236 @@ h3{
     bottom:40%;
   text-align: center;
 }
+.message11 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
 
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message12 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
 
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message13 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message14 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message15 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message16 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message17 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message18 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message19 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message20 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
 .show-card {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -583,7 +811,7 @@ h3{
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
     top:60%;
-    right:5%;
+    right:7%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -673,33 +901,7 @@ h3{
   text-decoration: none;
 }
 
-.show-card9 {
-  display: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  transition: 0.5s;
-  transform: rotate(-15deg);
-  
-  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
-          animation: fade-in 1s 0.5s forwards ease-out;
-          
-  opacity: 0;
 
-  color: rgb(190, 69, 69);
-  font-size: 240%;
-  line-height: 1.5;
-  padding: 0.1em 0.5em 0.1em 0.5em;
-  position:absolute;
-    top:85%;
-    right:8%;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-}
 
 
 .show-card10 {
@@ -787,6 +989,203 @@ h3{
   text-decoration: none;
 }
 
+.show-card13 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 190%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:30%;
+    right:13%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card14 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(10deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 130%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:10%;
+    right:17%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card15 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:10%;
+    right:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card16 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 130%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:10%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card17 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:13%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card18 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:20%;
+    left:55.5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card19 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(44, 42, 42);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:20%;
+    left:54.5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
 
 .show-card9 {
   display: none;
@@ -797,7 +1196,7 @@ h3{
   -ms-user-select: none;
   user-select: none;
   transition: 0.5s;
-  transform: rotate(160deg);
+  transform: rotate(20deg);
   
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
@@ -805,16 +1204,130 @@ h3{
   opacity: 0;
 
   color: rgb(190, 69, 69);
-  font-size: 240%;
+  font-size: 260%;
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:45%;
-    right:5%;
+    top:25%;
+    right:7%;
   outline: none;
   text-align: center;
   text-decoration: none;
 }
+.show-card20 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(5deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:13%;
+    right:14%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card21 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(5deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 430%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:13%;
+    right:12%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card22 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(2deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 200%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:30%;
+    right:2%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card23 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(-15deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 190%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:40%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
 
 
 .show-card:hover {
@@ -927,6 +1440,104 @@ h3{
               0 0 50px rgb(190, 69, 69),
               0 0 100px rgb(190, 69, 69);
 }
+
+.show-card13:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card14:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card15:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card16:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card17:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card18:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card20:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card21:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+.show-card22:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card23:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card24:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card25:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 .openm:hover {
   background-color: rgb(167, 50, 50);
   color: rgb(44, 42, 42);
@@ -1008,6 +1619,76 @@ h3{
           animation: fade-out 0.4s forwards ease-out;
 }
 .message11.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message12.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message13.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message14.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message15.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message16.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message17.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message18.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message19.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message20.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message21.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message22.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message23.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message24.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message25.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
@@ -1318,7 +1999,201 @@ h3{
   transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
   width: 29%;
 }
-
+.card21 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card22 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card23 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card24 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card25 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card26 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card27 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card28 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card29 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card30 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card31 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card32 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.card33 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 96%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
 .shang {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -2040,6 +2915,167 @@ h3{
   -webkit-animation: fade-in 0.3s 0.5s forwards;
           animation: fade-in 0.3s 0.5s forwards;
 }
+.card21.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card21.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card21.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card21.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card22.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card22.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card22.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card22.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card23.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card23.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card23.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card23.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card24.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card24.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card24.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card24.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card25.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card25.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card25.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card25.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card26.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card26.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card26.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card26.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card27.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card27.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card27.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card27.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card28.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card28.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card28.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card28.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card29.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card29.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card29.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card29.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+.card30.show .details {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card30.show .name {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card30.show  .description {
+  -webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+          animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card30.show .close {
+  -webkit-animation: fade-in 0.3s 0.5s forwards;
+          animation: fade-in 0.3s 0.5s forwards;
+}
+
 
 
 
@@ -2164,12 +3200,12 @@ h3{
           animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
 .card17.hide {
-  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
-          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+  -webkit-animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
 .card18.hide {
-  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
-          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+  -webkit-animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
 .card19.hide {
   -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
@@ -2179,6 +3215,47 @@ h3{
   -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
           animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
+.card21.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card22.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card23.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card24.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card25.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card26.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card27.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card28.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card29.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card30.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+
 
 
 
