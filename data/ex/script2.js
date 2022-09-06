@@ -113,6 +113,8 @@ $('.b11').click(function(e) {
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   
   setTimeout(function(){
   $('.be1').addClass('show').css('display', 'block');
@@ -157,6 +159,8 @@ $('.b12').click(function(e){
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   var div = document.getElementById('shang');
   var div1 = document.getElementById('xia');
   var div2 = document.getElementById('you');
@@ -294,6 +298,8 @@ $('.b21').click(function(e) {
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   
 
   setTimeout(function(){
@@ -415,6 +421,8 @@ $('.b31').click(function(e) {
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   
   setTimeout(function(){
     $('.be3').addClass('show').css('display', 'block');
@@ -535,7 +543,9 @@ $('.b41').click(function(e) {
   $('.b55').addClass('hide');
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
-  $('.b58').addClass('hide');
+  $('.b58').addClass('hide');  
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   
   setTimeout(function(){
     $('.be4').addClass('show').css('display', 'block');
@@ -657,6 +667,8 @@ $('.b51').click(function(e) {
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   
   setTimeout(function(){
     $('.be5').addClass('show').css('display', 'block');
@@ -778,6 +790,8 @@ $('.b52').click(function(e) {
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   
 
   setTimeout(function(){
@@ -900,7 +914,8 @@ $('.b61').click(function(e) {
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
-  
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   setTimeout(function(){
     $('.be6').addClass('show').css('display', 'block');
     $('.be6').removeClass('hide');
@@ -946,6 +961,8 @@ $('.b22').click(function(e){
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   var div = document.getElementById('shang');
   var div1 = document.getElementById('xia');
   var div2 = document.getElementById('you');
@@ -1007,6 +1024,8 @@ $('.b32').click(function(e){
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   var div = document.getElementById('shang');
   var div1 = document.getElementById('xia');
   var div2 = document.getElementById('you');
@@ -1069,6 +1088,8 @@ $('.b42').click(function(e){
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   var div = document.getElementById('shang');
   var div1 = document.getElementById('xia');
   var div2 = document.getElementById('you');
@@ -1130,6 +1151,8 @@ $('.b53').click(function(e){
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   var div = document.getElementById('shang');
   var div1 = document.getElementById('xia');
   var div2 = document.getElementById('you');
@@ -1191,6 +1214,8 @@ $('.b62').click(function(e){
   $('.b56').addClass('hide');
   $('.b57').addClass('hide');
   $('.b58').addClass('hide');
+  $('.b61').addClass('hide');
+  $('.b62').addClass('hide');
   var div = document.getElementById('shang');
   var div1 = document.getElementById('xia');
   var div2 = document.getElementById('you');
