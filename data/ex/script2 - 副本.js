@@ -2801,8 +2801,6 @@ $('.card19 .close').click(function(e) {
     $('.show-card38').addClass('hide');
     $('.show-card39').addClass('hide');
     $('.show-card40').addClass('hide');
-    $(".ssh").removeClass('hide');
-    $(".ssh").addClass('show').css('display', 'block');
 
 
   // $('.shang').removeClass('hide');
@@ -3040,7 +3038,7 @@ $('.shang').click(function(e) {
    $('.s43').addClass('hide');
   var r=Math.floor(Math.random() * 100) + 1;
   if(globalThis.flag==7){
-    if(globalThis.r==0){
+    if(globalThis.r=0){
       if(globalThis.e<2){
         globalThis.e=globalThis.e +1
         var r=Math.floor(Math.random() * 100) + 1;
@@ -3587,475 +3585,58 @@ $('.zuo').click(function(e) {
    $('.s42').addClass('hide');
    $('.s43').addClass('hide');
 
-   var r=Math.floor(Math.random() * 100) + 1;
-  if(globalThis.flag==7){
-    if(globalThis.r==0){
-      if(globalThis.e<2){
-        globalThis.e=globalThis.e +1
-        var r=Math.floor(Math.random() * 100) + 1;
-        if (r<50) {   
-          var div = document.getElementById('shang');
-          var div1 = document.getElementById('xia');
-          var div2 = document.getElementById('you');
-          var div3 = document.getElementById('zuo');
-          div.style.visibility = 'hidden';
-          div1.style.visibility = 'hidden';
-          div2.style.visibility = 'hidden';
-          div3.style.visibility = 'hidden';
-          $('.shang').addClass('hide');
-          $('.you').addClass('hide');
-          $('.zuo').addClass('hide');
-          $('.xia').addClass('hide');
-           var s = [1,2,3,4];
-           var rands = s[Math.floor(Math.random()*4)];
-           var f = '.s'+rands
-           var f1 = '.s'+rands+'1'
-           var f2 = '.s'+rands+'2'
-           var f3 = '.s'+rands+'3'
-           setTimeout(function() {
-            $(f).removeClass('hide');
-            $(f).addClass('show').css('display', 'block');
-           }, 500);
-           setTimeout(function() {
-            $(f1).removeClass('hide');
-            $(f1).addClass('show').css('display', 'block');
-          }, 2000);
-          setTimeout(function() {
-            $(f2).removeClass('hide');
-            $(f2).addClass('show').css('display', 'block');
-          }, 3500);
-          setTimeout(function() {
-            $(f3).removeClass('hide');
-            $(f3).addClass('show').css('display', 'block');
-          }, 5000);
-  
-  
-  
-          setTimeout(function() {
-          
-            $('.shang').removeClass('hide');
-            $('.shang').addClass('show').css('display', 'block');
-            $('.xia').removeClass('hide');
-            $('.xia').addClass('show').css('display', 'block');
-            $('.zuo').removeClass('hide');
-            $('.zuo').addClass('show').css('display', 'block');
-            $('.you').removeClass('hide');
-            $('.you').addClass('show').css('display', 'block');
-            div.style.visibility = 'visible';
-            div1.style.visibility = 'visible';
-            div2.style.visibility = 'visible';
-            div3.style.visibility = 'visible';
-          }, 6000);
-        } else {   
-          $('.shang').addClass('hide');
-          $('.you').addClass('hide');
-          $('.zuo').addClass('hide');
-          $('.xia').addClass('hide');
-          var div = document.getElementById('shang');
-          var div1 = document.getElementById('xia');
-          var div2 = document.getElementById('you');
-          var div3 = document.getElementById('zuo');
-          div.style.visibility = 'hidden';
-          div1.style.visibility = 'hidden';
-          div2.style.visibility = 'hidden';
-          div3.style.visibility = 'hidden';
-           var s = [10,5,6,7,8,9];
-           var rands = s[Math.floor(Math.random()*6)];
-           var f = '.s'+rands
-           var f1 = '.s'+rands+'1'
-           var f2 = '.s'+rands+'2'
-           var f3 = '.s'+rands+'3'
-           var rands1=rands - 4;
-           var a1 = '.b'+rands1+'1'
-           var a2 = '.b'+rands1+'2'
-           var a3 = '.b'+rands1+'3'
-           setTimeout(function() {
-           $(f).removeClass('hide');
-           $(f).addClass('show').css('display', 'block');
-          }, 500);
-           setTimeout(function() {
-            $(f1).removeClass('hide');
-            $(f1).addClass('show').css('display', 'block');
-          }, 2000);
-          setTimeout(function() {
-            $(f2).removeClass('hide');
-            $(f2).addClass('show').css('display', 'block');
-          }, 3500);
-          setTimeout(function() {
-            $(f3).removeClass('hide');
-            $(f3).addClass('show').css('display', 'block');
-          }, 5000);
-  
-  
-           setTimeout(function() {
-            $(a1).removeClass('hide');
-            $(a1).addClass('show').css('display', 'block');
-            $(a2).removeClass('hide');
-            $(a2).addClass('show').css('display', 'block');
-            $(a3).removeClass('hide');
-            $(a3).addClass('show').css('display', 'block');
-          }, 6000);
-    
-        }
 
-
-      }
-      if(globalThis.e==2){
-
-        $('.show-card').addClass('hide');
-    $('.show-card1').addClass('hide');
-    $('.show-card2').addClass('hide');
-    $('.show-card3').addClass('hide');
-    $('.show-card4').addClass('hide');
-    $('.show-card5').addClass('hide');
-    $('.show-card6').addClass('hide');
-    $('.show-card7').addClass('hide');
-    $('.show-card8').addClass('hide');
-    $('.show-card9').addClass('hide');
-    $('.show-card10').addClass('hide');    
-    $('.show-card11').addClass('hide');
-    $('.show-card12').addClass('hide');
-    $('.show-card13').addClass('hide');
-    $('.show-card14').addClass('hide');
-    $('.show-card15').addClass('hide');
-    $('.show-card16').addClass('hide');
-    $('.show-card17').addClass('hide');
-    $('.show-card18').addClass('hide');
-    $('.show-card19').addClass('hide');
-    $('.show-card20').addClass('hide');
-    $('.show-card21').addClass('hide');
-    $('.show-card22').addClass('hide');
-    $('.show-card23').addClass('hide');
-    $('.show-card24').addClass('hide');
-    $('.show-card25').addClass('hide');
-    $('.show-card26').addClass('hide');
-    $('.show-card27').addClass('hide');
-    $('.show-card28').addClass('hide');
-    $('.show-card29').addClass('hide');
-    $('.show-card30').addClass('hide');
-    $('.show-card31').addClass('hide');
-    $('.show-card32').addClass('hide');
-    $('.show-card33').addClass('hide');
-    $('.show-card34').addClass('hide');
-    $('.show-card35').addClass('hide');
-    $('.show-card36').addClass('hide');
-    $('.show-card37').addClass('hide');
-    $('.show-card38').addClass('hide');
-    $('.show-card39').addClass('hide');
-    $('.show-card40').addClass('hide');
-    var div = document.getElementById('shang');
-          var div1 = document.getElementById('xia');
-          var div2 = document.getElementById('you');
-          var div3 = document.getElementById('zuo');
-          div.style.visibility = 'hidden';
-          div1.style.visibility = 'hidden';
-          div2.style.visibility = 'hidden';
-          div3.style.visibility = 'hidden';
-          $('.shang').addClass('hide');
-          $('.you').addClass('hide');
-          $('.zuo').addClass('hide');
-          $('.xia').addClass('hide');
-          $(".linshi").removeClass('hide');
-            $(".linshi").addClass('show').css('display', 'block');
-      }
-
-    }else{
-      if(globalThis.e<5){
-        globalThis.e=globalThis.e+1
-        var r=Math.floor(Math.random() * 100) + 1;
-        if (r<50) {   
-          var div = document.getElementById('shang');
-          var div1 = document.getElementById('xia');
-          var div2 = document.getElementById('you');
-          var div3 = document.getElementById('zuo');
-          div.style.visibility = 'hidden';
-          div1.style.visibility = 'hidden';
-          div2.style.visibility = 'hidden';
-          div3.style.visibility = 'hidden';
-          $('.shang').addClass('hide');
-          $('.you').addClass('hide');
-          $('.zuo').addClass('hide');
-          $('.xia').addClass('hide');
-           var s = [1,2,3,4];
-           var rands = s[Math.floor(Math.random()*4)];
-           var f = '.s'+rands
-           var f1 = '.s'+rands+'1'
-           var f2 = '.s'+rands+'2'
-           var f3 = '.s'+rands+'3'
-           setTimeout(function() {
-            $(f).removeClass('hide');
-            $(f).addClass('show').css('display', 'block');
-           }, 500);
-           setTimeout(function() {
-            $(f1).removeClass('hide');
-            $(f1).addClass('show').css('display', 'block');
-          }, 2000);
-          setTimeout(function() {
-            $(f2).removeClass('hide');
-            $(f2).addClass('show').css('display', 'block');
-          }, 3500);
-          setTimeout(function() {
-            $(f3).removeClass('hide');
-            $(f3).addClass('show').css('display', 'block');
-          }, 5000);
-  
-  
-  
-          setTimeout(function() {
-          
-            $('.shang').removeClass('hide');
-            $('.shang').addClass('show').css('display', 'block');
-            $('.xia').removeClass('hide');
-            $('.xia').addClass('show').css('display', 'block');
-            $('.zuo').removeClass('hide');
-            $('.zuo').addClass('show').css('display', 'block');
-            $('.you').removeClass('hide');
-            $('.you').addClass('show').css('display', 'block');
-            div.style.visibility = 'visible';
-            div1.style.visibility = 'visible';
-            div2.style.visibility = 'visible';
-            div3.style.visibility = 'visible';
-          }, 6000);
-        } else {   
-          $('.shang').addClass('hide');
-          $('.you').addClass('hide');
-          $('.zuo').addClass('hide');
-          $('.xia').addClass('hide');
-          var div = document.getElementById('shang');
-          var div1 = document.getElementById('xia');
-          var div2 = document.getElementById('you');
-          var div3 = document.getElementById('zuo');
-          div.style.visibility = 'hidden';
-          div1.style.visibility = 'hidden';
-          div2.style.visibility = 'hidden';
-          div3.style.visibility = 'hidden';
-           var s = [10,5,6,7,8,9];
-           var rands = s[Math.floor(Math.random()*6)];
-           var f = '.s'+rands
-           var f1 = '.s'+rands+'1'
-           var f2 = '.s'+rands+'2'
-           var f3 = '.s'+rands+'3'
-           var rands1=rands - 4;
-           var a1 = '.b'+rands1+'1'
-           var a2 = '.b'+rands1+'2'
-           var a3 = '.b'+rands1+'3'
-           setTimeout(function() {
-           $(f).removeClass('hide');
-           $(f).addClass('show').css('display', 'block');
-          }, 500);
-           setTimeout(function() {
-            $(f1).removeClass('hide');
-            $(f1).addClass('show').css('display', 'block');
-          }, 2000);
-          setTimeout(function() {
-            $(f2).removeClass('hide');
-            $(f2).addClass('show').css('display', 'block');
-          }, 3500);
-          setTimeout(function() {
-            $(f3).removeClass('hide');
-            $(f3).addClass('show').css('display', 'block');
-          }, 5000);
-  
-  
-           setTimeout(function() {
-            $(a1).removeClass('hide');
-            $(a1).addClass('show').css('display', 'block');
-            $(a2).removeClass('hide');
-            $(a2).addClass('show').css('display', 'block');
-            $(a3).removeClass('hide');
-            $(a3).addClass('show').css('display', 'block');
-          }, 6000);
-    
-        }
-      }
-      if(globalThis.e==5){
-        if(globalThis.k==1){
-          $(".ksh").removeClass('hide');
-          $(".ksh").addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.a==1){
-
-          $(".ash").removeClass('hide');
-          $(".ash").addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.s==1){
-
-          $(".ssh").removeClass('hide');
-          $(".ssh").addClass('show').css('display', 'block');
-        }
-  
-      }
-    }
-
-
-  }else{
-
-    if (r<50) {
-      if (r<25) {   
-        var div = document.getElementById('shang');
-        var div1 = document.getElementById('xia');
-        var div2 = document.getElementById('you');
-        var div3 = document.getElementById('zuo');
-        div.style.visibility = 'hidden';
-        div1.style.visibility = 'hidden';
-        div2.style.visibility = 'hidden';
-        div3.style.visibility = 'hidden';
-        $('.shang').addClass('hide');
-        $('.you').addClass('hide');
-        $('.zuo').addClass('hide');
-        $('.xia').addClass('hide');
-         var s = [1,2,3,4];
-         var rands = s[Math.floor(Math.random()*4)];
-         var f = '.s'+rands
-         var f1 = '.s'+rands+'1'
-         var f2 = '.s'+rands+'2'
-         var f3 = '.s'+rands+'3'
-         setTimeout(function() {
-          $(f).removeClass('hide');
-          $(f).addClass('show').css('display', 'block');
-         }, 500);
-         setTimeout(function() {
-          $(f1).removeClass('hide');
-          $(f1).addClass('show').css('display', 'block');
-        }, 2000);
-        setTimeout(function() {
-          $(f2).removeClass('hide');
-          $(f2).addClass('show').css('display', 'block');
-        }, 3500);
-        setTimeout(function() {
-          $(f3).removeClass('hide');
-          $(f3).addClass('show').css('display', 'block');
-        }, 5000);
-
-
-
-        setTimeout(function() {
-        
-          $('.shang').removeClass('hide');
-          $('.shang').addClass('show').css('display', 'block');
-          $('.xia').removeClass('hide');
-          $('.xia').addClass('show').css('display', 'block');
-          $('.zuo').removeClass('hide');
-          $('.zuo').addClass('show').css('display', 'block');
-          $('.you').removeClass('hide');
-          $('.you').addClass('show').css('display', 'block');
-          div.style.visibility = 'visible';
-          div1.style.visibility = 'visible';
-          div2.style.visibility = 'visible';
-          div3.style.visibility = 'visible';
-        }, 6000);
-      } else {   
-        $('.shang').addClass('hide');
-        $('.you').addClass('hide');
-        $('.zuo').addClass('hide');
-        $('.xia').addClass('hide');
-        var div = document.getElementById('shang');
-        var div1 = document.getElementById('xia');
-        var div2 = document.getElementById('you');
-        var div3 = document.getElementById('zuo');
-        div.style.visibility = 'hidden';
-        div1.style.visibility = 'hidden';
-        div2.style.visibility = 'hidden';
-        div3.style.visibility = 'hidden';
-         var s = [10,5,6,7,8,9];
-         var rands = s[Math.floor(Math.random()*6)];
-         var f = '.s'+rands
-         var f1 = '.s'+rands+'1'
-         var f2 = '.s'+rands+'2'
-         var f3 = '.s'+rands+'3'
-         var rands1=rands - 4;
-         var a1 = '.b'+rands1+'1'
-         var a2 = '.b'+rands1+'2'
-         var a3 = '.b'+rands1+'3'
-         setTimeout(function() {
-         $(f).removeClass('hide');
-         $(f).addClass('show').css('display', 'block');
-        }, 500);
-         setTimeout(function() {
-          $(f1).removeClass('hide');
-          $(f1).addClass('show').css('display', 'block');
-        }, 2000);
-        setTimeout(function() {
-          $(f2).removeClass('hide');
-          $(f2).addClass('show').css('display', 'block');
-        }, 3500);
-        setTimeout(function() {
-          $(f3).removeClass('hide');
-          $(f3).addClass('show').css('display', 'block');
-        }, 5000);
-
-
-         setTimeout(function() {
-          $(a1).removeClass('hide');
-          $(a1).addClass('show').css('display', 'block');
-          $(a2).removeClass('hide');
-          $(a2).addClass('show').css('display', 'block');
-          $(a3).removeClass('hide');
-          $(a3).addClass('show').css('display', 'block');
-        }, 6000);
-  
-      }
-      
-    } else {
-     
-        if(globalThis.flag==6){
-            globalThis.r=1
-            globalThis.k=1
-            $('.message18').removeClass('hide');
-            $('.message18').addClass('show').css('display', 'block');
-            $('.show-card27').removeClass('hide');
-            $('.show-card27').addClass('show').css('display', 'block');
-            globalThis.flag=7
-          }
-          if(globalThis.flag==5){
-            $('.message9').removeClass('hide');
-            $('.message9').addClass('show').css('display', 'block');
-            $('.show-card31').removeClass('hide');
-            $('.show-card31').addClass('show').css('display', 'block');
-            globalThis.flag=6
-          }
-          if(globalThis.flag==4){
-            $('.message18').removeClass('hide');
-            $('.message18').addClass('show').css('display', 'block');
-            $('.show-card23').removeClass('hide');
-            $('.show-card23').addClass('show').css('display', 'block');
-            globalThis.flag=5
-          }
-          if(globalThis.flag==3){
-            $('.message8').removeClass('hide');
-            $('.message8').addClass('show').css('display', 'block');
-            $('.show-card12').removeClass('hide');
-            $('.show-card12').addClass('show').css('display', 'block');
-            globalThis.flag=4
-          }
-          if(globalThis.flag==2){
-            $('.message9').removeClass('hide');
-            $('.message9').addClass('show').css('display', 'block');
-            $('.show-card13').removeClass('hide');
-            $('.show-card13').addClass('show').css('display', 'block');
-            globalThis.flag=3
-          }
-          if(globalThis.flag==1){
-            $('.message3').removeClass('hide');
-            $('.message3').addClass('show').css('display', 'block');
-            $('.show-card8').removeClass('hide');
-            $('.show-card8').addClass('show').css('display', 'block');
-            globalThis.flag=2
-          }
-          if(globalThis.flag==0){
-            $('.message2').removeClass('hide');
-            $('.message2').addClass('show').css('display', 'block');
-            $('.show-card5').removeClass('hide');
-            $('.show-card5').addClass('show').css('display', 'block');
-            globalThis.flag=1
-          }
-  
-    }
-    
+  if(globalThis.flag==6){
+    globalThis.r=1
+        globalThis.a=1
+    $('.message18').removeClass('hide');
+    $('.message18').addClass('show').css('display', 'block');
+    $('.show-card27').removeClass('hide');
+    $('.show-card27').addClass('show').css('display', 'block');
+    globalThis.flag=7
   }
-
+  if(globalThis.flag==5){
+    $('.message9').removeClass('hide');
+    $('.message9').addClass('show').css('display', 'block');
+    $('.show-card31').removeClass('hide');
+    $('.show-card31').addClass('show').css('display', 'block');
+    globalThis.flag=6
+  }
+  if(globalThis.flag==4){
+    $('.message18').removeClass('hide');
+    $('.message18').addClass('show').css('display', 'block');
+    $('.show-card23').removeClass('hide');
+    $('.show-card23').addClass('show').css('display', 'block');
+    globalThis.flag=5
+  }
+  if(globalThis.flag==3){
+    $('.message8').removeClass('hide');
+    $('.message8').addClass('show').css('display', 'block');
+    $('.show-card12').removeClass('hide');
+    $('.show-card12').addClass('show').css('display', 'block');
+    globalThis.flag=4
+  }
+  if(globalThis.flag==2){
+    $('.message9').removeClass('hide');
+    $('.message9').addClass('show').css('display', 'block');
+    $('.show-card13').removeClass('hide');
+    $('.show-card13').addClass('show').css('display', 'block');
+    globalThis.flag=3
+  }
+  if(globalThis.flag==1){
+    $('.message3').removeClass('hide');
+    $('.message3').addClass('show').css('display', 'block');
+    $('.show-card8').removeClass('hide');
+    $('.show-card8').addClass('show').css('display', 'block');
+    globalThis.flag=2
+  }
+  if(globalThis.flag==0){
+    $('.message2').removeClass('hide');
+    $('.message2').addClass('show').css('display', 'block');
+    $('.show-card5').removeClass('hide');
+    $('.show-card5').addClass('show').css('display', 'block');
+    globalThis.flag=1
+  }
   
   
 });
@@ -4109,484 +3690,68 @@ $('.you').click(function(e) {
    $('.s41').addClass('hide');
    $('.s42').addClass('hide');
    $('.s43').addClass('hide');
-   var r=Math.floor(Math.random() * 100) + 1;
-   if(globalThis.flag==7){
-     if(globalThis.r==0){
-       if(globalThis.e<2){
-         globalThis.e=globalThis.e +1
-         var r=Math.floor(Math.random() * 100) + 1;
-         if (r<50) {   
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-            var s = [1,2,3,4];
-            var rands = s[Math.floor(Math.random()*4)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            setTimeout(function() {
-             $(f).removeClass('hide');
-             $(f).addClass('show').css('display', 'block');
-            }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-   
-           setTimeout(function() {
-           
-             $('.shang').removeClass('hide');
-             $('.shang').addClass('show').css('display', 'block');
-             $('.xia').removeClass('hide');
-             $('.xia').addClass('show').css('display', 'block');
-             $('.zuo').removeClass('hide');
-             $('.zuo').addClass('show').css('display', 'block');
-             $('.you').removeClass('hide');
-             $('.you').addClass('show').css('display', 'block');
-             div.style.visibility = 'visible';
-             div1.style.visibility = 'visible';
-             div2.style.visibility = 'visible';
-             div3.style.visibility = 'visible';
-           }, 6000);
-         } else {   
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-            var s = [10,5,6,7,8,9];
-            var rands = s[Math.floor(Math.random()*6)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            var rands1=rands - 4;
-            var a1 = '.b'+rands1+'1'
-            var a2 = '.b'+rands1+'2'
-            var a3 = '.b'+rands1+'3'
-            setTimeout(function() {
-            $(f).removeClass('hide');
-            $(f).addClass('show').css('display', 'block');
-           }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-            setTimeout(function() {
-             $(a1).removeClass('hide');
-             $(a1).addClass('show').css('display', 'block');
-             $(a2).removeClass('hide');
-             $(a2).addClass('show').css('display', 'block');
-             $(a3).removeClass('hide');
-             $(a3).addClass('show').css('display', 'block');
-           }, 6000);
-     
-         }
- 
- 
-       }
-       if(globalThis.e==2){
- 
-         $('.show-card').addClass('hide');
-     $('.show-card1').addClass('hide');
-     $('.show-card2').addClass('hide');
-     $('.show-card3').addClass('hide');
-     $('.show-card4').addClass('hide');
-     $('.show-card5').addClass('hide');
-     $('.show-card6').addClass('hide');
-     $('.show-card7').addClass('hide');
-     $('.show-card8').addClass('hide');
-     $('.show-card9').addClass('hide');
-     $('.show-card10').addClass('hide');    
-     $('.show-card11').addClass('hide');
-     $('.show-card12').addClass('hide');
-     $('.show-card13').addClass('hide');
-     $('.show-card14').addClass('hide');
-     $('.show-card15').addClass('hide');
-     $('.show-card16').addClass('hide');
-     $('.show-card17').addClass('hide');
-     $('.show-card18').addClass('hide');
-     $('.show-card19').addClass('hide');
-     $('.show-card20').addClass('hide');
-     $('.show-card21').addClass('hide');
-     $('.show-card22').addClass('hide');
-     $('.show-card23').addClass('hide');
-     $('.show-card24').addClass('hide');
-     $('.show-card25').addClass('hide');
-     $('.show-card26').addClass('hide');
-     $('.show-card27').addClass('hide');
-     $('.show-card28').addClass('hide');
-     $('.show-card29').addClass('hide');
-     $('.show-card30').addClass('hide');
-     $('.show-card31').addClass('hide');
-     $('.show-card32').addClass('hide');
-     $('.show-card33').addClass('hide');
-     $('.show-card34').addClass('hide');
-     $('.show-card35').addClass('hide');
-     $('.show-card36').addClass('hide');
-     $('.show-card37').addClass('hide');
-     $('.show-card38').addClass('hide');
-     $('.show-card39').addClass('hide');
-     $('.show-card40').addClass('hide');
-     var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           $(".linshi").removeClass('hide');
-             $(".linshi").addClass('show').css('display', 'block');
-       }
- 
-     }else{
-       if(globalThis.e<5){
-         globalThis.e=globalThis.e+1
-         var r=Math.floor(Math.random() * 100) + 1;
-         if (r<50) {   
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-            var s = [1,2,3,4];
-            var rands = s[Math.floor(Math.random()*4)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            setTimeout(function() {
-             $(f).removeClass('hide');
-             $(f).addClass('show').css('display', 'block');
-            }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-   
-           setTimeout(function() {
-           
-             $('.shang').removeClass('hide');
-             $('.shang').addClass('show').css('display', 'block');
-             $('.xia').removeClass('hide');
-             $('.xia').addClass('show').css('display', 'block');
-             $('.zuo').removeClass('hide');
-             $('.zuo').addClass('show').css('display', 'block');
-             $('.you').removeClass('hide');
-             $('.you').addClass('show').css('display', 'block');
-             div.style.visibility = 'visible';
-             div1.style.visibility = 'visible';
-             div2.style.visibility = 'visible';
-             div3.style.visibility = 'visible';
-           }, 6000);
-         } else {   
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-            var s = [10,5,6,7,8,9];
-            var rands = s[Math.floor(Math.random()*6)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            var rands1=rands - 4;
-            var a1 = '.b'+rands1+'1'
-            var a2 = '.b'+rands1+'2'
-            var a3 = '.b'+rands1+'3'
-            setTimeout(function() {
-            $(f).removeClass('hide');
-            $(f).addClass('show').css('display', 'block');
-           }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-            setTimeout(function() {
-             $(a1).removeClass('hide');
-             $(a1).addClass('show').css('display', 'block');
-             $(a2).removeClass('hide');
-             $(a2).addClass('show').css('display', 'block');
-             $(a3).removeClass('hide');
-             $(a3).addClass('show').css('display', 'block');
-           }, 6000);
-     
-         }
-       }
-       if(globalThis.e==5){
-         if(globalThis.k==1){
-           $(".ksh").removeClass('hide');
-           $(".ksh").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.a==1){
- 
-           $(".ash").removeClass('hide');
-           $(".ash").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.s==1){
- 
-           $(".ssh").removeClass('hide');
-           $(".ssh").addClass('show').css('display', 'block');
-         }
-   
-       }
-     }
- 
- 
-   }else{
- 
-     if (r<50) {
-       if (r<25) {   
-         var div = document.getElementById('shang');
-         var div1 = document.getElementById('xia');
-         var div2 = document.getElementById('you');
-         var div3 = document.getElementById('zuo');
-         div.style.visibility = 'hidden';
-         div1.style.visibility = 'hidden';
-         div2.style.visibility = 'hidden';
-         div3.style.visibility = 'hidden';
-         $('.shang').addClass('hide');
-         $('.you').addClass('hide');
-         $('.zuo').addClass('hide');
-         $('.xia').addClass('hide');
-          var s = [1,2,3,4];
-          var rands = s[Math.floor(Math.random()*4)];
-          var f = '.s'+rands
-          var f1 = '.s'+rands+'1'
-          var f2 = '.s'+rands+'2'
-          var f3 = '.s'+rands+'3'
-          setTimeout(function() {
-           $(f).removeClass('hide');
-           $(f).addClass('show').css('display', 'block');
-          }, 500);
-          setTimeout(function() {
-           $(f1).removeClass('hide');
-           $(f1).addClass('show').css('display', 'block');
-         }, 2000);
-         setTimeout(function() {
-           $(f2).removeClass('hide');
-           $(f2).addClass('show').css('display', 'block');
-         }, 3500);
-         setTimeout(function() {
-           $(f3).removeClass('hide');
-           $(f3).addClass('show').css('display', 'block');
-         }, 5000);
- 
- 
- 
-         setTimeout(function() {
-         
-           $('.shang').removeClass('hide');
-           $('.shang').addClass('show').css('display', 'block');
-           $('.xia').removeClass('hide');
-           $('.xia').addClass('show').css('display', 'block');
-           $('.zuo').removeClass('hide');
-           $('.zuo').addClass('show').css('display', 'block');
-           $('.you').removeClass('hide');
-           $('.you').addClass('show').css('display', 'block');
-           div.style.visibility = 'visible';
-           div1.style.visibility = 'visible';
-           div2.style.visibility = 'visible';
-           div3.style.visibility = 'visible';
-         }, 6000);
-       } else {   
-         $('.shang').addClass('hide');
-         $('.you').addClass('hide');
-         $('.zuo').addClass('hide');
-         $('.xia').addClass('hide');
-         var div = document.getElementById('shang');
-         var div1 = document.getElementById('xia');
-         var div2 = document.getElementById('you');
-         var div3 = document.getElementById('zuo');
-         div.style.visibility = 'hidden';
-         div1.style.visibility = 'hidden';
-         div2.style.visibility = 'hidden';
-         div3.style.visibility = 'hidden';
-          var s = [10,5,6,7,8,9];
-          var rands = s[Math.floor(Math.random()*6)];
-          var f = '.s'+rands
-          var f1 = '.s'+rands+'1'
-          var f2 = '.s'+rands+'2'
-          var f3 = '.s'+rands+'3'
-          var rands1=rands - 4;
-          var a1 = '.b'+rands1+'1'
-          var a2 = '.b'+rands1+'2'
-          var a3 = '.b'+rands1+'3'
-          setTimeout(function() {
-          $(f).removeClass('hide');
-          $(f).addClass('show').css('display', 'block');
-         }, 500);
-          setTimeout(function() {
-           $(f1).removeClass('hide');
-           $(f1).addClass('show').css('display', 'block');
-         }, 2000);
-         setTimeout(function() {
-           $(f2).removeClass('hide');
-           $(f2).addClass('show').css('display', 'block');
-         }, 3500);
-         setTimeout(function() {
-           $(f3).removeClass('hide');
-           $(f3).addClass('show').css('display', 'block');
-         }, 5000);
- 
- 
-          setTimeout(function() {
-           $(a1).removeClass('hide');
-           $(a1).addClass('show').css('display', 'block');
-           $(a2).removeClass('hide');
-           $(a2).addClass('show').css('display', 'block');
-           $(a3).removeClass('hide');
-           $(a3).addClass('show').css('display', 'block');
-         }, 6000);
-   
-       }
-       
-     } else {
-        if(globalThis.flag==6){
-            $('.message22').removeClass('hide');
-            $('.message22').addClass('show').css('display', 'block');
-            setTimeout(function() {
-              $('.message22j').removeClass('hide');
-            $('.message22j').addClass('show').css('display', 'block');
-            }, 1100);
-            setTimeout(function() {
-              $('.message22jj').removeClass('hide');
-            $('.message22jj').addClass('show').css('display', 'block');
-            }, 1100);
-            $('.show-card32').removeClass('hide');
-            $('.show-card32').addClass('show').css('display', 'block');
-            globalThis.flag=7
-          }
-          if(globalThis.flag==5){
-            $('.message19').removeClass('hide');
-            $('.message19').addClass('show').css('display', 'block');
-            $('.show-card28').removeClass('hide');
-            $('.show-card28').addClass('show').css('display', 'block');
-            globalThis.flag=6
-          }
-          if(globalThis.flag==4){
-            $('.message16').removeClass('hide');
-            $('.message16').addClass('show').css('display', 'block');
-            $('.show-card24').removeClass('hide');
-            $('.show-card24').addClass('show').css('display', 'block');
-            globalThis.flag=5
-          }
-          if(globalThis.flag==3){
-            $('.message12').removeClass('hide');
-            $('.message12').addClass('show').css('display', 'block');
-            $('.show-card20').removeClass('hide');
-            $('.show-card20').addClass('show').css('display', 'block');
-            globalThis.flag=4
-          }
-          if(globalThis.flag==2){
-            $('.message9').removeClass('hide');
-            $('.message9').addClass('show').css('display', 'block');
-            $('.show-card14').removeClass('hide');
-            $('.show-card14').addClass('show').css('display', 'block');
-            globalThis.flag=3
-          }
-          if(globalThis.flag==1){
-            $('.message5').removeClass('hide');
-            $('.message5').addClass('show').css('display', 'block');
-            setTimeout(function() {
-              $('.message5j').removeClass('hide');
-            $('.message5j').addClass('show').css('display', 'block');
-            }, 1100);
-            $('.show-card9').removeClass('hide');
-            $('.show-card9').addClass('show').css('display', 'block');
-            globalThis.flag=2
-          }
-          if(globalThis.flag==0){
-            $('.message4').removeClass('hide');
-            $('.message4').addClass('show').css('display', 'block');
-            $('.show-card4').removeClass('hide');
-            $('.show-card4').addClass('show').css('display', 'block');
-            globalThis.flag=1
-          }
-       
-     }
-     
-   }
- 
+
+  if(globalThis.flag==6){
+    $('.message22').removeClass('hide');
+    $('.message22').addClass('show').css('display', 'block');
+    setTimeout(function() {
+      $('.message22j').removeClass('hide');
+    $('.message22j').addClass('show').css('display', 'block');
+    }, 1100);
+    setTimeout(function() {
+      $('.message22jj').removeClass('hide');
+    $('.message22jj').addClass('show').css('display', 'block');
+    }, 1100);
+    $('.show-card32').removeClass('hide');
+    $('.show-card32').addClass('show').css('display', 'block');
+    globalThis.flag=7
+  }
+  if(globalThis.flag==5){
+    $('.message19').removeClass('hide');
+    $('.message19').addClass('show').css('display', 'block');
+    $('.show-card28').removeClass('hide');
+    $('.show-card28').addClass('show').css('display', 'block');
+    globalThis.flag=6
+  }
+  if(globalThis.flag==4){
+    $('.message16').removeClass('hide');
+    $('.message16').addClass('show').css('display', 'block');
+    $('.show-card24').removeClass('hide');
+    $('.show-card24').addClass('show').css('display', 'block');
+    globalThis.flag=5
+  }
+  if(globalThis.flag==3){
+    $('.message12').removeClass('hide');
+    $('.message12').addClass('show').css('display', 'block');
+    $('.show-card20').removeClass('hide');
+    $('.show-card20').addClass('show').css('display', 'block');
+    globalThis.flag=4
+  }
+  if(globalThis.flag==2){
+    $('.message9').removeClass('hide');
+    $('.message9').addClass('show').css('display', 'block');
+    $('.show-card14').removeClass('hide');
+    $('.show-card14').addClass('show').css('display', 'block');
+    globalThis.flag=3
+  }
+  if(globalThis.flag==1){
+    $('.message5').removeClass('hide');
+    $('.message5').addClass('show').css('display', 'block');
+    setTimeout(function() {
+      $('.message5j').removeClass('hide');
+    $('.message5j').addClass('show').css('display', 'block');
+    }, 1100);
+    $('.show-card9').removeClass('hide');
+    $('.show-card9').addClass('show').css('display', 'block');
+    globalThis.flag=2
+  }
+  if(globalThis.flag==0){
+    $('.message4').removeClass('hide');
+    $('.message4').addClass('show').css('display', 'block');
+    $('.show-card4').removeClass('hide');
+    $('.show-card4').addClass('show').css('display', 'block');
+    globalThis.flag=1
+  }
   
   
 });
@@ -4640,485 +3805,65 @@ $('.xia').click(function(e) {
    $('.s41').addClass('hide');
    $('.s42').addClass('hide');
    $('.s43').addClass('hide');
-
-   var r=Math.floor(Math.random() * 100) + 1;
-   if(globalThis.flag==7){
-     if(globalThis.r==0){
-       if(globalThis.e<2){
-         globalThis.e=globalThis.e +1
-         var r=Math.floor(Math.random() * 100) + 1;
-         if (r<50) {   
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-            var s = [1,2,3,4];
-            var rands = s[Math.floor(Math.random()*4)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            setTimeout(function() {
-             $(f).removeClass('hide');
-             $(f).addClass('show').css('display', 'block');
-            }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-   
-           setTimeout(function() {
-           
-             $('.shang').removeClass('hide');
-             $('.shang').addClass('show').css('display', 'block');
-             $('.xia').removeClass('hide');
-             $('.xia').addClass('show').css('display', 'block');
-             $('.zuo').removeClass('hide');
-             $('.zuo').addClass('show').css('display', 'block');
-             $('.you').removeClass('hide');
-             $('.you').addClass('show').css('display', 'block');
-             div.style.visibility = 'visible';
-             div1.style.visibility = 'visible';
-             div2.style.visibility = 'visible';
-             div3.style.visibility = 'visible';
-           }, 6000);
-         } else {   
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-            var s = [10,5,6,7,8,9];
-            var rands = s[Math.floor(Math.random()*6)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            var rands1=rands - 4;
-            var a1 = '.b'+rands1+'1'
-            var a2 = '.b'+rands1+'2'
-            var a3 = '.b'+rands1+'3'
-            setTimeout(function() {
-            $(f).removeClass('hide');
-            $(f).addClass('show').css('display', 'block');
-           }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-            setTimeout(function() {
-             $(a1).removeClass('hide');
-             $(a1).addClass('show').css('display', 'block');
-             $(a2).removeClass('hide');
-             $(a2).addClass('show').css('display', 'block');
-             $(a3).removeClass('hide');
-             $(a3).addClass('show').css('display', 'block');
-           }, 6000);
-     
-         }
- 
- 
-       }
-       if(globalThis.e==2){
- 
-         $('.show-card').addClass('hide');
-     $('.show-card1').addClass('hide');
-     $('.show-card2').addClass('hide');
-     $('.show-card3').addClass('hide');
-     $('.show-card4').addClass('hide');
-     $('.show-card5').addClass('hide');
-     $('.show-card6').addClass('hide');
-     $('.show-card7').addClass('hide');
-     $('.show-card8').addClass('hide');
-     $('.show-card9').addClass('hide');
-     $('.show-card10').addClass('hide');    
-     $('.show-card11').addClass('hide');
-     $('.show-card12').addClass('hide');
-     $('.show-card13').addClass('hide');
-     $('.show-card14').addClass('hide');
-     $('.show-card15').addClass('hide');
-     $('.show-card16').addClass('hide');
-     $('.show-card17').addClass('hide');
-     $('.show-card18').addClass('hide');
-     $('.show-card19').addClass('hide');
-     $('.show-card20').addClass('hide');
-     $('.show-card21').addClass('hide');
-     $('.show-card22').addClass('hide');
-     $('.show-card23').addClass('hide');
-     $('.show-card24').addClass('hide');
-     $('.show-card25').addClass('hide');
-     $('.show-card26').addClass('hide');
-     $('.show-card27').addClass('hide');
-     $('.show-card28').addClass('hide');
-     $('.show-card29').addClass('hide');
-     $('.show-card30').addClass('hide');
-     $('.show-card31').addClass('hide');
-     $('.show-card32').addClass('hide');
-     $('.show-card33').addClass('hide');
-     $('.show-card34').addClass('hide');
-     $('.show-card35').addClass('hide');
-     $('.show-card36').addClass('hide');
-     $('.show-card37').addClass('hide');
-     $('.show-card38').addClass('hide');
-     $('.show-card39').addClass('hide');
-     $('.show-card40').addClass('hide');
-     var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           $(".linshi").removeClass('hide');
-             $(".linshi").addClass('show').css('display', 'block');
-       }
- 
-     }else{
-       if(globalThis.e<5){
-         globalThis.e=globalThis.e+1
-         var r=Math.floor(Math.random() * 100) + 1;
-         if (r<50) {   
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-            var s = [1,2,3,4];
-            var rands = s[Math.floor(Math.random()*4)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            setTimeout(function() {
-             $(f).removeClass('hide');
-             $(f).addClass('show').css('display', 'block');
-            }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-   
-           setTimeout(function() {
-           
-             $('.shang').removeClass('hide');
-             $('.shang').addClass('show').css('display', 'block');
-             $('.xia').removeClass('hide');
-             $('.xia').addClass('show').css('display', 'block');
-             $('.zuo').removeClass('hide');
-             $('.zuo').addClass('show').css('display', 'block');
-             $('.you').removeClass('hide');
-             $('.you').addClass('show').css('display', 'block');
-             div.style.visibility = 'visible';
-             div1.style.visibility = 'visible';
-             div2.style.visibility = 'visible';
-             div3.style.visibility = 'visible';
-           }, 6000);
-         } else {   
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-            var s = [10,5,6,7,8,9];
-            var rands = s[Math.floor(Math.random()*6)];
-            var f = '.s'+rands
-            var f1 = '.s'+rands+'1'
-            var f2 = '.s'+rands+'2'
-            var f3 = '.s'+rands+'3'
-            var rands1=rands - 4;
-            var a1 = '.b'+rands1+'1'
-            var a2 = '.b'+rands1+'2'
-            var a3 = '.b'+rands1+'3'
-            setTimeout(function() {
-            $(f).removeClass('hide');
-            $(f).addClass('show').css('display', 'block');
-           }, 500);
-            setTimeout(function() {
-             $(f1).removeClass('hide');
-             $(f1).addClass('show').css('display', 'block');
-           }, 2000);
-           setTimeout(function() {
-             $(f2).removeClass('hide');
-             $(f2).addClass('show').css('display', 'block');
-           }, 3500);
-           setTimeout(function() {
-             $(f3).removeClass('hide');
-             $(f3).addClass('show').css('display', 'block');
-           }, 5000);
-   
-   
-            setTimeout(function() {
-             $(a1).removeClass('hide');
-             $(a1).addClass('show').css('display', 'block');
-             $(a2).removeClass('hide');
-             $(a2).addClass('show').css('display', 'block');
-             $(a3).removeClass('hide');
-             $(a3).addClass('show').css('display', 'block');
-           }, 6000);
-     
-         }
-       }
-       if(globalThis.e==5){
-         if(globalThis.k==1){
-           $(".ksh").removeClass('hide');
-           $(".ksh").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.a==1){
- 
-           $(".ash").removeClass('hide');
-           $(".ash").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.s==1){
- 
-           $(".ssh").removeClass('hide');
-           $(".ssh").addClass('show').css('display', 'block');
-         }
-   
-       }
-     }
- 
- 
-   }else{
- 
-     if (r<50) {
-       if (r<25) {   
-         var div = document.getElementById('shang');
-         var div1 = document.getElementById('xia');
-         var div2 = document.getElementById('you');
-         var div3 = document.getElementById('zuo');
-         div.style.visibility = 'hidden';
-         div1.style.visibility = 'hidden';
-         div2.style.visibility = 'hidden';
-         div3.style.visibility = 'hidden';
-         $('.shang').addClass('hide');
-         $('.you').addClass('hide');
-         $('.zuo').addClass('hide');
-         $('.xia').addClass('hide');
-          var s = [1,2,3,4];
-          var rands = s[Math.floor(Math.random()*4)];
-          var f = '.s'+rands
-          var f1 = '.s'+rands+'1'
-          var f2 = '.s'+rands+'2'
-          var f3 = '.s'+rands+'3'
-          setTimeout(function() {
-           $(f).removeClass('hide');
-           $(f).addClass('show').css('display', 'block');
-          }, 500);
-          setTimeout(function() {
-           $(f1).removeClass('hide');
-           $(f1).addClass('show').css('display', 'block');
-         }, 2000);
-         setTimeout(function() {
-           $(f2).removeClass('hide');
-           $(f2).addClass('show').css('display', 'block');
-         }, 3500);
-         setTimeout(function() {
-           $(f3).removeClass('hide');
-           $(f3).addClass('show').css('display', 'block');
-         }, 5000);
- 
- 
- 
-         setTimeout(function() {
-         
-           $('.shang').removeClass('hide');
-           $('.shang').addClass('show').css('display', 'block');
-           $('.xia').removeClass('hide');
-           $('.xia').addClass('show').css('display', 'block');
-           $('.zuo').removeClass('hide');
-           $('.zuo').addClass('show').css('display', 'block');
-           $('.you').removeClass('hide');
-           $('.you').addClass('show').css('display', 'block');
-           div.style.visibility = 'visible';
-           div1.style.visibility = 'visible';
-           div2.style.visibility = 'visible';
-           div3.style.visibility = 'visible';
-         }, 6000);
-       } else {   
-         $('.shang').addClass('hide');
-         $('.you').addClass('hide');
-         $('.zuo').addClass('hide');
-         $('.xia').addClass('hide');
-         var div = document.getElementById('shang');
-         var div1 = document.getElementById('xia');
-         var div2 = document.getElementById('you');
-         var div3 = document.getElementById('zuo');
-         div.style.visibility = 'hidden';
-         div1.style.visibility = 'hidden';
-         div2.style.visibility = 'hidden';
-         div3.style.visibility = 'hidden';
-          var s = [10,5,6,7,8,9];
-          var rands = s[Math.floor(Math.random()*6)];
-          var f = '.s'+rands
-          var f1 = '.s'+rands+'1'
-          var f2 = '.s'+rands+'2'
-          var f3 = '.s'+rands+'3'
-          var rands1=rands - 4;
-          var a1 = '.b'+rands1+'1'
-          var a2 = '.b'+rands1+'2'
-          var a3 = '.b'+rands1+'3'
-          setTimeout(function() {
-          $(f).removeClass('hide');
-          $(f).addClass('show').css('display', 'block');
-         }, 500);
-          setTimeout(function() {
-           $(f1).removeClass('hide');
-           $(f1).addClass('show').css('display', 'block');
-         }, 2000);
-         setTimeout(function() {
-           $(f2).removeClass('hide');
-           $(f2).addClass('show').css('display', 'block');
-         }, 3500);
-         setTimeout(function() {
-           $(f3).removeClass('hide');
-           $(f3).addClass('show').css('display', 'block');
-         }, 5000);
- 
- 
-          setTimeout(function() {
-           $(a1).removeClass('hide');
-           $(a1).addClass('show').css('display', 'block');
-           $(a2).removeClass('hide');
-           $(a2).addClass('show').css('display', 'block');
-           $(a3).removeClass('hide');
-           $(a3).addClass('show').css('display', 'block');
-         }, 6000);
-   
-       }
-       
-     } else {
-      
-        if(globalThis.flag==6){
-            globalThis.r=1
-            globalThis.s=1
-            $('.message18').removeClass('hide');
-            $('.message21').addClass('show').css('display', 'block');
-            $('.show-card26').removeClass('hide');
-            $('.show-card26').addClass('show').css('display', 'block');
-            globalThis.flag=7
-          }
-          if(globalThis.flag==5){
-            $('.message21').removeClass('hide');
-            $('.message18').addClass('show').css('display', 'block');
-            $('.show-card30').removeClass('hide');
-            $('.show-card30').addClass('show').css('display', 'block');
-            globalThis.flag=6
-          }
-          if(globalThis.flag==4){
-            $('.message17').removeClass('hide');
-            $('.message17').addClass('show').css('display', 'block');
-            $('.show-card25').removeClass('hide');
-            $('.show-card25').addClass('show').css('display', 'block');
-            globalThis.flag=5
-          }
-          if(globalThis.flag==3){
-            $('.message13').removeClass('hide');
-            $('.message13').addClass('show').css('display', 'block');
-            $('.show-card21').removeClass('hide');
-            $('.show-card21').addClass('show').css('display', 'block');
-            globalThis.flag=4
-          }
-          if(globalThis.flag==2){
-            $('.message9').removeClass('hide');
-            $('.message9').addClass('show').css('display', 'block');
-            $('.show-card15').removeClass('hide');
-            $('.show-card15').addClass('show').css('display', 'block');
-            globalThis.flag=3
-          }
-          if(globalThis.flag==1){
-            $('.message7').removeClass('hide');
-            $('.message7').addClass('show').css('display', 'block');
-            setTimeout(function() {
-              $('.message7j').removeClass('hide');
-            $('.message7j').addClass('show').css('display', 'block');
-            }, 1100);
-            $('.show-card11').removeClass('hide');
-            $('.show-card11').addClass('show').css('display', 'block');
-            globalThis.flag=2
-          }
-          if(globalThis.flag==0){
-            $('.message6').removeClass('hide');
-            $('.message6').addClass('show').css('display', 'block');
-            setTimeout(function() {
-              $('.message6j').removeClass('hide');
-            $('.message6j').addClass('show').css('display', 'block');
-            }, 1100);
-            $('.show-card6').removeClass('hide');
-            $('.show-card6').addClass('show').css('display', 'block');
-            globalThis.flag=1
-          }
-   
-     }
-     
-   }
-
- 
+  if(globalThis.flag==6){
+    globalThis.r=1
+    globalThis.s=1
+    $('.message18').removeClass('hide');
+    $('.message21').addClass('show').css('display', 'block');
+    $('.show-card26').removeClass('hide');
+    $('.show-card26').addClass('show').css('display', 'block');
+    globalThis.flag=7
+  }
+  if(globalThis.flag==5){
+    $('.message21').removeClass('hide');
+    $('.message18').addClass('show').css('display', 'block');
+    $('.show-card30').removeClass('hide');
+    $('.show-card30').addClass('show').css('display', 'block');
+    globalThis.flag=6
+  }
+  if(globalThis.flag==4){
+    $('.message17').removeClass('hide');
+    $('.message17').addClass('show').css('display', 'block');
+    $('.show-card25').removeClass('hide');
+    $('.show-card25').addClass('show').css('display', 'block');
+    globalThis.flag=5
+  }
+  if(globalThis.flag==3){
+    $('.message13').removeClass('hide');
+    $('.message13').addClass('show').css('display', 'block');
+    $('.show-card21').removeClass('hide');
+    $('.show-card21').addClass('show').css('display', 'block');
+    globalThis.flag=4
+  }
+  if(globalThis.flag==2){
+    $('.message9').removeClass('hide');
+    $('.message9').addClass('show').css('display', 'block');
+    $('.show-card15').removeClass('hide');
+    $('.show-card15').addClass('show').css('display', 'block');
+    globalThis.flag=3
+  }
+  if(globalThis.flag==1){
+    $('.message7').removeClass('hide');
+    $('.message7').addClass('show').css('display', 'block');
+    setTimeout(function() {
+      $('.message7j').removeClass('hide');
+    $('.message7j').addClass('show').css('display', 'block');
+    }, 1100);
+    $('.show-card11').removeClass('hide');
+    $('.show-card11').addClass('show').css('display', 'block');
+    globalThis.flag=2
+  }
+  if(globalThis.flag==0){
+    $('.message6').removeClass('hide');
+    $('.message6').addClass('show').css('display', 'block');
+    setTimeout(function() {
+      $('.message6j').removeClass('hide');
+    $('.message6j').addClass('show').css('display', 'block');
+    }, 1100);
+    $('.show-card6').removeClass('hide');
+    $('.show-card6').addClass('show').css('display', 'block');
+    globalThis.flag=1
+  }
   
   
 });
@@ -5170,8 +3915,6 @@ $('.st').click(function(e) {
   $(".st").addClass("hide");
   globalThis.r=0
   globalThis.e=0
-  globalThis.s=1
-
   setTimeout(function(){
     $('.shang').removeClass('hide');
     $('.shang').addClass('show').css('display', 'block');

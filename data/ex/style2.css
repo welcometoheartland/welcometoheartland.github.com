@@ -1,11 +1,637 @@
 
+.text-h-center {
+  text-align: center;
+}
+
+@keyframes fade{
+  from{
+    opacity: 1.0;
+  }
+  50%{opacity: 0.0;}
+  to{
+    opacity: 1.0;
+  }
+}
+
 
 body {
   background: rgb(44, 42, 42);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 
 
   
 }
+
+.det2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  top:23%;
+  height:0;
+  overflow:scroll;
+  text-align: center;
+  width: 95%;
+
+}
+
+.abe.show .det2 {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+
+.abe.show  .de {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.ash.show .det2 {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+
+.ash.show  .de {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.ksh.show .det2 {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+
+.ksh.show  .de {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+
+.ssh.show .det2 {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+
+.ssh.show  .de {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+
+.linshi.show .det2 {
+  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+
+.linshi.show  .de {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+
+
+
+.ksh {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 75%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.ssh {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 75%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.ash {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 75%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+.abe {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 2%;
+  display: none;
+  height: 75%;
+  left: 36.5%;
+  position: absolute;
+  transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
+  width: 29%;
+}
+
+.linshi {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+
+.be1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+
+.be2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.be3 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.be4 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.be5 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.be6 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+
+.de {
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  margin: 0.75em 1.2em 1.2em;
+  opacity: 0;
+}
+.b11 {
+  
+  display: none;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:35%;
+    left:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b12 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:35%;
+    right:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b21 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  left:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b22 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:35%;
+    right:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b31 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  left:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b32 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  right:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b41 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  left:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b42 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  right:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b51 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  left:43%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b52 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:30%;
+  left:43%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b53 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:25%;
+    left:39%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b61 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  left:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.b62 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 1em;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+  bottom:35%;
+  right:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+
 
 .open{
   -webkit-touch-callout: none;
@@ -76,6 +702,8 @@ h1{
   
 
 } 
+
+
 
 h3{
   -webkit-touch-callout: none;
@@ -173,6 +801,52 @@ h3{
     -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
 }
 .message {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.messagej {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message1j {
   
   display: none;
   -webkit-touch-callout: none;
@@ -356,6 +1030,76 @@ h3{
     bottom:40%;
   text-align: center;
 }
+
+.message5j {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message6j {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message7j {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
 .message8 {
   
   display: none;
@@ -403,6 +1147,29 @@ h3{
   text-align: center;
 }
 .message10 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message10j {
   
   display: none;
   -webkit-touch-callout: none;
@@ -495,6 +1262,29 @@ h3{
   text-align: center;
 }
 .message14 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message14j {
   
   display: none;
   -webkit-touch-callout: none;
@@ -642,6 +1432,811 @@ h3{
   -ms-user-select: none;
   user-select: none;
   transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}  
+.message21 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message22 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message22j {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message22jj {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s1 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+  animation: fade-in 1s 0.5s forwards ease-out;
+
+  
+
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s11 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+  animation: fade-in 1s 0.5s forwards ease-out;
+
+  
+
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s12 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+  animation: fade-in 1s 0.5s forwards ease-out;
+
+  
+
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s2 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s21 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s22 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s3 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+
+.s31 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s32 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+
+.s4 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s41 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s42 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s43 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s5 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s51 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s52 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+
+.s6 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s61 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s62 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s71 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s72 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s83 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s7 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s8 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s81 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s82 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s9 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s91 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s92 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s10 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s101 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.s102 {
+
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
 
@@ -1327,7 +2922,378 @@ h3{
   text-align: center;
   text-decoration: none;
 }
+.show-card24 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(2deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
 
+  color: rgb(190, 69, 69);
+  font-size: 200%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:30%;
+    right:2%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card25 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(2deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 200%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:30%;
+    right:2%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card26 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:33%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card27 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:33%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card28 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(40deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:33%;
+    left:5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card29 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(41deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:33%;
+    right:8%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.show-card30 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(41deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:33%;
+    left:8%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card31 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(41deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 230%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    bottom:33%;
+    right:8%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.show-card32 {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  transform: rotate(41deg);
+  
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+          
+  opacity: 0;
+
+  color: rgb(190, 69, 69);
+  font-size: 430%;
+  line-height: 1.5;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:33%;
+    right:8%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.b11:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b12:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+.b21:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+
+.b22:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b31:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b32:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b41:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b42:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b51:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b52:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}.b53:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b61:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.b62:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 
 
 .show-card:hover {
@@ -1489,6 +3455,14 @@ h3{
               0 0 50px rgb(167, 50, 50),
               0 0 100px rgb(167, 50, 50);
 }
+.show-card19:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 .show-card20:hover {
   background-color: rgb(167, 50, 50);
   color: rgb(44, 42, 42);
@@ -1538,6 +3512,62 @@ h3{
               0 0 50px rgb(167, 50, 50),
               0 0 100px rgb(167, 50, 50);
 }
+.show-card26:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card27:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card28:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.show-card29:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card30:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card31:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
+.show-card32:hover {
+  background-color: rgb(190, 69, 69);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(190, 69, 69),
+              0 0 25px rgb(190, 69, 69),
+              0 0 50px rgb(190, 69, 69),
+              0 0 100px rgb(190, 69, 69);
+}
 .openm:hover {
   background-color: rgb(167, 50, 50);
   color: rgb(44, 42, 42);
@@ -1552,23 +3582,482 @@ h3{
 
 
 /* Image on the button */
+.b11.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b12.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b21.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b22.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b31.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b32.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b41.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b42.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b51.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b52.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b53.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b61.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.b62.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 
 
+.s1.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 
+.s11.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s12.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s2.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s21.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s22.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s3.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s31.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s32.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s4.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s41.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s42.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s43.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s5.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s51.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+.s52.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s6.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s61.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+.s62.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s7.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s71.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s72.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s83.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s8.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s81.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s82.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s9.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+.s91.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s92.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s10.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s101.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s102.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+
+.show-card.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .show-card1.hide {
     opacity: 0;
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
 
+.show-card2.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 
+.show-card3.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 
+.show-card4.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        
+animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card5.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card6.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card7.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card8.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card9.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card10.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card11.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card12.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card13.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card14.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card15.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card16.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card17.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card18.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card19.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card20.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card21.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card22.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card23.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card24.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card25.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card26.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card27.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card28.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card29.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card30.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card31.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card32.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card33.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card34.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card35.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card36.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+
+.show-card37.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .message.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
+.messagej.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 .message1.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message1j.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
@@ -1593,12 +4082,27 @@ h3{
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
+.message5j.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 .message6.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
+.message6j.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 .message7.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message7j.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
@@ -1614,6 +4118,11 @@ h3{
           animation: fade-out 0.4s forwards ease-out;
 }
 .message10.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message10j.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
@@ -1634,6 +4143,11 @@ h3{
           animation: fade-out 0.4s forwards ease-out;
 }
 .message14.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message14j.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
@@ -1678,6 +4192,16 @@ h3{
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
+.message22j.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message22jj.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 .message23.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -1689,6 +4213,26 @@ h3{
           animation: fade-out 0.4s forwards ease-out;
 }
 .message25.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s1.hide {
+
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s2.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s3.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.s4.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
@@ -2338,6 +4882,9 @@ h3{
 .details::-webkit-scrollbar {
     display: none;
 }
+.det2::-webkit-scrollbar {
+  display: none;
+}
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .details {
@@ -2345,10 +4892,16 @@ h3{
   scrollbar-width: none;  /* Firefox */
 }
 
+.det2 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 .details1::-webkit-scrollbar {
     display: none;
 }
+
+
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .details1 {
@@ -2478,31 +5031,7 @@ h3{
   margin: 0.75em 1.2em 1.2em;
 }
 
-.changecolor{
-    text-align: center;
-    font-size: 1em;
-    font-weight:bolder;
-    line-height: 1.5;
-    opacity: 0;
-    margin: 0.75em 1.2em 1.2em;
-    background: linear-gradient(to bottom,rgb(44, 42, 42) 30% , rgb(121, 16, 16) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
-}
-
-.changecolor1{
-    text-align: center;
-    font-size: 1em;
-    font-weight:bolder;
-    line-height: 1.5;
-    opacity: 0;
-    margin: 0.75em 1.2em 1.2em;
-    background: linear-gradient(to right,rgb(121, 16, 16) 20% , rgb(211, 0, 0) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-
-}
 
 .zhuji{
   text-align: left;
@@ -2561,11 +5090,13 @@ h3{
 }
 
 
-  
+
 
 /* Show state */
 
 /* card show 4 */
+
+
 
 .card.show .details {
   -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
@@ -3075,10 +5606,38 @@ h3{
   -webkit-animation: fade-in 0.3s 0.5s forwards;
           animation: fade-in 0.3s 0.5s forwards;
 }
-
-
-
-
+.card31.show .details {
+-webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+        animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card31.show .name {
+-webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+        animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card31.show  .description {
+-webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+        animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card31.show .close {
+-webkit-animation: fade-in 0.3s 0.5s forwards;
+        animation: fade-in 0.3s 0.5s forwards;
+}
+.card32.show .details {
+-webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+        animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+}
+.card32.show .name {
+-webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+        animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card32.show  .description {
+-webkit-animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+        animation: fade-in 0.3s 0s forwards, pop-in 0.3s 0s forwards cubic-bezier(.64,1.87,.64,.64);
+}
+.card32.show .close {
+-webkit-animation: fade-in 0.3s 0.5s forwards;
+        animation: fade-in 0.3s 0.5s forwards;
+}
 
 
 
@@ -3199,13 +5758,58 @@ h3{
   -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
           animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
-.card17.hide {
-  -webkit-animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
-          animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+.card17.hide .close{
+  opacity: 0;
+  -webkit-animation: fade-out 1s forwards ease-out;
+          animation: fade-out 1s forwards ease-out;
 }
-.card18.hide {
-  -webkit-animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
-          animation: drop-card 0s forwards cubic-bezier(.54,-0.38,.34,1.42);
+.card17.hide .name{
+  
+  opacity: 0;
+  -webkit-animation: fade-out 1s forwards ease-out;
+          animation: fade-out 1s forwards ease-out;
+}
+
+.card17.hide .description{
+  opacity: 0;
+  -webkit-animation: fade-out 1s forwards ease-out;
+          animation: fade-out 1s forwards ease-out;
+}
+.card17.hide .details{
+  opacity: 0;
+  -webkit-animation: fade-out 1s forwards ease-out;
+          animation: fade-out 1s forwards ease-out;
+}
+.card18.hide .close{
+  opacity: 0;
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.card18.hide .name{
+  opacity: 0;
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+
+.card18.hide .description{
+  opacity: 0;
+  -webkit-animation: fade-out 0.4s 0.4s forwards ease-out;
+          animation: fade-out 0.4s 0.4s forwards ease-out;
+}
+.card18.hide .details{
+  opacity: 0;
+  -webkit-animation: fade-out 0.4s 0.5s forwards ease-out;
+          animation: fade-out 0.4s 0.5s forwards ease-out;
+}
+
+
+.card17.h {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+} 
+.card18.h {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
 .card19.hide {
   -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
@@ -3255,10 +5859,15 @@ h3{
   -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
           animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
 }
-
-
-
-
+.card31.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+.card32.hide {
+  -webkit-animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+          animation: drop-card 1s forwards cubic-bezier(.54,-0.38,.34,1.42);
+}
+ 
 .storycard {
   top: 2%;
   display: none;
