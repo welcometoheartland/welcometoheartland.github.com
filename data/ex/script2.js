@@ -4606,7 +4606,142 @@ $('.zuo').click(function(e) {
       }
 
     }else{
+      if(globalThis.e==0){
+        globalThis.e=globalThis.e+1
+        var s = [1,2,3,4];
+           var rands = s[Math.floor(Math.random()*4)];
+           var f = '.s'+rands
+           var f1 = '.s'+rands+'1'
+           var f2 = '.s'+rands+'2'
+           var f3 = '.s'+rands+'3'
+           setTimeout(function() {
+            $(f).removeClass('hide');
+            $(f).addClass('show').css('display', 'block');
+           }, 500);
+           setTimeout(function() {
+            $(f1).removeClass('hide');
+            $(f1).addClass('show').css('display', 'block');
+          }, 2000);
+          setTimeout(function() {
+            $(f2).removeClass('hide');
+            $(f2).addClass('show').css('display', 'block');
+          }, 3500);
+          setTimeout(function() {
+            $(f3).removeClass('hide');
+            $(f3).addClass('show').css('display', 'block');
+          }, 5000);
+  
+  
+  
+          setTimeout(function() {
+          
+            $('.shang').removeClass('hide');
+            $('.shang').addClass('show').css('display', 'block');
+            $('.xia').removeClass('hide');
+            $('.xia').addClass('show').css('display', 'block');
+            $('.zuo').removeClass('hide');
+            $('.zuo').addClass('show').css('display', 'block');
+            $('.you').removeClass('hide');
+            $('.you').addClass('show').css('display', 'block');
+            div.style.visibility = 'visible';
+            div1.style.visibility = 'visible';
+            div2.style.visibility = 'visible';
+            div3.style.visibility = 'visible';
+            if(globalThis.s==1){
+        
+              $('.sb').removeClass('hide');
+              $('.sb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.a==1){
+        
+              $('.xb').removeClass('hide');
+              $('.xb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.k==1){
+        
+              $('.zb').removeClass('hide');
+              $('.zb').addClass('show').css('display', 'block');
+    
+            }
+
+          }, 6000);
+
+      }
       if(globalThis.e<6 && globalThis.e>0){
+        if(globalThis.e==1 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.s==1){
+        
+          $('.zb').removeClass('hide');
+          $('.zb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.k==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.s==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.k==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
         
         globalThis.t=globalThis.t+'2'
         globalThis.e=globalThis.e+1
@@ -5219,7 +5354,142 @@ $('.you').click(function(e) {
        }
  
      }else{
+      if(globalThis.e==0){
+        globalThis.e=globalThis.e+1
+        var s = [1,2,3,4];
+           var rands = s[Math.floor(Math.random()*4)];
+           var f = '.s'+rands
+           var f1 = '.s'+rands+'1'
+           var f2 = '.s'+rands+'2'
+           var f3 = '.s'+rands+'3'
+           setTimeout(function() {
+            $(f).removeClass('hide');
+            $(f).addClass('show').css('display', 'block');
+           }, 500);
+           setTimeout(function() {
+            $(f1).removeClass('hide');
+            $(f1).addClass('show').css('display', 'block');
+          }, 2000);
+          setTimeout(function() {
+            $(f2).removeClass('hide');
+            $(f2).addClass('show').css('display', 'block');
+          }, 3500);
+          setTimeout(function() {
+            $(f3).removeClass('hide');
+            $(f3).addClass('show').css('display', 'block');
+          }, 5000);
+  
+  
+  
+          setTimeout(function() {
+          
+            $('.shang').removeClass('hide');
+            $('.shang').addClass('show').css('display', 'block');
+            $('.xia').removeClass('hide');
+            $('.xia').addClass('show').css('display', 'block');
+            $('.zuo').removeClass('hide');
+            $('.zuo').addClass('show').css('display', 'block');
+            $('.you').removeClass('hide');
+            $('.you').addClass('show').css('display', 'block');
+            div.style.visibility = 'visible';
+            div1.style.visibility = 'visible';
+            div2.style.visibility = 'visible';
+            div3.style.visibility = 'visible';
+            if(globalThis.s==1){
+        
+              $('.sb').removeClass('hide');
+              $('.sb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.a==1){
+        
+              $('.xb').removeClass('hide');
+              $('.xb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.k==1){
+        
+              $('.zb').removeClass('hide');
+              $('.zb').addClass('show').css('display', 'block');
+    
+            }
+
+          }, 6000);
+
+      }
        if(globalThis.e<6 && globalThis.e>0){
+        if(globalThis.e==1 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.s==1){
+        
+          $('.zb').removeClass('hide');
+          $('.zb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.k==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.s==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.k==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
         
         globalThis.t=globalThis.t+'3'
          globalThis.e=globalThis.e+1
@@ -5842,7 +6112,142 @@ $('.xia').click(function(e) {
        }
  
      }else{
+      if(globalThis.e==0){
+        globalThis.e=globalThis.e+1
+        var s = [1,2,3,4];
+           var rands = s[Math.floor(Math.random()*4)];
+           var f = '.s'+rands
+           var f1 = '.s'+rands+'1'
+           var f2 = '.s'+rands+'2'
+           var f3 = '.s'+rands+'3'
+           setTimeout(function() {
+            $(f).removeClass('hide');
+            $(f).addClass('show').css('display', 'block');
+           }, 500);
+           setTimeout(function() {
+            $(f1).removeClass('hide');
+            $(f1).addClass('show').css('display', 'block');
+          }, 2000);
+          setTimeout(function() {
+            $(f2).removeClass('hide');
+            $(f2).addClass('show').css('display', 'block');
+          }, 3500);
+          setTimeout(function() {
+            $(f3).removeClass('hide');
+            $(f3).addClass('show').css('display', 'block');
+          }, 5000);
+  
+  
+  
+          setTimeout(function() {
+          
+            $('.shang').removeClass('hide');
+            $('.shang').addClass('show').css('display', 'block');
+            $('.xia').removeClass('hide');
+            $('.xia').addClass('show').css('display', 'block');
+            $('.zuo').removeClass('hide');
+            $('.zuo').addClass('show').css('display', 'block');
+            $('.you').removeClass('hide');
+            $('.you').addClass('show').css('display', 'block');
+            div.style.visibility = 'visible';
+            div1.style.visibility = 'visible';
+            div2.style.visibility = 'visible';
+            div3.style.visibility = 'visible';
+            if(globalThis.s==1){
+        
+              $('.sb').removeClass('hide');
+              $('.sb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.a==1){
+        
+              $('.xb').removeClass('hide');
+              $('.xb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.k==1){
+        
+              $('.zb').removeClass('hide');
+              $('.zb').addClass('show').css('display', 'block');
+    
+            }
+
+          }, 6000);
+
+      }
        if(globalThis.e<6 && globalThis.e>0){
+        if(globalThis.e==1 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.s==1){
+        
+          $('.zb').removeClass('hide');
+          $('.zb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.k==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.s==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.k==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
         
         globalThis.t=globalThis.t+'4'
          globalThis.e=globalThis.e+1
@@ -6211,7 +6616,6 @@ $('.show-card18').click(function(e) {
 
 
 $('.st').click(function(e) {
-  this.style.visibility='hidden'
   $(this).attr("disabled","disabled"); 
   //  var music = new Audio('data/se/se.wav');
   //  music.volume=0.3;
@@ -6254,32 +6658,6 @@ var audio1 = document.getElementById("ne");
     audio1.play();
    },1000);
 
-  //  setTimeout(function(){audio1.volume = 0.4;
-  //  },23300);
-  //  setTimeout(function(){audio1.volume = 0.35;
-  //  },23600);
-  //  setTimeout(function(){audio1.volume = 0.3;
-  //  },23900);
-  //  setTimeout(function(){audio1.volume = 0.25;
-  //  },24200);
-  //  setTimeout(function(){audio1.volume = 0.2;
-  //  },24500);
-  //  setTimeout(function(){audio1.volume = 0.15;
-  //  },24800);
-  //  setTimeout(function(){audio1.volume = 0.1;
-  //  },25100);
-  //  setTimeout(function(){audio1.volume = 0.05;
-  //  },25400);
-  //  setTimeout(function(){audio1.volume = 0;
-  //  },25700);
-  //  setTimeout(function(){audio1.volume = 0;
-  //  },25800);
-  //  setTimeout(function(){audio1.volume = 0;
-  //  },25900);
-  //  setTimeout(function(){audio1.volume = 0;
-  //  },26000);
-
-  
 
   setTimeout(function(){
     $('.oe').addClass('show').css('display', 'block');
@@ -6292,48 +6670,48 @@ var audio1 = document.getElementById("ne");
   setTimeout(function(){
     $('.oe2').addClass('show').css('display', 'block');
     $('.oe2').removeClass('hide');
-  },10300);
+  },8800);
   setTimeout(function(){
     $('.oe3').addClass('show').css('display', 'block');
     $('.oe3').removeClass('hide');
-  },14200);
+  },10300);
   setTimeout(function(){
     $('.oe4').addClass('show').css('display', 'block');
     $('.oe4').removeClass('hide');
-  },18100);
+  },11900);
   setTimeout(function(){
     $('.oe5').addClass('show').css('display', 'block');
     $('.oe5').removeClass('hide');
-  },22400);
+  },13500);
   setTimeout(function(){
     $('.oe6').addClass('show').css('display', 'block');
     $('.oe6').removeClass('hide');
-  },27500);
+  },16600);
   setTimeout(function(){
     $('.oe7').addClass('show').css('display', 'block');
     $('.oe7').removeClass('hide');
-  },33000);
+  },18200);
   setTimeout(function(){
     $('.oe8').addClass('show').css('display', 'block');
     $('.oe8').removeClass('hide');
-  },38500);
+  },19800);
   setTimeout(function(){
     $('.oe9').addClass('show').css('display', 'block');
     $('.oe9').removeClass('hide');
-  },44000);
+  },21400);
   setTimeout(function(){
     $('.oe10').addClass('show').css('display', 'block');
     $('.oe10').removeClass('hide');
-  },52900);
+  },26200);
 
    setTimeout(function(){
      $('.black').removeClass('hide');
      $('.black').addClass('show').css('display', 'block');
-   },57900);
+   },31000);
    setTimeout(function(){
     $('.thanks').removeClass('hide');
     $('.thanks').addClass('show').css('display', 'block');
-  },59400);
+  },33500);
  
 
 
