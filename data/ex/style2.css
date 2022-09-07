@@ -194,6 +194,56 @@ body {
   width: 95%;
 
 }
+.oe.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe1.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe2.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe3.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe4.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe5.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe6.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe7.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe8.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe9.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe10.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+.oe11.show  .deo {
+  -webkit-animation: fade-in 1s 1s forwards;
+          animation: fade-in 1s 1s forwards;
+}
+
+
 
 .abe.show .det3 {
   -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
@@ -441,6 +491,21 @@ body {
     position: absolute;
     width: 32%;
 }
+.oe {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
 .oe1 {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -592,7 +657,21 @@ body {
     width: 32%;
 }
 
-
+.oe11 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
 
 .be1 {
   -webkit-touch-callout: none;
@@ -685,7 +764,7 @@ body {
     position: absolute;
     width: 32%;
 }
-.de {
+.deo {
   
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;

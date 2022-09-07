@@ -5941,26 +5941,25 @@ $('.st').click(function(e) {
   globalThis.r=0
   globalThis.e=0
   var audio = document.getElementById("indexs");
-  audio.volume = 0;
-  setTimeout(function(){audio.volume = 0.40;
+  setTimeout(function(){audio.volume = 0.5;
 },300);
-setTimeout(function(){audio.volume = 0.36;
+setTimeout(function(){audio.volume = 0.45;
 },600);
-setTimeout(function(){audio.volume = 0.32;
+setTimeout(function(){audio.volume = 0.4;
 },900);
-setTimeout(function(){audio.volume = 0.28;
+setTimeout(function(){audio.volume = 0.35;
 },1200);
-setTimeout(function(){audio.volume = 0.24;
+setTimeout(function(){audio.volume = 0.3;
 },1500);
-setTimeout(function(){audio.volume = 0.2;
+setTimeout(function(){audio.volume = 0.25;
 },1800);
-setTimeout(function(){audio.volume = 0.16;
+setTimeout(function(){audio.volume = 0.2;
 },2100);
-setTimeout(function(){audio.volume = 0.12;
+setTimeout(function(){audio.volume = 0.15;
 },2400);
-setTimeout(function(){audio.volume = 0.08;
+setTimeout(function(){audio.volume = 0.1;
 },2700);
-setTimeout(function(){audio.volume = 0.04;
+setTimeout(function(){audio.volume = 0.05;
 },3000);
 setTimeout(function(){audio.volume = 0;
 },3300);
