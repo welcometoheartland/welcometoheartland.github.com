@@ -3848,15 +3848,150 @@ $('.shang').click(function(e) {
       }
 
     }else{
-      if(globalThis.e<5){
-        globalThis.t=globalThis.t+'1'
+      if(globalThis.e==0){
         globalThis.e=globalThis.e+1
+        var s = [1,2,3,4];
+           var rands = s[Math.floor(Math.random()*4)];
+           var f = '.s'+rands
+           var f1 = '.s'+rands+'1'
+           var f2 = '.s'+rands+'2'
+           var f3 = '.s'+rands+'3'
+           setTimeout(function() {
+            $(f).removeClass('hide');
+            $(f).addClass('show').css('display', 'block');
+           }, 500);
+           setTimeout(function() {
+            $(f1).removeClass('hide');
+            $(f1).addClass('show').css('display', 'block');
+          }, 2000);
+          setTimeout(function() {
+            $(f2).removeClass('hide');
+            $(f2).addClass('show').css('display', 'block');
+          }, 3500);
+          setTimeout(function() {
+            $(f3).removeClass('hide');
+            $(f3).addClass('show').css('display', 'block');
+          }, 5000);
+  
+  
+  
+          setTimeout(function() {
+          
+            $('.shang').removeClass('hide');
+            $('.shang').addClass('show').css('display', 'block');
+            $('.xia').removeClass('hide');
+            $('.xia').addClass('show').css('display', 'block');
+            $('.zuo').removeClass('hide');
+            $('.zuo').addClass('show').css('display', 'block');
+            $('.you').removeClass('hide');
+            $('.you').addClass('show').css('display', 'block');
+            div.style.visibility = 'visible';
+            div1.style.visibility = 'visible';
+            div2.style.visibility = 'visible';
+            div3.style.visibility = 'visible';
+            if(globalThis.s==1){
+        
+              $('.sb').removeClass('hide');
+              $('.sb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.a==1){
+        
+              $('.xb').removeClass('hide');
+              $('.xb').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.k==1){
+        
+              $('.zb').removeClass('hide');
+              $('.zb').addClass('show').css('display', 'block');
+    
+            }
+
+          }, 6000);
+
+      }
+      if(globalThis.e<6 && globalThis.e>0){
+    
         if(globalThis.e==1 && globalThis.s==1){
         
           $('.sb').removeClass('hide');
           $('.sb').addClass('show').css('display', 'block');
 
         }
+        if(globalThis.e==1 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.s==1){
+        
+          $('.zb').removeClass('hide');
+          $('.zb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.k==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.s==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.a==1){
+        
+          $('.yb').removeClass('hide');
+          $('.yb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.k==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.a==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==4 && globalThis.k==1){
+        
+          $('.xb').removeClass('hide');
+          $('.xb').addClass('show').css('display', 'block');
+
+        }
+
+
+        globalThis.t=globalThis.t+'1'
+        globalThis.e=globalThis.e+1
+
+
+
 
         var r=Math.floor(Math.random() * 100) + 1;
         if (r<50) {   
@@ -4182,7 +4317,11 @@ $('.shang').click(function(e) {
 $('.zuo').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
-  music.play();   
+  music.play();  
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.yb').addClass('hide');
+  $('.xb').addClass('hide'); 
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -4467,7 +4606,7 @@ $('.zuo').click(function(e) {
       }
 
     }else{
-      if(globalThis.e<5){
+      if(globalThis.e<6 && globalThis.e>0){
         
         globalThis.t=globalThis.t+'2'
         globalThis.e=globalThis.e+1
@@ -4793,6 +4932,10 @@ $('.you').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.yb').addClass('hide');
+  $('.xb').addClass('hide');
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -5076,7 +5219,7 @@ $('.you').click(function(e) {
        }
  
      }else{
-       if(globalThis.e<5){
+       if(globalThis.e<6 && globalThis.e>0){
         
         globalThis.t=globalThis.t+'3'
          globalThis.e=globalThis.e+1
@@ -5411,6 +5554,10 @@ $('.xia').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.yb').addClass('hide');
+  $('.xb').addClass('hide');
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -5695,7 +5842,7 @@ $('.xia').click(function(e) {
        }
  
      }else{
-       if(globalThis.e<5){
+       if(globalThis.e<6 && globalThis.e>0){
         
         globalThis.t=globalThis.t+'4'
          globalThis.e=globalThis.e+1
@@ -6141,52 +6288,52 @@ var audio1 = document.getElementById("ne");
   setTimeout(function(){
     $('.oe1').addClass('show').css('display', 'block');
     $('.oe1').removeClass('hide');
-  },6200);
+  },7200);
   setTimeout(function(){
     $('.oe2').addClass('show').css('display', 'block');
     $('.oe2').removeClass('hide');
-  },7700);
+  },10300);
   setTimeout(function(){
     $('.oe3').addClass('show').css('display', 'block');
     $('.oe3').removeClass('hide');
-  },9200);
+  },14200);
   setTimeout(function(){
     $('.oe4').addClass('show').css('display', 'block');
     $('.oe4').removeClass('hide');
-  },10700);
+  },18100);
   setTimeout(function(){
     $('.oe5').addClass('show').css('display', 'block');
     $('.oe5').removeClass('hide');
-  },12200);
+  },22400);
   setTimeout(function(){
     $('.oe6').addClass('show').css('display', 'block');
     $('.oe6').removeClass('hide');
-  },13600);
+  },27500);
   setTimeout(function(){
     $('.oe7').addClass('show').css('display', 'block');
     $('.oe7').removeClass('hide');
-  },15100);
+  },33000);
   setTimeout(function(){
     $('.oe8').addClass('show').css('display', 'block');
     $('.oe8').removeClass('hide');
-  },16600);
+  },38500);
   setTimeout(function(){
     $('.oe9').addClass('show').css('display', 'block');
     $('.oe9').removeClass('hide');
-  },18100);
+  },44000);
   setTimeout(function(){
     $('.oe10').addClass('show').css('display', 'block');
     $('.oe10').removeClass('hide');
-  },21100);
+  },52900);
 
    setTimeout(function(){
      $('.black').removeClass('hide');
      $('.black').addClass('show').css('display', 'block');
-   },26100);
+   },57900);
    setTimeout(function(){
     $('.thanks').removeClass('hide');
     $('.thanks').addClass('show').css('display', 'block');
-  },27100);
+  },59400);
  
 
 
