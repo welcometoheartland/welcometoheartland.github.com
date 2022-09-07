@@ -3318,37 +3318,75 @@ $('.card19 .close').click(function(e) {
     $('.show-card39').addClass('hide');
     $('.show-card40').addClass('hide');
     
+    var audio = document.getElementById("indexs");
+    var vol1 = 0.50;
+      var interval1 = 200; // 200ms interval
+    
+    var fadeout = setInterval(
+      function() {
+        // Reduce volume by 0.05 as long as it is above 0
+        // This works as long as you start with a multiple of 0.05!
+        if (vol1 > 0) {
+          vol1 -= 0.05;
+          audio.volume = vol1;
+        }
+        else {
+          // Stop the setInterval when 0 is reached
+          clearInterval(fadeout);
+        }
+      }, interval1);
+
+  setTimeout(function(){
+    var m1 = new Audio('data/se/be.wav');
+    m1.play();
     $('.red').removeClass('hide');
     $('.red').addClass('show').css('display', 'block');
+  },600);
+  setTimeout(function(){
+  
+    $('.red1').removeClass('hide');
+    $('.red1').addClass('show').css('display', 'block');
+  },2100);
+  setTimeout(function(){
+  
+    $('.red2').removeClass('hide');
+    $('.red2').addClass('show').css('display', 'block');
+  },3600);
 
-    setTimeout(function(){
-      $('.abe').addClass('show').css('display', 'block');
-      $('.abe').removeClass('hide');
-    },1500);
-    setTimeout(function(){
-      $('.abe1').addClass('show').css('display', 'block');
-      $('.abe1').removeClass('hide');
-    },3000);
-    setTimeout(function(){
-      $('.abe2').addClass('show').css('display', 'block');
-      $('.abe2').removeClass('hide');
-    },4500);
-    setTimeout(function(){
-      $('.abe3').addClass('show').css('display', 'block');
-      $('.abe3').removeClass('hide');
-    },6000);
-    setTimeout(function(){
-      $('.abe4').addClass('show').css('display', 'block');
-      $('.abe4').removeClass('hide');
-    },7500);
-    setTimeout(function(){
-      $('.abe5').addClass('show').css('display', 'block');
-      $('.abe5').removeClass('hide');
-    },9000);
-    setTimeout(function(){
-      $('.black').addClass('show').css('display', 'block');
-      $('.black').removeClass('hide');
-    },11000);
+  setTimeout(function(){
+    $('.abe').addClass('show').css('display', 'block');
+    $('.abe').removeClass('hide');
+  },5500);
+  setTimeout(function(){
+    $('.abe1').addClass('show').css('display', 'block');
+    $('.abe1').removeClass('hide');
+  },7000);
+  setTimeout(function(){
+    $('.abe2').addClass('show').css('display', 'block');
+    $('.abe2').removeClass('hide');
+  },9300);
+  setTimeout(function(){
+    $('.abe3').addClass('show').css('display', 'block');
+    $('.abe3').removeClass('hide');
+  },11600);
+  setTimeout(function(){
+    $('.abe4').addClass('show').css('display', 'block');
+    $('.abe4').removeClass('hide');
+  },13900);
+  setTimeout(function(){
+    $('.abe5').addClass('show').css('display', 'block');
+    $('.abe5').removeClass('hide');
+  },16200);
+  setTimeout(function(){
+    var m = new Audio('data/se/abe.mp3');
+    m.play();
+  },16600);
+
+  
+  setTimeout(function(){
+    $('.black').addClass('show').css('display', 'block');
+    $('.black').removeClass('hide');
+  },18800);
  
 
 
@@ -3652,6 +3690,10 @@ $('.shang').click(function(e) {
   $('.b58').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.yb').addClass('hide');
+  $('.xb').addClass('hide');
    
   var r=Math.floor(Math.random() * 100) + 1;
   if(globalThis.flag==7){
@@ -3807,7 +3849,15 @@ $('.shang').click(function(e) {
 
     }else{
       if(globalThis.e<5){
+        globalThis.t=globalThis.t+'1'
         globalThis.e=globalThis.e+1
+        if(globalThis.e==1 && globalThis.s==1){
+        
+          $('.sb').removeClass('hide');
+          $('.sb').addClass('show').css('display', 'block');
+
+        }
+
         var r=Math.floor(Math.random() * 100) + 1;
         if (r<50) {   
            var s = [1,2,3,4];
@@ -3849,6 +3899,7 @@ $('.shang').click(function(e) {
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+
           }, 6000);
         } else {   
            var s = [10,5,6,7,8,9];
@@ -3892,20 +3943,39 @@ $('.shang').click(function(e) {
       }else{
       if(globalThis.e==5){
         if(globalThis.k==1){
-          $(".ksh").removeClass('hide');
-          $(".ksh").addClass('show').css('display', 'block');
+          if(globalThis.t='24314'){
+            $(".ksh").removeClass('hide');
+          $(".ksh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+          
 
         }
         if(globalThis.a==1){
 
-          $(".ash").removeClass('hide');
-          $(".ash").addClass('show').css('display', 'block');
+          if(globalThis.t='41331'){
+            $(".ash").removeClass('hide');
+          $(".ash").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
 
         }
         if(globalThis.s==1){
 
-          $(".ssh").removeClass('hide');
-          $(".ssh").addClass('show').css('display', 'block');
+          if(globalThis.t='11231'){
+            $(".ssh").removeClass('hide');
+          $(".ssh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
         }
   
       }
@@ -4398,6 +4468,8 @@ $('.zuo').click(function(e) {
 
     }else{
       if(globalThis.e<5){
+        
+        globalThis.t=globalThis.t+'2'
         globalThis.e=globalThis.e+1
         var r=Math.floor(Math.random() * 100) + 1;
         if (r<50) {   
@@ -4507,20 +4579,39 @@ $('.zuo').click(function(e) {
       }else{
       if(globalThis.e==5){
         if(globalThis.k==1){
-          $(".ksh").removeClass('hide');
-          $(".ksh").addClass('show').css('display', 'block');
+          if(globalThis.t='24314'){
+            $(".ksh").removeClass('hide');
+          $(".ksh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+          
 
         }
         if(globalThis.a==1){
 
-          $(".ash").removeClass('hide');
-          $(".ash").addClass('show').css('display', 'block');
+          if(globalThis.t='41331'){
+            $(".ash").removeClass('hide');
+          $(".ash").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
 
         }
         if(globalThis.s==1){
 
-          $(".ssh").removeClass('hide');
-          $(".ssh").addClass('show').css('display', 'block');
+          if(globalThis.t='11231'){
+            $(".ssh").removeClass('hide');
+          $(".ssh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
         }
   
       }
@@ -4986,6 +5077,8 @@ $('.you').click(function(e) {
  
      }else{
        if(globalThis.e<5){
+        
+        globalThis.t=globalThis.t+'3'
          globalThis.e=globalThis.e+1
          var r=Math.floor(Math.random() * 100) + 1;
          if (r<50) {   
@@ -5094,22 +5187,41 @@ $('.you').click(function(e) {
          }
        }else{
        if(globalThis.e==5){
-         if(globalThis.k==1){
-           $(".ksh").removeClass('hide');
-           $(".ksh").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.a==1){
- 
-           $(".ash").removeClass('hide');
-           $(".ash").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.s==1){
- 
-           $(".ssh").removeClass('hide');
-           $(".ssh").addClass('show').css('display', 'block');
-         }
+        if(globalThis.k==1){
+          if(globalThis.t='24314'){
+            $(".ksh").removeClass('hide');
+          $(".ksh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+          
+
+        }
+        if(globalThis.a==1){
+
+          if(globalThis.t='41331'){
+            $(".ash").removeClass('hide');
+          $(".ash").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+
+        }
+        if(globalThis.s==1){
+
+          if(globalThis.t='11231'){
+            $(".ssh").removeClass('hide');
+          $(".ssh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+        }
    
        }
      }}
@@ -5584,6 +5696,8 @@ $('.xia').click(function(e) {
  
      }else{
        if(globalThis.e<5){
+        
+        globalThis.t=globalThis.t+'4'
          globalThis.e=globalThis.e+1
          var r=Math.floor(Math.random() * 100) + 1;
          if (r<50) {   
@@ -5692,22 +5806,41 @@ $('.xia').click(function(e) {
          }
        }else{
        if(globalThis.e==5){
-         if(globalThis.k==1){
-           $(".ksh").removeClass('hide');
-           $(".ksh").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.a==1){
- 
-           $(".ash").removeClass('hide');
-           $(".ash").addClass('show').css('display', 'block');
- 
-         }
-         if(globalThis.s==1){
- 
-           $(".ssh").removeClass('hide');
-           $(".ssh").addClass('show').css('display', 'block');
-         }
+        if(globalThis.k==1){
+          if(globalThis.t='24314'){
+            $(".ksh").removeClass('hide');
+          $(".ksh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+          
+
+        }
+        if(globalThis.a==1){
+
+          if(globalThis.t='41331'){
+            $(".ash").removeClass('hide');
+          $(".ash").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+
+        }
+        if(globalThis.s==1){
+
+          if(globalThis.t='11231'){
+            $(".ssh").removeClass('hide');
+          $(".ssh").addClass('show').css('display', 'block');}else{
+            
+          // 這裏放be
+
+
+          }
+        }
    
        }
      }}
@@ -5933,105 +6066,146 @@ $('.show-card18').click(function(e) {
 $('.st').click(function(e) {
   this.style.visibility='hidden'
   $(this).attr("disabled","disabled"); 
-  // var music = new Audio('data/se/se.wav');
-  // music.volume=0.3;
-  // music.play();
+  //  var music = new Audio('data/se/se.wav');
+  //  music.volume=0.3;
+  //  music.play();
   $(".st span").addClass("stop");
   $(".st").addClass("hide");
   globalThis.r=0
   globalThis.e=0
+
   var audio = document.getElementById("indexs");
-  setTimeout(function(){audio.volume = 0.5;
-},300);
-setTimeout(function(){audio.volume = 0.45;
-},600);
-setTimeout(function(){audio.volume = 0.4;
-},900);
-setTimeout(function(){audio.volume = 0.35;
-},1200);
-setTimeout(function(){audio.volume = 0.3;
-},1500);
-setTimeout(function(){audio.volume = 0.25;
-},1800);
-setTimeout(function(){audio.volume = 0.2;
-},2100);
-setTimeout(function(){audio.volume = 0.15;
-},2400);
-setTimeout(function(){audio.volume = 0.1;
-},2700);
-setTimeout(function(){audio.volume = 0.05;
-},3000);
-setTimeout(function(){audio.volume = 0;
-},3300);
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
+  
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
+
+
+
+   setTimeout(function(){
+     $('.black1').removeClass('hide');
+     $('.black1').addClass('show').css('display', 'block');
+   },800);
+  
+   
+var audio1 = document.getElementById("ne");
+   
+    setTimeout(function(){ 
+    audio1.volume=0.5;
+    audio1.play();
+   },1000);
+
+  //  setTimeout(function(){audio1.volume = 0.4;
+  //  },23300);
+  //  setTimeout(function(){audio1.volume = 0.35;
+  //  },23600);
+  //  setTimeout(function(){audio1.volume = 0.3;
+  //  },23900);
+  //  setTimeout(function(){audio1.volume = 0.25;
+  //  },24200);
+  //  setTimeout(function(){audio1.volume = 0.2;
+  //  },24500);
+  //  setTimeout(function(){audio1.volume = 0.15;
+  //  },24800);
+  //  setTimeout(function(){audio1.volume = 0.1;
+  //  },25100);
+  //  setTimeout(function(){audio1.volume = 0.05;
+  //  },25400);
+  //  setTimeout(function(){audio1.volume = 0;
+  //  },25700);
+  //  setTimeout(function(){audio1.volume = 0;
+  //  },25800);
+  //  setTimeout(function(){audio1.volume = 0;
+  //  },25900);
+  //  setTimeout(function(){audio1.volume = 0;
+  //  },26000);
+
+  
 
   setTimeout(function(){
-    var m1 = new Audio('data/se/be.wav');
-    m1.play();
-    $('.red').removeClass('hide');
-    $('.red').addClass('show').css('display', 'block');
-  },600);
+    $('.oe').addClass('show').css('display', 'block');
+    $('.oe').removeClass('hide');
+  },4100);
   setTimeout(function(){
-  
-    $('.red1').removeClass('hide');
-    $('.red1').addClass('show').css('display', 'block');
-  },2100);
+    $('.oe1').addClass('show').css('display', 'block');
+    $('.oe1').removeClass('hide');
+  },6200);
   setTimeout(function(){
-  
-    $('.red2').removeClass('hide');
-    $('.red2').addClass('show').css('display', 'block');
-  },3600);
-
+    $('.oe2').addClass('show').css('display', 'block');
+    $('.oe2').removeClass('hide');
+  },7700);
   setTimeout(function(){
-    $('.abe').addClass('show').css('display', 'block');
-    $('.abe').removeClass('hide');
-  },5500);
+    $('.oe3').addClass('show').css('display', 'block');
+    $('.oe3').removeClass('hide');
+  },9200);
   setTimeout(function(){
-    $('.abe1').addClass('show').css('display', 'block');
-    $('.abe1').removeClass('hide');
-  },7000);
+    $('.oe4').addClass('show').css('display', 'block');
+    $('.oe4').removeClass('hide');
+  },10700);
   setTimeout(function(){
-    $('.abe2').addClass('show').css('display', 'block');
-    $('.abe2').removeClass('hide');
-  },9300);
+    $('.oe5').addClass('show').css('display', 'block');
+    $('.oe5').removeClass('hide');
+  },12200);
   setTimeout(function(){
-    $('.abe3').addClass('show').css('display', 'block');
-    $('.abe3').removeClass('hide');
-  },11600);
+    $('.oe6').addClass('show').css('display', 'block');
+    $('.oe6').removeClass('hide');
+  },13600);
   setTimeout(function(){
-    $('.abe4').addClass('show').css('display', 'block');
-    $('.abe4').removeClass('hide');
-  },13900);
+    $('.oe7').addClass('show').css('display', 'block');
+    $('.oe7').removeClass('hide');
+  },15100);
   setTimeout(function(){
-    $('.abe5').addClass('show').css('display', 'block');
-    $('.abe5').removeClass('hide');
-  },16200);
-  setTimeout(function(){
-    var m = new Audio('data/se/abe.mp3');
-    m.play();
+    $('.oe8').addClass('show').css('display', 'block');
+    $('.oe8').removeClass('hide');
   },16600);
-
-  
   setTimeout(function(){
-    $('.black').addClass('show').css('display', 'block');
-    $('.black').removeClass('hide');
-  },18800);
+    $('.oe9').addClass('show').css('display', 'block');
+    $('.oe9').removeClass('hide');
+  },18100);
+  setTimeout(function(){
+    $('.oe10').addClass('show').css('display', 'block');
+    $('.oe10').removeClass('hide');
+  },21100);
 
-  // setTimeout(function(){
-  //   $('.shang').removeClass('hide');
-  //   $('.shang').addClass('show').css('display', 'block');
-  //   $('.xia').removeClass('hide');
-  //   $('.xia').addClass('show').css('display', 'block');
-  //   $('.zuo').removeClass('hide');
-  //   $('.zuo').addClass('show').css('display', 'block');
-  //   $('.you').removeClass('hide');
-  //   $('.you').addClass('show').css('display', 'block');
-  //   $('.show-card').removeClass('hide');
-  //   $('.show-card1').removeClass('hide');
-  //   $('.show-card2').removeClass('hide');
-  //   $('.show-card').addClass('show').css('display', 'block');
-  //   $('.show-card1').addClass('show').css('display', 'block');
-  //   $('.show-card2').addClass('show').css('display', 'block');
-  // }, 1000);
+   setTimeout(function(){
+     $('.black').removeClass('hide');
+     $('.black').addClass('show').css('display', 'block');
+   },26100);
+   setTimeout(function(){
+    $('.thanks').removeClass('hide');
+    $('.thanks').addClass('show').css('display', 'block');
+  },27100);
+ 
+
+
+  setTimeout(function(){
+     $('.shang').removeClass('hide');
+     $('.shang').addClass('show').css('display', 'block');
+     $('.xia').removeClass('hide');
+     $('.xia').addClass('show').css('display', 'block');
+     $('.zuo').removeClass('hide');
+     $('.zuo').addClass('show').css('display', 'block');
+     $('.you').removeClass('hide');
+     $('.you').addClass('show').css('display', 'block');
+     $('.show-card').removeClass('hide');
+     $('.show-card1').removeClass('hide');
+     $('.show-card2').removeClass('hide');
+     $('.show-card').addClass('show').css('display', 'block');
+     $('.show-card1').addClass('show').css('display', 'block');
+     $('.show-card2').addClass('show').css('display', 'block');
+   }, 1000);
   });
 
 $('.openm').click(function(e) {
@@ -6076,6 +6250,23 @@ $('.openm').click(function(e) {
     
  
 });
+
+
+$('.openn').click(function(e) {
+  this.style.visibility='hidden'
+  globalThis.flag=0
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+
+  window.close() ;
+
+    
+ 
+});
+
+
+
 
 
 

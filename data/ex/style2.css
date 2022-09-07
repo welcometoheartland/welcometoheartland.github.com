@@ -14,8 +14,127 @@
   }
 }
 
+.sb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.xb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.zb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.yb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.sb{
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:57%;
+    left:45.5%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
 
 
+}
+.xb{
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:90%;
+    left:44%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.yb{
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    right:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.zb{
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:36%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
 img {
   width: 100%; /* or any custom size */
   height: 100%; 
@@ -150,6 +269,28 @@ animation-fill-mode:forwards;
 animation-direction:normal;
 
   }
+  .black1 { 
+  
+    display: none;
+      
+    width: 100%;
+    height: 100%;
+    border:1px
+    solid rgb(0, 0, 0);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    background: rgb(0, 0, 0);
+    animation-name:fade-in;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-direction:normal;
+    
+      }
 body {
   background: rgb(44, 42, 42);
   -webkit-transition: all 1s ease-in-out;
@@ -500,7 +641,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -515,7 +656,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -530,7 +671,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -545,7 +686,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -560,7 +701,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -575,7 +716,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -590,7 +731,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -605,7 +746,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -620,7 +761,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -635,7 +776,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -650,28 +791,13 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 20%;
     height: 50%;
     left: 34%;
     position: absolute;
     width: 32%;
 }
 
-.oe11 {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  text-align: center;
-  display: none;
-    top: 25%;
-    height: 50%;
-    left: 34%;
-    position: absolute;
-    width: 32%;
-}
 
 .be1 {
   -webkit-touch-callout: none;
@@ -1169,12 +1295,12 @@ body {
   -webkit-animation: fade-in 1.5s 0.5s forwards ease-out;
           animation: fade-in 1.5s 0.5s forwards ease-out;
   color: rgb(167, 50, 50);
-  font-size: 300%;
+  font-size: 150%;
   line-height: 1.5;
   opacity: 0;
   position: absolute;
-    width:800px;
-    height:100px;
+    width:600px;
+    height:350px;
     top:0;
     right:0;
     bottom:0;
@@ -1189,19 +1315,39 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border:1px solid rgb(167, 50, 50);
+ 
   padding: 0em 0.5em 0em 0.5em;
   -webkit-animation: fade-in 1.5s 2s forwards ease-out;
           animation: fade-in 1.5s 2s forwards ease-out;
   color: rgb(167, 50, 50);
-  font-size: 300%;
+  font-size: 150%;
   line-height: 1.5;
   opacity: 0;
   position: absolute;
-    top:51%;
-    left:45%;
+    bottom:8%;
+    left:10%;
 }
 
+
+.openn{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+  padding: 0em 0.5em 0em 0.5em;
+  -webkit-animation: fade-in 1.5s 2s forwards ease-out;
+          animation: fade-in 1.5s 2s forwards ease-out;
+  color: rgb(167, 50, 50);
+  font-size: 150%;
+  line-height: 1.5;
+  opacity: 0;
+  position: absolute;
+    bottom:8%;
+    right:10%;
+}
 
 h1{
   -webkit-touch-callout: none;
@@ -1225,6 +1371,36 @@ h1{
   
 
 } 
+
+.thanks{
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+  display: none;
+  animation-name:fade-in;
+  animation-duration:1.5s;
+  animation-timing-function:linear;
+  animation-delay:2.5s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  animation-direction:normal;
+  text-align: center;
+  opacity: 0;
+  color: rgb(255, 255, 255);
+  font-size: 450%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position:absolute;
+  left: 50%;
+  top: 50%;
+
+  
+
+} 
+
 
 
 
@@ -4122,6 +4298,14 @@ h3{
               0 0 100px rgb(167, 50, 50);
 }
 
+.openn:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 
 
 
@@ -6211,6 +6395,11 @@ animation: fade-out 0.4s forwards ease-out;
 }
 
 .openm.hide{
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+  animation: fade-out 0.4s forwards ease-out;
+  z-index:0
+}
+.openn.hide{
   -webkit-animation: fade-out 0.4s forwards ease-out;
   animation: fade-out 0.4s forwards ease-out;
   z-index:0
