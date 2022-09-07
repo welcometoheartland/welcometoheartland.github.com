@@ -5941,23 +5941,10 @@ $('.st').click(function(e) {
   globalThis.r=0
   globalThis.e=0
   var audio = document.getElementById("indexs");
-    audio.volume = 0.2;
-    var vol = 0.2;
-    var interval = 200; // 200ms interval
+    audio.volume = 0;
+    audio.setVolume(0);
     
-    var fadeout = setInterval(
-      function() {
-        // Reduce volume by 0.05 as long as it is above 0
-        // This works as long as you start with a multiple of 0.05!
-        if (vol > 0) {
-          vol -= 0.05;
-          audio.setVolume(vol);
-        }
-        else {
-          // Stop the setInterval when 0 is reached
-          clearInterval(fadeout);
-        }
-      }, interval);
+    
   setTimeout(function(){
     var m1 = new Audio('data/se/be.wav');
     m1.play();
