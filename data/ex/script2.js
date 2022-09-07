@@ -5941,14 +5941,29 @@ $('.st').click(function(e) {
   globalThis.r=0
   globalThis.e=0
   var audio = document.getElementById("indexs");
-  setTimeout(function(){audio.volume = 0.15;
-  },300);
-  setTimeout(function(){audio.volume = 0.1;
+  audio.volume = 0;
+  setTimeout(function(){audio.volume = 0.40;
+},300);
+setTimeout(function(){audio.volume = 0.36;
 },600);
-setTimeout(function(){audio.volume = 0.05;
+setTimeout(function(){audio.volume = 0.32;
+},900);
+setTimeout(function(){audio.volume = 0.28;
 },1200);
-setTimeout(function(){audio.volume = 0;
+setTimeout(function(){audio.volume = 0.24;
+},1500);
+setTimeout(function(){audio.volume = 0.2;
 },1800);
+setTimeout(function(){audio.volume = 0.16;
+},2100);
+setTimeout(function(){audio.volume = 0.12;
+},2400);
+setTimeout(function(){audio.volume = 0.08;
+},2700);
+setTimeout(function(){audio.volume = 0.04;
+},3000);
+setTimeout(function(){audio.volume = 0;
+},3300);
 
   setTimeout(function(){
     var m1 = new Audio('data/se/be.wav');
@@ -5956,41 +5971,51 @@ setTimeout(function(){audio.volume = 0;
     $('.red').removeClass('hide');
     $('.red').addClass('show').css('display', 'block');
   },600);
+  setTimeout(function(){
+  
+    $('.red1').removeClass('hide');
+    $('.red1').addClass('show').css('display', 'block');
+  },2100);
+  setTimeout(function(){
+  
+    $('.red2').removeClass('hide');
+    $('.red2').addClass('show').css('display', 'block');
+  },3600);
 
   setTimeout(function(){
     $('.abe').addClass('show').css('display', 'block');
     $('.abe').removeClass('hide');
-  },2100);
+  },5500);
   setTimeout(function(){
     $('.abe1').addClass('show').css('display', 'block');
     $('.abe1').removeClass('hide');
-  },3600);
+  },7000);
   setTimeout(function(){
     $('.abe2').addClass('show').css('display', 'block');
     $('.abe2').removeClass('hide');
-  },5100);
+  },9300);
   setTimeout(function(){
     $('.abe3').addClass('show').css('display', 'block');
     $('.abe3').removeClass('hide');
-  },6600);
+  },11600);
   setTimeout(function(){
     $('.abe4').addClass('show').css('display', 'block');
     $('.abe4').removeClass('hide');
-  },8100);
+  },13900);
   setTimeout(function(){
     $('.abe5').addClass('show').css('display', 'block');
     $('.abe5').removeClass('hide');
-  },9600);
+  },16200);
   setTimeout(function(){
     var m = new Audio('data/se/abe.mp3');
     m.play();
-  },10300);
+  },16600);
 
   
   setTimeout(function(){
     $('.black').addClass('show').css('display', 'block');
     $('.black').removeClass('hide');
-  },15000);
+  },18800);
 
   // setTimeout(function(){
   //   $('.shang').removeClass('hide');
