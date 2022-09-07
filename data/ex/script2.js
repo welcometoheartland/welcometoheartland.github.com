@@ -5940,7 +5940,8 @@ $('.st').click(function(e) {
   $(".st").addClass("hide");
   globalThis.r=0
   globalThis.e=0
- 
+  var audio = document.getElementById("indexs");
+  audio.volume = 0;
   setTimeout(function(){
     var m1 = new Audio('data/se/be.wav');
     m1.play();
