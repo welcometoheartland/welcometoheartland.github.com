@@ -5941,7 +5941,15 @@ $('.st').click(function(e) {
   globalThis.r=0
   globalThis.e=0
   var audio = document.getElementById("indexs");
-  audio.volume = 0;
+  setTimeout(function(){audio.volume = 0.15;
+  },300);
+  setTimeout(function(){audio.volume = 0.1;
+},600);
+setTimeout(function(){audio.volume = 0.05;
+},1200);
+setTimeout(function(){audio.volume = 0;
+},1800);
+
   setTimeout(function(){
     var m1 = new Audio('data/se/be.wav');
     m1.play();
@@ -5976,7 +5984,7 @@ $('.st').click(function(e) {
   setTimeout(function(){
     var m = new Audio('data/se/abe.mp3');
     m.play();
-  },10200);
+  },10300);
 
   
   setTimeout(function(){

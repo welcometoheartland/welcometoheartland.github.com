@@ -33,9 +33,13 @@
     &lt;
   </div>
 
+<!-- <div class="blood">
+  <img src="data/p/blood1.png">
+  </div>
 
-
- 
+  <div class="blood1">
+    <img src="data/p/blood.png">
+    </div> -->
 
 
 
@@ -51,7 +55,16 @@
   </audio>
   <script>
     var audio = document.getElementById("indexs");
-    audio.volume = 0.2;
+    audio.volume = 0;
+    setTimeout(function(){audio.volume = 0.05;
+},300);
+setTimeout(function(){audio.volume = 0.1;
+},600);
+setTimeout(function(){audio.volume = 0.15;
+},1200);
+setTimeout(function(){audio.volume = 0.2;
+},1800);
+
   </script> 
 
 <!-- 開場 -->
