@@ -176,7 +176,7 @@ $('.jsh31').click(function(e) {
     $(".jsh").addClass('hide');
     $(".jsh1").addClass('hide');
     $(".jsh2").addClass('hide');
-    $(".jsh3").addClass('hide');
+    $(".jsh31").addClass('hide');
 
   },600); 
   setTimeout(function(){
@@ -195,7 +195,7 @@ $('.jsh32').click(function(e) {
     $(".jsh").addClass('hide');
     $(".jsh1").addClass('hide');
     $(".jsh2").addClass('hide');
-    $(".jsh3").addClass('hide');
+    $(".jsh32").addClass('hide');
 
   },600); 
   setTimeout(function(){
