@@ -7016,6 +7016,12 @@ animation: fade-out 0.4s forwards ease-out;
 .message6j.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
+      
+  animation: fade-out 0.4s forwards ease-out;
+}
+.message6jj.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
 .message7.hide {
@@ -7069,6 +7075,11 @@ animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
 .message13.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
+.message13j.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
