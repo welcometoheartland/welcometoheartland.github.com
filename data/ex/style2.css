@@ -5101,6 +5101,7 @@ h3{
 }
 
 .show-card6 {
+  display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
