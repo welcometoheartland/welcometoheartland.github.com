@@ -460,8 +460,8 @@ user-select: none;
   -ms-user-select: none;
   user-select: none;
   transition: 0.5s;
-  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
-          animation: fade-in 1s 0.5s forwards ease-out;
+  -webkit-animation: fade-in 1s 0s forwards ease-out;
+          animation: fade-in 1s 0s forwards ease-out;
   
           font-weight:bolder;
   color: rgb(167, 50, 50);
@@ -470,13 +470,29 @@ user-select: none;
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position: absolute;            
-  top: 65%;            
+  bottom: 5%;            
   left: 50%;            
   transform: translate(-50%, -50%);
   outline: none;
   text-align: center;
   text-decoration: none;
 }
+.ksh.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.ssh.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.ash.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+
 .sb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -5912,6 +5928,33 @@ h3{
   top: 25%;
 }
 
+.jsh4:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.jsh41:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.jsh42:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 
 .jsh3:hover {
   
