@@ -7480,7 +7480,7 @@ $('.show-carddc1').removeClass('hide');
 
   }else{
 
-    if (r<0) {
+    if (r<50) {
       if (r<25) {   
         var div = document.getElementById('shang');
         var div1 = document.getElementById('xia');
