@@ -5784,7 +5784,9 @@ $('.message2j').addClass('hide');
    $('.message14').addClass('hide');
    $('.message15').addClass('hide');
    $('.message16').addClass('hide');
-   $('.message17').addClass('hide');
+   $('.message17').addClass('hide');   
+   $('.message16j').addClass('hide');
+   $('.message17j').addClass('hide');
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
@@ -7752,6 +7754,8 @@ $('.message2j').addClass('hide');
    $('.message15').addClass('hide');
    $('.message16').addClass('hide');
    $('.message17').addClass('hide');
+   $('.message16j').addClass('hide');
+   $('.message17j').addClass('hide');
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
@@ -10608,6 +10612,8 @@ $('.message2j').addClass('hide');
    $('.message15').addClass('hide');
    $('.message16').addClass('hide');
    $('.message17').addClass('hide');
+   $('.message16j').addClass('hide');
+   $('.message17j').addClass('hide');
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
@@ -13269,6 +13275,8 @@ $('.message2j').addClass('hide');
    $('.message15').addClass('hide');
    $('.message16').addClass('hide');
    $('.message17').addClass('hide');
+   $('.message16j').addClass('hide');
+   $('.message17j').addClass('hide');
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
@@ -15946,8 +15954,6 @@ $('.st').click(function(e) {
   globalThis.e=0
   globalThis.t=''
 
-$('.jsh3').removeClass('hide');
-$('.jsh3').addClass('show').css('display', 'block');
 
 
 
