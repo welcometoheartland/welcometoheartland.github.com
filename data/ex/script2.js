@@ -1,9 +1,35 @@
+$('.show-carddc').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  setTimeout(function(){
+  window.location.href = "https://wj.qq.com/s2/10769036/5fa0/";
+  },600);  
+});
+$('.show-carddc1').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  setTimeout(function(){
+  window.location.href = "https://wj.qq.com/s2/10769036/5fa0/";
+  },600);  
+});
+$('.show-carddc2').click(function(e) {
+  var music = new Audio('data/se/open.mp3');
+  music.volume=0.5;
+  music.play();
+  setTimeout(function(){
+  window.location.href = "https://wj.qq.com/s2/10769036/5fa0/";
+  },600);  
+});
 $('.b11').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
     $('.message1').addClass('hide');
+
     $('.message2').addClass('hide');
+    $('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
@@ -11,18 +37,24 @@ $('.b11').click(function(e) {
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
     $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
+    $('.message20j').addClass('hide');
    $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
    $('.message22').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
@@ -30,11 +62,16 @@ $('.b11').click(function(e) {
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -134,13 +171,70 @@ $('.b11').click(function(e) {
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');
+  
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
+  
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
 
-  setTimeout(function(){
-  $('.be1').addClass('show').css('display', 'block');
-  $('.be1').removeClass('hide');
-},1500);
+
+
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be1').addClass('show').css('display', 'block');
+      $('.be1').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be11').addClass('show').css('display', 'block');
+      $('.be11').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be12').addClass('show').css('display', 'block');
+      $('.be12').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be13').addClass('show').css('display', 'block');
+      $('.be13').removeClass('hide');
+    },18000);
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },21000);
   
 });
 $('.b12').click(function(e){
@@ -203,6 +297,43 @@ $('.b12').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
   }, 600);
 
 
@@ -215,25 +346,32 @@ $('.b21').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
    $('.message22').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
@@ -241,11 +379,16 @@ $('.b21').click(function(e) {
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -331,13 +474,80 @@ $('.b21').click(function(e) {
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
 
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');  
+  
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
+  
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
 
-  setTimeout(function(){
-    $('.be2').addClass('show').css('display', 'block');
-    $('.be2').removeClass('hide');
-  },1500);
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be2').addClass('show').css('display', 'block');
+      $('.be2').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be21').addClass('show').css('display', 'block');
+      $('.be21').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be22').addClass('show').css('display', 'block');
+      $('.be22').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be23').addClass('show').css('display', 'block');
+      $('.be23').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.be24').addClass('show').css('display', 'block');
+      $('.be24').removeClass('hide');
+    },21000);
+    setTimeout(function(){
+      $('.be25').addClass('show').css('display', 'block');
+      $('.be25').removeClass('hide');
+    },24000);
+    
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc2').addClass('show').css('display', 'block');
+      $('.show-carddc2').removeClass('hide');
+    },27000);
+
+
+
 });
 $('.b31').click(function(e) {
   var music = new Audio('data/se/open.mp3');
@@ -345,25 +555,34 @@ $('.b31').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
    $('.message22').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
@@ -371,11 +590,16 @@ $('.b31').click(function(e) {
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
@@ -461,13 +685,81 @@ $('.b31').click(function(e) {
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');
-  setTimeout(function(){
-    $('.be3').addClass('show').css('display', 'block');
-    $('.be3').removeClass('hide');
-  },1500);
+ 
   
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
+  
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
+
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be3').addClass('show').css('display', 'block');
+      $('.be3').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be31').addClass('show').css('display', 'block');
+      $('.be31').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be32').addClass('show').css('display', 'block');
+      $('.be32').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be33').addClass('show').css('display', 'block');
+      $('.be33').removeClass('hide');
+    },18000);
+    setTimeout(function(){
+      $('.be34').addClass('show').css('display', 'block');
+      $('.be34').removeClass('hide');
+    },21000);
+    setTimeout(function(){
+      $('.be35').addClass('show').css('display', 'block');
+      $('.be35').removeClass('hide');
+    },24000);
+    
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },27000);
+
+
+
 });
 $('.b41').click(function(e) {
   var music = new Audio('data/se/open.mp3');
@@ -475,35 +767,49 @@ $('.b41').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.shang').addClass('hide');
@@ -590,13 +896,75 @@ $('.b41').click(function(e) {
   $('.b58').addClass('hide');  
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
+    
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
   
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');
-  setTimeout(function(){
-    $('.be4').addClass('show').css('display', 'block');
-    $('.be4').removeClass('hide');
-  },1500);
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
+
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be4').addClass('show').css('display', 'block');
+      $('.be4').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be41').addClass('show').css('display', 'block');
+      $('.be41').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be42').addClass('show').css('display', 'block');
+      $('.be42').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be43').addClass('show').css('display', 'block');
+      $('.be43').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.be44').addClass('show').css('display', 'block');
+      $('.be44').removeClass('hide');
+    },21000);
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc').addClass('show').css('display', 'block');
+      $('.show-carddc').removeClass('hide');
+    },24000);
+
+  
+
   
 });
 $('.b51').click(function(e) {
@@ -605,35 +973,49 @@ $('.b51').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.shang').addClass('hide');
@@ -720,13 +1102,83 @@ $('.b51').click(function(e) {
   $('.b58').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
+
+    
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
   
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');
-  setTimeout(function(){
-    $('.be5').addClass('show').css('display', 'block');
-    $('.be5').removeClass('hide');
-  },1500);
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
+
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be5').addClass('show').css('display', 'block');
+      $('.be5').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be51').addClass('show').css('display', 'block');
+      $('.be51').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be52').addClass('show').css('display', 'block');
+      $('.be52').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be53').addClass('show').css('display', 'block');
+      $('.be53').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.be54').addClass('show').css('display', 'block');
+      $('.be54').removeClass('hide');
+    },18500);
+    setTimeout(function(){
+      $('.be55').addClass('show').css('display', 'block');
+      $('.be55').removeClass('hide');
+    },21500);
+    setTimeout(function(){
+      $('.be56').addClass('show').css('display', 'block');
+      $('.be56').removeClass('hide');
+    },27000);
+    
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },30000);
+
   
 });
 $('.b52').click(function(e) {
@@ -735,35 +1187,49 @@ $('.b52').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.shang').addClass('hide');
@@ -851,13 +1317,81 @@ $('.b52').click(function(e) {
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   
+   
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
+  
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
 
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');
-  setTimeout(function(){
-    $('.be5').addClass('show').css('display', 'block');
-    $('.be5').removeClass('hide');
-  },1500);
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be5').addClass('show').css('display', 'block');
+      $('.be5').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be51').addClass('show').css('display', 'block');
+      $('.be51').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be52').addClass('show').css('display', 'block');
+      $('.be52').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be53').addClass('show').css('display', 'block');
+      $('.be53').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.be54').addClass('show').css('display', 'block');
+      $('.be54').removeClass('hide');
+    },18500);
+    setTimeout(function(){
+      $('.be55').addClass('show').css('display', 'block');
+      $('.be55').removeClass('hide');
+    },21500);
+    setTimeout(function(){
+      $('.be56').addClass('show').css('display', 'block');
+      $('.be56').removeClass('hide');
+    },27000);
+    
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },30000);
   
 });
 $('.b61').click(function(e) {
@@ -866,35 +1400,49 @@ $('.b61').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.shang').addClass('hide');
@@ -981,13 +1529,78 @@ $('.b61').click(function(e) {
   $('.b58').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
+   
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
   
-  $('.red').removeClass('hide');
-  $('.red').addClass('show').css('display', 'block');
-  setTimeout(function(){
-    $('.be6').addClass('show').css('display', 'block');
-    $('.be6').removeClass('hide');
-  },1500);
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
+
+
+
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.be6').addClass('show').css('display', 'block');
+      $('.be5').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.be61').addClass('show').css('display', 'block');
+      $('.be61').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.be62').addClass('show').css('display', 'block');
+      $('.be62').removeClass('hide');
+    },12500);
+    setTimeout(function(){
+      $('.be63').addClass('show').css('display', 'block');
+      $('.be63').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.be64').addClass('show').css('display', 'block');
+      $('.be64').removeClass('hide');
+    },18500);
+    setTimeout(function(){
+      $('.be65').addClass('show').css('display', 'block');
+      $('.be65').removeClass('hide');
+    },24000);
+
+    
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },27000);
   
 });
 
@@ -1052,6 +1665,43 @@ $('.b22').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
   }, 600);
 
 
@@ -1119,6 +1769,43 @@ $('.b32').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
   }, 600);
 
 
@@ -1187,6 +1874,43 @@ $('.b42').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
   }, 600);
 
 
@@ -1254,6 +1978,43 @@ $('.b53').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
   }, 600);
 
 
@@ -1321,6 +2082,43 @@ $('.b62').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
   }, 600);
 
 
@@ -1333,35 +2131,49 @@ $('.show-card').click(function(e) {
   music.play();
     $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
     
@@ -1384,40 +2196,55 @@ $('.show-card1').click(function(e) {
   $('.message10j').addClass('hide');
   $('.message7j').addClass('hide');
   $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
   $('.message5j').addClass('hide');
   $('.message1j').addClass('hide');
   $('.messagej').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card1').addClass('show').css('display', 'block');
@@ -1444,35 +2271,49 @@ $('.show-card2').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card2').addClass('show').css('display', 'block');
@@ -1500,35 +2341,49 @@ $('.show-card3').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card3').addClass('show').css('display', 'block');
@@ -1553,35 +2408,49 @@ $('.show-card4').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card4').addClass('show').css('display', 'block');
@@ -1606,35 +2475,49 @@ $('.show-card5').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card5').addClass('show').css('display', 'block');
@@ -1660,35 +2543,49 @@ $('.show-card6').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card6').addClass('show').css('display', 'block');
@@ -1714,35 +2611,49 @@ $('.show-card7').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card7').addClass('show').css('display', 'block');
@@ -1768,35 +2679,49 @@ $('.show-card8').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card8').addClass('show').css('display', 'block');
@@ -1822,35 +2747,49 @@ $('.show-card9').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');    
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card9').addClass('show').css('display', 'block');
@@ -1875,35 +2814,49 @@ $('.show-card10').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card10').addClass('show').css('display', 'block');
@@ -1929,35 +2882,49 @@ $('.show-card11').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card11').addClass('show').css('display', 'block');
@@ -1983,35 +2950,49 @@ $('.show-card12').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card12').addClass('show').css('display', 'block');
@@ -2037,35 +3018,49 @@ $('.show-card13').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card13').addClass('show').css('display', 'block');
@@ -2091,35 +3086,49 @@ $('.show-card14').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card14').addClass('show').css('display', 'block');
@@ -2144,35 +3153,49 @@ $('.show-card15').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card15').addClass('show').css('display', 'block');
@@ -2197,35 +3220,49 @@ $('.show-card16').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card16').addClass('show').css('display', 'block');
@@ -2251,35 +3288,49 @@ $('.show-card17').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card17').addClass('show').css('display', 'block');
@@ -2308,35 +3359,49 @@ $('.show-card20').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card20').addClass('show').css('display', 'block');
@@ -2361,35 +3426,49 @@ $('.show-card21').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card21').addClass('show').css('display', 'block');
@@ -2414,35 +3493,49 @@ $('.show-card22').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card22').addClass('show').css('display', 'block');
@@ -2450,6 +3543,13 @@ $('.show-card22').click(function(e) {
   $('.xia').addClass('hide');
   $('.zuo').addClass('hide');
   $('.you').addClass('hide');
+  
+  setTimeout(function(){
+    var m1 = new Audio('data/se/be.wav');
+    m1.play();
+    $('.red').removeClass('hide');
+    $('.red').addClass('show').css('display', 'block');
+  },600);
 });
 $('.show-card23').click(function(e) {
   var music = new Audio('data/se/open.mp3');
@@ -2467,35 +3567,49 @@ $('.show-card23').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card23').addClass('show').css('display', 'block');
@@ -2522,35 +3636,49 @@ $('.show-card24').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card24').addClass('show').css('display', 'block');
@@ -2575,35 +3703,49 @@ $('.show-card25').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card25').addClass('show').css('display', 'block');
@@ -2628,35 +3770,49 @@ $('.show-card26').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card26').addClass('show').css('display', 'block');
@@ -2681,35 +3837,49 @@ $('.show-card27').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card27').addClass('show').css('display', 'block');
@@ -2734,35 +3904,49 @@ $('.show-card28').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card28').addClass('show').css('display', 'block');
@@ -2788,35 +3972,49 @@ $('.show-card29').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
   $('.card29').addClass('show').css('display', 'block');
@@ -2842,38 +4040,51 @@ $('.show-card30').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-    $('.message21').addClass('hide');
   $('.card30').addClass('show').css('display', 'block');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
@@ -2896,38 +4107,51 @@ $('.show-card31').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-    $('.message21').addClass('hide');
   $('.card31').addClass('show').css('display', 'block');
   $('.shang').addClass('hide');
   $('.xia').addClass('hide');
@@ -2950,48 +4174,64 @@ $('.show-card32').click(function(e) {
  $('.message1').addClass('hide');
   $('.message1').addClass('hide');
     $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
     $('.message3').addClass('hide');
     $('.message4').addClass('hide');
     $('.message5').addClass('hide');
     $('.message6').addClass('hide');
     $('.message7').addClass('hide');
     $('.message8').addClass('hide');
-    $('.message9').addClass('hide');
+   $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
     $('.message10').addClass('hide');
     $('.message11').addClass('hide');
     $('.message12').addClass('hide');
     $('.message13').addClass('hide');
+    $('.message13j').addClass('hide');
     $('.message14').addClass('hide');
     $('.message15').addClass('hide');
     $('.message16').addClass('hide');
     $('.message17').addClass('hide');
+    $('.message16j').addClass('hide');
+    $('.message17j').addClass('hide');
     $('.message18').addClass('hide');
     $('.message19').addClass('hide');
     $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+    $('.message20j').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-    $('.message21').addClass('hide');
      $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
     $('.message23').addClass('hide');
   $('.card32').addClass('show').css('display', 'block');
   $('.shang').addClass('hide');
@@ -3386,6 +4626,8 @@ $('.card19 .close').click(function(e) {
   setTimeout(function(){
     $('.black').addClass('show').css('display', 'block');
     $('.black').removeClass('hide');
+    var m2 = new Audio('data/se/x.wav');
+    m2.play();
   },18800);
  
 
@@ -3576,7 +4818,7 @@ $('.card32 .close').click(function(e) {
 
 
 $('.shang').click(function(e) {
-  var music = new Audio('data/se/open.mp3');
+  var music = new Audio('data/se/z.wav');
   music.volume=0.5;
   music.play();
   $('.message22j').addClass('hide');
@@ -3585,6 +4827,7 @@ $('.shang').click(function(e) {
   $('.message10j').addClass('hide');
   $('.message7j').addClass('hide');
   $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
   $('.message5j').addClass('hide');
   $('.message1j').addClass('hide');
   $('.messagej').addClass('hide');
@@ -3592,13 +4835,15 @@ $('.shang').click(function(e) {
    $('.message').addClass('hide');
    $('.message1').addClass('hide');
    $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
    $('.message3').addClass('hide');
    $('.message4').addClass('hide');
    $('.message5').addClass('hide');
    $('.message6').addClass('hide');
    $('.message7').addClass('hide');
    $('.message8').addClass('hide');
-   $('.message9').addClass('hide');
+  $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
    $('.message10').addClass('hide');    
    $('.message11').addClass('hide');
    $('.message12').addClass('hide');
@@ -3610,30 +4855,42 @@ $('.shang').click(function(e) {
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
    
@@ -3711,7 +4968,53 @@ $('.shang').click(function(e) {
           $('.xia').addClass('hide');
 
 
-    if(globalThis.r==0){
+    if(globalThis.r==0){ 
+      if(globalThis.e==2){
+
+        $('.show-card').addClass('hide');
+    $('.show-card1').addClass('hide');
+    $('.show-card2').addClass('hide');
+    $('.show-card3').addClass('hide');
+    $('.show-card4').addClass('hide');
+    $('.show-card5').addClass('hide');
+    $('.show-card6').addClass('hide');
+    $('.show-card7').addClass('hide');
+    $('.show-card8').addClass('hide');
+    $('.show-card9').addClass('hide');
+    $('.show-card10').addClass('hide');    
+    $('.show-card11').addClass('hide');
+    $('.show-card12').addClass('hide');
+    $('.show-card13').addClass('hide');
+    $('.show-card14').addClass('hide');
+    $('.show-card15').addClass('hide');
+    $('.show-card16').addClass('hide');
+    $('.show-card17').addClass('hide');
+    $('.show-card18').addClass('hide');
+    $('.show-card19').addClass('hide');
+    $('.show-card20').addClass('hide');
+    $('.show-card21').addClass('hide');
+    $('.show-card22').addClass('hide');
+    $('.show-card23').addClass('hide');
+    $('.show-card24').addClass('hide');
+    $('.show-card25').addClass('hide');
+    $('.show-card26').addClass('hide');
+    $('.show-card27').addClass('hide');
+    $('.show-card28').addClass('hide');
+    $('.show-card29').addClass('hide');
+    $('.show-card30').addClass('hide');
+    $('.show-card31').addClass('hide');
+    $('.show-card32').addClass('hide');
+    $('.show-card33').addClass('hide');
+    $('.show-card34').addClass('hide');
+    $('.show-card35').addClass('hide');
+    $('.show-card36').addClass('hide');
+    $('.show-card37').addClass('hide');
+    $('.show-card38').addClass('hide');
+    $('.show-card39').addClass('hide');
+    $('.show-card40').addClass('hide');
+          $(".linshi").removeClass('hide');
+            $(".linshi").addClass('show').css('display', 'block');
+      }
       if(globalThis.e<2){
         globalThis.e=globalThis.e +1
         var r=Math.floor(Math.random() * 100) + 1;
@@ -3800,52 +5103,7 @@ $('.shang').click(function(e) {
 
 
       }
-      if(globalThis.e==2){
-
-        $('.show-card').addClass('hide');
-    $('.show-card1').addClass('hide');
-    $('.show-card2').addClass('hide');
-    $('.show-card3').addClass('hide');
-    $('.show-card4').addClass('hide');
-    $('.show-card5').addClass('hide');
-    $('.show-card6').addClass('hide');
-    $('.show-card7').addClass('hide');
-    $('.show-card8').addClass('hide');
-    $('.show-card9').addClass('hide');
-    $('.show-card10').addClass('hide');    
-    $('.show-card11').addClass('hide');
-    $('.show-card12').addClass('hide');
-    $('.show-card13').addClass('hide');
-    $('.show-card14').addClass('hide');
-    $('.show-card15').addClass('hide');
-    $('.show-card16').addClass('hide');
-    $('.show-card17').addClass('hide');
-    $('.show-card18').addClass('hide');
-    $('.show-card19').addClass('hide');
-    $('.show-card20').addClass('hide');
-    $('.show-card21').addClass('hide');
-    $('.show-card22').addClass('hide');
-    $('.show-card23').addClass('hide');
-    $('.show-card24').addClass('hide');
-    $('.show-card25').addClass('hide');
-    $('.show-card26').addClass('hide');
-    $('.show-card27').addClass('hide');
-    $('.show-card28').addClass('hide');
-    $('.show-card29').addClass('hide');
-    $('.show-card30').addClass('hide');
-    $('.show-card31').addClass('hide');
-    $('.show-card32').addClass('hide');
-    $('.show-card33').addClass('hide');
-    $('.show-card34').addClass('hide');
-    $('.show-card35').addClass('hide');
-    $('.show-card36').addClass('hide');
-    $('.show-card37').addClass('hide');
-    $('.show-card38').addClass('hide');
-    $('.show-card39').addClass('hide');
-    $('.show-card40').addClass('hide');
-          $(".linshi").removeClass('hide');
-            $(".linshi").addClass('show').css('display', 'block');
-      }
+     
 
     }else{
       if(globalThis.e==0){
@@ -3910,8 +5168,8 @@ $('.shang').click(function(e) {
 
           }, 6000);
 
-      }
-      if(globalThis.e<6 && globalThis.e>0){
+      }else{
+      if(globalThis.e<4 && globalThis.e>0){
     
         if(globalThis.e==1 && globalThis.s==1){
         
@@ -3986,8 +5244,8 @@ $('.shang').click(function(e) {
 
         }
 
-
-        globalThis.t=globalThis.t+'1'
+        if(globalThis.e<5){
+          globalThis.t=globalThis.t+'1'}
         globalThis.e=globalThis.e+1
 
 
@@ -4076,11 +5334,15 @@ $('.shang').click(function(e) {
     
         }
       }else{
-      if(globalThis.e==5){
+      if(globalThis.e==6){
         if(globalThis.k==1){
           if(globalThis.t='24314'){
+
             $(".ksh").removeClass('hide');
-          $(".ksh").addClass('show').css('display', 'block');}else{
+          $(".ksh").addClass('show').css('display', 'block');
+        
+        
+        }else{
             
           // 這裏放be
 
@@ -4090,10 +5352,11 @@ $('.shang').click(function(e) {
 
         }
         if(globalThis.a==1){
+          
 
-          if(globalThis.t='41331'){
-            $(".ash").removeClass('hide');
-          $(".ash").addClass('show').css('display', 'block');}else{
+          // if(globalThis.t='41331'){
+          //   $(".ash").removeClass('hide');
+          // $(".ash").addClass('show').css('display', 'block');}else{
             
           // 這裏放be
 
@@ -4119,7 +5382,7 @@ $('.shang').click(function(e) {
 
   }else{
 
-    if (r<50) {
+    if (r<0) {
       if (r<25) {   
         var div = document.getElementById('shang');
         var div1 = document.getElementById('xia');
@@ -4238,7 +5501,10 @@ $('.shang').click(function(e) {
         globalThis.flag=7
       }
       if(globalThis.flag==5){   
-
+        setTimeout(function() {
+          $('.message20j').removeClass('hide');
+        $('.message20j').addClass('show').css('display', 'block');
+        }, 1100);
         $('.message20').removeClass('hide');
         $('.message20').addClass('show').css('display', 'block');
         $('.show-card29').removeClass('hide');
@@ -4264,6 +5530,10 @@ $('.shang').click(function(e) {
           $('.message10j').removeClass('hide');
         $('.message10j').addClass('show').css('display', 'block');
         }, 1100);
+        setTimeout(function() {
+          $('.message10jj').removeClass('hide');
+        $('.message10jj').addClass('show').css('display', 'block');
+        }, 2200);
         $('.show-card16').removeClass('hide');
         $('.show-card16').addClass('show').css('display', 'block');
         
@@ -4272,6 +5542,10 @@ $('.shang').click(function(e) {
       if(globalThis.flag==2){   
         $('.message2').removeClass('hide');
         $('.message2').addClass('show').css('display', 'block');
+        setTimeout(function() {
+          $('.message2j').removeClass('hide');
+        $('.message2j').addClass('show').css('display', 'block');
+        }, 1100);
         $('.show-card10').removeClass('hide');
         $('.show-card10').addClass('show').css('display', 'block');
 
@@ -4285,6 +5559,11 @@ $('.shang').click(function(e) {
           $('.message1j').removeClass('hide');
         $('.message1j').addClass('show').css('display', 'block');
         }, 1100);
+        setTimeout(function() {
+          $('.message1jj').removeClass('hide');
+        $('.message1jj').addClass('show').css('display', 'block');
+        }, 2200);
+        
 
         $('.show-card7').removeClass('hide');
         $('.show-card7').addClass('show').css('display', 'block');
@@ -4298,6 +5577,11 @@ $('.shang').click(function(e) {
           $('.messagej').removeClass('hide');
         $('.messagej').addClass('show').css('display', 'block');
         }, 1100);
+        setTimeout(function() {
+          $('.messagejj').removeClass('hide');
+        $('.messagejj').addClass('show').css('display', 'block');
+        }, 2200);
+        
         $('.show-card3').removeClass('hide');
         $('.show-card3').addClass('show').css('display', 'block');
         
@@ -4315,7 +5599,7 @@ $('.shang').click(function(e) {
 });
 
 $('.zuo').click(function(e) {
-  var music = new Audio('data/se/open.mp3');
+  var music = new Audio('data/se/z.wav');
   music.volume=0.5;
   music.play();  
   $('.sb').addClass('hide');
@@ -4328,6 +5612,7 @@ $('.zuo').click(function(e) {
   $('.message10j').addClass('hide');
   $('.message7j').addClass('hide');
   $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
   $('.message5j').addClass('hide');
   $('.message1j').addClass('hide');
   $('.messagej').addClass('hide');
@@ -4335,13 +5620,15 @@ $('.zuo').click(function(e) {
    $('.message').addClass('hide');
    $('.message1').addClass('hide');
    $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
    $('.message3').addClass('hide');
    $('.message4').addClass('hide');
    $('.message5').addClass('hide');
    $('.message6').addClass('hide');
    $('.message7').addClass('hide');
    $('.message8').addClass('hide');
-   $('.message9').addClass('hide');
+  $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
    $('.message10').addClass('hide');    
    $('.message11').addClass('hide');
    $('.message12').addClass('hide');
@@ -4353,30 +5640,42 @@ $('.zuo').click(function(e) {
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
    $('.s1').addClass('hide');  
@@ -4436,6 +5735,64 @@ $('.zuo').click(function(e) {
    var r=Math.floor(Math.random() * 100) + 1;
   if(globalThis.flag==7){
     if(globalThis.r==0){
+      if(globalThis.e==2){
+
+        $('.show-card').addClass('hide');
+    $('.show-card1').addClass('hide');
+    $('.show-card2').addClass('hide');
+    $('.show-card3').addClass('hide');
+    $('.show-card4').addClass('hide');
+    $('.show-card5').addClass('hide');
+    $('.show-card6').addClass('hide');
+    $('.show-card7').addClass('hide');
+    $('.show-card8').addClass('hide');
+    $('.show-card9').addClass('hide');
+    $('.show-card10').addClass('hide');    
+    $('.show-card11').addClass('hide');
+    $('.show-card12').addClass('hide');
+    $('.show-card13').addClass('hide');
+    $('.show-card14').addClass('hide');
+    $('.show-card15').addClass('hide');
+    $('.show-card16').addClass('hide');
+    $('.show-card17').addClass('hide');
+    $('.show-card18').addClass('hide');
+    $('.show-card19').addClass('hide');
+    $('.show-card20').addClass('hide');
+    $('.show-card21').addClass('hide');
+    $('.show-card22').addClass('hide');
+    $('.show-card23').addClass('hide');
+    $('.show-card24').addClass('hide');
+    $('.show-card25').addClass('hide');
+    $('.show-card26').addClass('hide');
+    $('.show-card27').addClass('hide');
+    $('.show-card28').addClass('hide');
+    $('.show-card29').addClass('hide');
+    $('.show-card30').addClass('hide');
+    $('.show-card31').addClass('hide');
+    $('.show-card32').addClass('hide');
+    $('.show-card33').addClass('hide');
+    $('.show-card34').addClass('hide');
+    $('.show-card35').addClass('hide');
+    $('.show-card36').addClass('hide');
+    $('.show-card37').addClass('hide');
+    $('.show-card38').addClass('hide');
+    $('.show-card39').addClass('hide');
+    $('.show-card40').addClass('hide');
+    var div = document.getElementById('shang');
+          var div1 = document.getElementById('xia');
+          var div2 = document.getElementById('you');
+          var div3 = document.getElementById('zuo');
+          div.style.visibility = 'hidden';
+          div1.style.visibility = 'hidden';
+          div2.style.visibility = 'hidden';
+          div3.style.visibility = 'hidden';
+          $('.shang').addClass('hide');
+          $('.you').addClass('hide');
+          $('.zuo').addClass('hide');
+          $('.xia').addClass('hide');
+          $(".linshi").removeClass('hide');
+            $(".linshi").addClass('show').css('display', 'block');
+      }
       if(globalThis.e<2){
         globalThis.e=globalThis.e +1
         var r=Math.floor(Math.random() * 100) + 1;
@@ -4546,64 +5903,7 @@ $('.zuo').click(function(e) {
 
 
       }
-      if(globalThis.e==2){
-
-        $('.show-card').addClass('hide');
-    $('.show-card1').addClass('hide');
-    $('.show-card2').addClass('hide');
-    $('.show-card3').addClass('hide');
-    $('.show-card4').addClass('hide');
-    $('.show-card5').addClass('hide');
-    $('.show-card6').addClass('hide');
-    $('.show-card7').addClass('hide');
-    $('.show-card8').addClass('hide');
-    $('.show-card9').addClass('hide');
-    $('.show-card10').addClass('hide');    
-    $('.show-card11').addClass('hide');
-    $('.show-card12').addClass('hide');
-    $('.show-card13').addClass('hide');
-    $('.show-card14').addClass('hide');
-    $('.show-card15').addClass('hide');
-    $('.show-card16').addClass('hide');
-    $('.show-card17').addClass('hide');
-    $('.show-card18').addClass('hide');
-    $('.show-card19').addClass('hide');
-    $('.show-card20').addClass('hide');
-    $('.show-card21').addClass('hide');
-    $('.show-card22').addClass('hide');
-    $('.show-card23').addClass('hide');
-    $('.show-card24').addClass('hide');
-    $('.show-card25').addClass('hide');
-    $('.show-card26').addClass('hide');
-    $('.show-card27').addClass('hide');
-    $('.show-card28').addClass('hide');
-    $('.show-card29').addClass('hide');
-    $('.show-card30').addClass('hide');
-    $('.show-card31').addClass('hide');
-    $('.show-card32').addClass('hide');
-    $('.show-card33').addClass('hide');
-    $('.show-card34').addClass('hide');
-    $('.show-card35').addClass('hide');
-    $('.show-card36').addClass('hide');
-    $('.show-card37').addClass('hide');
-    $('.show-card38').addClass('hide');
-    $('.show-card39').addClass('hide');
-    $('.show-card40').addClass('hide');
-    var div = document.getElementById('shang');
-          var div1 = document.getElementById('xia');
-          var div2 = document.getElementById('you');
-          var div3 = document.getElementById('zuo');
-          div.style.visibility = 'hidden';
-          div1.style.visibility = 'hidden';
-          div2.style.visibility = 'hidden';
-          div3.style.visibility = 'hidden';
-          $('.shang').addClass('hide');
-          $('.you').addClass('hide');
-          $('.zuo').addClass('hide');
-          $('.xia').addClass('hide');
-          $(".linshi").removeClass('hide');
-            $(".linshi").addClass('show').css('display', 'block');
-      }
+     
 
     }else{
       if(globalThis.e==0){
@@ -4669,81 +5969,11 @@ $('.zuo').click(function(e) {
           }, 6000);
 
       }
-      if(globalThis.e<6 && globalThis.e>0){
-        if(globalThis.e==1 && globalThis.s==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
+      if(globalThis.e<4 && globalThis.e>0){
 
-        }
-        if(globalThis.e==1 && globalThis.a==1){
         
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==1 && globalThis.k==1){
-        
-          $('.xb').removeClass('hide');
-          $('.xb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==2 && globalThis.s==1){
-        
-          $('.zb').removeClass('hide');
-          $('.zb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==2 && globalThis.a==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==2 && globalThis.k==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.s==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.a==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.k==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==4 && globalThis.s==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==4 && globalThis.a==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==4 && globalThis.k==1){
-        
-          $('.xb').removeClass('hide');
-          $('.xb').addClass('show').css('display', 'block');
-
-        }
-        
-        globalThis.t=globalThis.t+'2'
+        if(globalThis.e<3){
+        globalThis.t=globalThis.t+'2'}
         globalThis.e=globalThis.e+1
         var r=Math.floor(Math.random() * 100) + 1;
         if (r<50) {   
@@ -4798,6 +6028,45 @@ $('.zuo').click(function(e) {
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            if(globalThis.e==1 && globalThis.s==1){
+        
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.a==1){
+            
+              $('.sb1').removeClass('hide');
+              $('.sb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==1 && globalThis.k==1){
+            
+              $('.xb1').removeClass('hide');
+              $('.xb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.s==1){
+            
+              $('.zb1').removeClass('hide');
+              $('.zb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.a==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+            if(globalThis.e==2 && globalThis.k==1){
+            
+              $('.yb1').removeClass('hide');
+              $('.yb1').addClass('show').css('display', 'block');
+    
+            }
+         
+
+            
           }, 6000);
         } else {   
           $('.shang').addClass('hide');
@@ -4853,7 +6122,7 @@ $('.zuo').click(function(e) {
       }else{
       if(globalThis.e==5){
         if(globalThis.k==1){
-          if(globalThis.t='24314'){
+          if(globalThis.t='243'){
             $(".ksh").removeClass('hide');
           $(".ksh").addClass('show').css('display', 'block');}else{
             
@@ -4866,7 +6135,7 @@ $('.zuo').click(function(e) {
         }
         if(globalThis.a==1){
 
-          if(globalThis.t='41331'){
+          if(globalThis.t='413'){
             $(".ash").removeClass('hide');
           $(".ash").addClass('show').css('display', 'block');}else{
             
@@ -4878,7 +6147,7 @@ $('.zuo').click(function(e) {
         }
         if(globalThis.s==1){
 
-          if(globalThis.t='11231'){
+          if(globalThis.t='112'){
             $(".ssh").removeClass('hide');
           $(".ssh").addClass('show').css('display', 'block');}else{
             
@@ -5014,6 +6283,10 @@ $('.zuo').click(function(e) {
           if(globalThis.flag==5){
             $('.message9').removeClass('hide');
             $('.message9').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message9j').removeClass('hide');
+            $('.message9j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card31').removeClass('hide');
             $('.show-card31').addClass('show').css('display', 'block');
             globalThis.flag=6
@@ -5035,6 +6308,10 @@ $('.zuo').click(function(e) {
           if(globalThis.flag==2){
             $('.message9').removeClass('hide');
             $('.message9').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message9j').removeClass('hide');
+            $('.message9j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card13').removeClass('hide');
             $('.show-card13').addClass('show').css('display', 'block');
             globalThis.flag=3
@@ -5047,8 +6324,8 @@ $('.zuo').click(function(e) {
             globalThis.flag=2
           }
           if(globalThis.flag==0){
-            $('.message2').removeClass('hide');
-            $('.message2').addClass('show').css('display', 'block');
+            $('.message23').removeClass('hide');
+            $('.message23').addClass('show').css('display', 'block');
             $('.show-card5').removeClass('hide');
             $('.show-card5').addClass('show').css('display', 'block');
             globalThis.flag=1
@@ -5064,7 +6341,7 @@ $('.zuo').click(function(e) {
 
 
 $('.you').click(function(e) {
-  var music = new Audio('data/se/open.mp3');
+  var music = new Audio('data/se/z.wav');
   music.volume=0.5;
   music.play();
   $('.sb').addClass('hide');
@@ -5077,6 +6354,7 @@ $('.you').click(function(e) {
   $('.message10j').addClass('hide');
   $('.message7j').addClass('hide');
   $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
   $('.message5j').addClass('hide');
   $('.message1j').addClass('hide');
   $('.messagej').addClass('hide');
@@ -5084,13 +6362,15 @@ $('.you').click(function(e) {
    $('.message').addClass('hide');
    $('.message1').addClass('hide');
    $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
    $('.message3').addClass('hide');
    $('.message4').addClass('hide');
    $('.message5').addClass('hide');
    $('.message6').addClass('hide');
    $('.message7').addClass('hide');
    $('.message8').addClass('hide');
-   $('.message9').addClass('hide');
+  $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
    $('.message10').addClass('hide');    
    $('.message11').addClass('hide');
    $('.message12').addClass('hide');
@@ -5102,30 +6382,42 @@ $('.you').click(function(e) {
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
    $('.s1').addClass('hide');  
@@ -5184,6 +6476,64 @@ $('.you').click(function(e) {
    var r=Math.floor(Math.random() * 100) + 1;
    if(globalThis.flag==7){
      if(globalThis.r==0){
+      if(globalThis.e==2){
+ 
+        $('.show-card').addClass('hide');
+    $('.show-card1').addClass('hide');
+    $('.show-card2').addClass('hide');
+    $('.show-card3').addClass('hide');
+    $('.show-card4').addClass('hide');
+    $('.show-card5').addClass('hide');
+    $('.show-card6').addClass('hide');
+    $('.show-card7').addClass('hide');
+    $('.show-card8').addClass('hide');
+    $('.show-card9').addClass('hide');
+    $('.show-card10').addClass('hide');    
+    $('.show-card11').addClass('hide');
+    $('.show-card12').addClass('hide');
+    $('.show-card13').addClass('hide');
+    $('.show-card14').addClass('hide');
+    $('.show-card15').addClass('hide');
+    $('.show-card16').addClass('hide');
+    $('.show-card17').addClass('hide');
+    $('.show-card18').addClass('hide');
+    $('.show-card19').addClass('hide');
+    $('.show-card20').addClass('hide');
+    $('.show-card21').addClass('hide');
+    $('.show-card22').addClass('hide');
+    $('.show-card23').addClass('hide');
+    $('.show-card24').addClass('hide');
+    $('.show-card25').addClass('hide');
+    $('.show-card26').addClass('hide');
+    $('.show-card27').addClass('hide');
+    $('.show-card28').addClass('hide');
+    $('.show-card29').addClass('hide');
+    $('.show-card30').addClass('hide');
+    $('.show-card31').addClass('hide');
+    $('.show-card32').addClass('hide');
+    $('.show-card33').addClass('hide');
+    $('.show-card34').addClass('hide');
+    $('.show-card35').addClass('hide');
+    $('.show-card36').addClass('hide');
+    $('.show-card37').addClass('hide');
+    $('.show-card38').addClass('hide');
+    $('.show-card39').addClass('hide');
+    $('.show-card40').addClass('hide');
+    var div = document.getElementById('shang');
+          var div1 = document.getElementById('xia');
+          var div2 = document.getElementById('you');
+          var div3 = document.getElementById('zuo');
+          div.style.visibility = 'hidden';
+          div1.style.visibility = 'hidden';
+          div2.style.visibility = 'hidden';
+          div3.style.visibility = 'hidden';
+          $('.shang').addClass('hide');
+          $('.you').addClass('hide');
+          $('.zuo').addClass('hide');
+          $('.xia').addClass('hide');
+          $(".linshi").removeClass('hide');
+            $(".linshi").addClass('show').css('display', 'block');
+      }
        if(globalThis.e<2){
          globalThis.e=globalThis.e +1
          var r=Math.floor(Math.random() * 100) + 1;
@@ -5294,64 +6644,7 @@ $('.you').click(function(e) {
  
  
        }
-       if(globalThis.e==2){
- 
-         $('.show-card').addClass('hide');
-     $('.show-card1').addClass('hide');
-     $('.show-card2').addClass('hide');
-     $('.show-card3').addClass('hide');
-     $('.show-card4').addClass('hide');
-     $('.show-card5').addClass('hide');
-     $('.show-card6').addClass('hide');
-     $('.show-card7').addClass('hide');
-     $('.show-card8').addClass('hide');
-     $('.show-card9').addClass('hide');
-     $('.show-card10').addClass('hide');    
-     $('.show-card11').addClass('hide');
-     $('.show-card12').addClass('hide');
-     $('.show-card13').addClass('hide');
-     $('.show-card14').addClass('hide');
-     $('.show-card15').addClass('hide');
-     $('.show-card16').addClass('hide');
-     $('.show-card17').addClass('hide');
-     $('.show-card18').addClass('hide');
-     $('.show-card19').addClass('hide');
-     $('.show-card20').addClass('hide');
-     $('.show-card21').addClass('hide');
-     $('.show-card22').addClass('hide');
-     $('.show-card23').addClass('hide');
-     $('.show-card24').addClass('hide');
-     $('.show-card25').addClass('hide');
-     $('.show-card26').addClass('hide');
-     $('.show-card27').addClass('hide');
-     $('.show-card28').addClass('hide');
-     $('.show-card29').addClass('hide');
-     $('.show-card30').addClass('hide');
-     $('.show-card31').addClass('hide');
-     $('.show-card32').addClass('hide');
-     $('.show-card33').addClass('hide');
-     $('.show-card34').addClass('hide');
-     $('.show-card35').addClass('hide');
-     $('.show-card36').addClass('hide');
-     $('.show-card37').addClass('hide');
-     $('.show-card38').addClass('hide');
-     $('.show-card39').addClass('hide');
-     $('.show-card40').addClass('hide');
-     var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           $(".linshi").removeClass('hide');
-             $(".linshi").addClass('show').css('display', 'block');
-       }
+       
  
      }else{
       if(globalThis.e==0){
@@ -5417,7 +6710,7 @@ $('.you').click(function(e) {
           }, 6000);
 
       }
-       if(globalThis.e<6 && globalThis.e>0){
+       if(globalThis.e<4 && globalThis.e>0){
         if(globalThis.e==1 && globalThis.s==1){
         
           $('.sb').removeClass('hide');
@@ -5491,7 +6784,8 @@ $('.you').click(function(e) {
 
         }
         
-        globalThis.t=globalThis.t+'3'
+        if(globalThis.e<5){
+        globalThis.t=globalThis.t+'3'}
          globalThis.e=globalThis.e+1
          var r=Math.floor(Math.random() * 100) + 1;
          if (r<50) {   
@@ -5774,18 +7068,30 @@ $('.you').click(function(e) {
           if(globalThis.flag==4){
             $('.message16').removeClass('hide');
             $('.message16').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message16j').removeClass('hide');
+            $('.message16j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card24').removeClass('hide');
             $('.show-card24').addClass('show').css('display', 'block');
             globalThis.flag=5
           }
           if(globalThis.flag==3){
-            $('.message12').removeClass('hide');
-            $('.message12').addClass('show').css('display', 'block');
+            $('.message20').removeClass('hide');
+            $('.message20').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message20j').removeClass('hide');
+            $('.message20j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card20').removeClass('hide');
             $('.show-card20').addClass('show').css('display', 'block');
             globalThis.flag=4
           }
           if(globalThis.flag==2){
+            setTimeout(function() {
+              $('.message9j').removeClass('hide');
+            $('.message9j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.message9').removeClass('hide');
             $('.message9').addClass('show').css('display', 'block');
             $('.show-card14').removeClass('hide');
@@ -5799,6 +7105,10 @@ $('.you').click(function(e) {
               $('.message5j').removeClass('hide');
             $('.message5j').addClass('show').css('display', 'block');
             }, 1100);
+            setTimeout(function() {
+              $('.message5jj').removeClass('hide');
+            $('.message5jj').addClass('show').css('display', 'block');
+            }, 2200);
             $('.show-card9').removeClass('hide');
             $('.show-card9').addClass('show').css('display', 'block');
             globalThis.flag=2
@@ -5821,7 +7131,7 @@ $('.you').click(function(e) {
 
 
 $('.xia').click(function(e) {
-  var music = new Audio('data/se/open.mp3');
+  var music = new Audio('data/se/z.wav');
   music.volume=0.5;
   music.play();
   $('.sb').addClass('hide');
@@ -5834,6 +7144,7 @@ $('.xia').click(function(e) {
   $('.message10j').addClass('hide');
   $('.message7j').addClass('hide');
   $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
   $('.message5j').addClass('hide');
   $('.message1j').addClass('hide');
   $('.messagej').addClass('hide');
@@ -5841,13 +7152,15 @@ $('.xia').click(function(e) {
    $('.message').addClass('hide');
    $('.message1').addClass('hide');
    $('.message2').addClass('hide');
+$('.message2j').addClass('hide');
    $('.message3').addClass('hide');
    $('.message4').addClass('hide');
    $('.message5').addClass('hide');
    $('.message6').addClass('hide');
    $('.message7').addClass('hide');
    $('.message8').addClass('hide');
-   $('.message9').addClass('hide');
+  $('.message9').addClass('hide');
+    $('.message9j').addClass('hide');
    $('.message10').addClass('hide');    
    $('.message11').addClass('hide');
    $('.message12').addClass('hide');
@@ -5859,30 +7172,42 @@ $('.xia').click(function(e) {
    $('.message18').addClass('hide');
    $('.message19').addClass('hide');
    $('.message20').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
+    $('.message1jj').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
-   $('.message21').addClass('hide');
+      $('.message21').addClass('hide');
+   $('.message21j').addClass('hide');
     $('.message22').addClass('hide');
    $('.message22j').addClass('hide');
     $('.message22jj').addClass('hide');
     $('.message14j').addClass('hide');
     $('.message10j').addClass('hide');
+    $('.message10jj').addClass('hide');
     $('.message7j').addClass('hide');
     $('.message6j').addClass('hide');
+  $('.message6jj').addClass('hide');
+  $('.message6jj').addClass('hide');
     $('.message5j').addClass('hide');
+    $('.message5jj').addClass('hide');
     $('.message1j').addClass('hide');
     $('.messagej').addClass('hide');
+    $('.messagejj').addClass('hide');
    $('.message23').addClass('hide');
    $('.message24').addClass('hide');
    $('.s1').addClass('hide');  
@@ -5942,6 +7267,64 @@ $('.xia').click(function(e) {
    var r=Math.floor(Math.random() * 100) + 1;
    if(globalThis.flag==7){
      if(globalThis.r==0){
+      if(globalThis.e==2){
+ 
+         $('.show-card').addClass('hide');
+     $('.show-card1').addClass('hide');
+     $('.show-card2').addClass('hide');
+     $('.show-card3').addClass('hide');
+     $('.show-card4').addClass('hide');
+     $('.show-card5').addClass('hide');
+     $('.show-card6').addClass('hide');
+     $('.show-card7').addClass('hide');
+     $('.show-card8').addClass('hide');
+     $('.show-card9').addClass('hide');
+     $('.show-card10').addClass('hide');    
+     $('.show-card11').addClass('hide');
+     $('.show-card12').addClass('hide');
+     $('.show-card13').addClass('hide');
+     $('.show-card14').addClass('hide');
+     $('.show-card15').addClass('hide');
+     $('.show-card16').addClass('hide');
+     $('.show-card17').addClass('hide');
+     $('.show-card18').addClass('hide');
+     $('.show-card19').addClass('hide');
+     $('.show-card20').addClass('hide');
+     $('.show-card21').addClass('hide');
+     $('.show-card22').addClass('hide');
+     $('.show-card23').addClass('hide');
+     $('.show-card24').addClass('hide');
+     $('.show-card25').addClass('hide');
+     $('.show-card26').addClass('hide');
+     $('.show-card27').addClass('hide');
+     $('.show-card28').addClass('hide');
+     $('.show-card29').addClass('hide');
+     $('.show-card30').addClass('hide');
+     $('.show-card31').addClass('hide');
+     $('.show-card32').addClass('hide');
+     $('.show-card33').addClass('hide');
+     $('.show-card34').addClass('hide');
+     $('.show-card35').addClass('hide');
+     $('.show-card36').addClass('hide');
+     $('.show-card37').addClass('hide');
+     $('.show-card38').addClass('hide');
+     $('.show-card39').addClass('hide');
+     $('.show-card40').addClass('hide');
+     var div = document.getElementById('shang');
+           var div1 = document.getElementById('xia');
+           var div2 = document.getElementById('you');
+           var div3 = document.getElementById('zuo');
+           div.style.visibility = 'hidden';
+           div1.style.visibility = 'hidden';
+           div2.style.visibility = 'hidden';
+           div3.style.visibility = 'hidden';
+           $('.shang').addClass('hide');
+           $('.you').addClass('hide');
+           $('.zuo').addClass('hide');
+           $('.xia').addClass('hide');
+           $(".linshi").removeClass('hide');
+             $(".linshi").addClass('show').css('display', 'block');
+       }
        if(globalThis.e<2){
          globalThis.e=globalThis.e +1
          var r=Math.floor(Math.random() * 100) + 1;
@@ -6052,64 +7435,7 @@ $('.xia').click(function(e) {
  
  
        }
-       if(globalThis.e==2){
- 
-         $('.show-card').addClass('hide');
-     $('.show-card1').addClass('hide');
-     $('.show-card2').addClass('hide');
-     $('.show-card3').addClass('hide');
-     $('.show-card4').addClass('hide');
-     $('.show-card5').addClass('hide');
-     $('.show-card6').addClass('hide');
-     $('.show-card7').addClass('hide');
-     $('.show-card8').addClass('hide');
-     $('.show-card9').addClass('hide');
-     $('.show-card10').addClass('hide');    
-     $('.show-card11').addClass('hide');
-     $('.show-card12').addClass('hide');
-     $('.show-card13').addClass('hide');
-     $('.show-card14').addClass('hide');
-     $('.show-card15').addClass('hide');
-     $('.show-card16').addClass('hide');
-     $('.show-card17').addClass('hide');
-     $('.show-card18').addClass('hide');
-     $('.show-card19').addClass('hide');
-     $('.show-card20').addClass('hide');
-     $('.show-card21').addClass('hide');
-     $('.show-card22').addClass('hide');
-     $('.show-card23').addClass('hide');
-     $('.show-card24').addClass('hide');
-     $('.show-card25').addClass('hide');
-     $('.show-card26').addClass('hide');
-     $('.show-card27').addClass('hide');
-     $('.show-card28').addClass('hide');
-     $('.show-card29').addClass('hide');
-     $('.show-card30').addClass('hide');
-     $('.show-card31').addClass('hide');
-     $('.show-card32').addClass('hide');
-     $('.show-card33').addClass('hide');
-     $('.show-card34').addClass('hide');
-     $('.show-card35').addClass('hide');
-     $('.show-card36').addClass('hide');
-     $('.show-card37').addClass('hide');
-     $('.show-card38').addClass('hide');
-     $('.show-card39').addClass('hide');
-     $('.show-card40').addClass('hide');
-     var div = document.getElementById('shang');
-           var div1 = document.getElementById('xia');
-           var div2 = document.getElementById('you');
-           var div3 = document.getElementById('zuo');
-           div.style.visibility = 'hidden';
-           div1.style.visibility = 'hidden';
-           div2.style.visibility = 'hidden';
-           div3.style.visibility = 'hidden';
-           $('.shang').addClass('hide');
-           $('.you').addClass('hide');
-           $('.zuo').addClass('hide');
-           $('.xia').addClass('hide');
-           $(".linshi").removeClass('hide');
-             $(".linshi").addClass('show').css('display', 'block');
-       }
+       
  
      }else{
       if(globalThis.e==0){
@@ -6175,7 +7501,7 @@ $('.xia').click(function(e) {
           }, 6000);
 
       }
-       if(globalThis.e<6 && globalThis.e>0){
+       if(globalThis.e<4 && globalThis.e>0){
         if(globalThis.e==1 && globalThis.s==1){
         
           $('.sb').removeClass('hide');
@@ -6249,7 +7575,8 @@ $('.xia').click(function(e) {
 
         }
         
-        globalThis.t=globalThis.t+'4'
+        if(globalThis.e<5){
+        globalThis.t=globalThis.t+'4'}
          globalThis.e=globalThis.e+1
          var r=Math.floor(Math.random() * 100) + 1;
          if (r<50) {   
@@ -6520,6 +7847,10 @@ $('.xia').click(function(e) {
           if(globalThis.flag==5){
             $('.message21').removeClass('hide');
             $('.message21').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message21j').removeClass('hide');
+              $('.message21j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card30').removeClass('hide');
             $('.show-card30').addClass('show').css('display', 'block');
             globalThis.flag=6
@@ -6527,6 +7858,10 @@ $('.xia').click(function(e) {
           if(globalThis.flag==4){
             $('.message17').removeClass('hide');
             $('.message17').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message17j').removeClass('hide');
+            $('.message17j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card25').removeClass('hide');
             $('.show-card25').addClass('show').css('display', 'block');
             globalThis.flag=5
@@ -6534,11 +7869,19 @@ $('.xia').click(function(e) {
           if(globalThis.flag==3){
             $('.message13').removeClass('hide');
             $('.message13').addClass('show').css('display', 'block');
+            setTimeout(function() {
+              $('.message13j').removeClass('hide');
+              $('.message13j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.show-card21').removeClass('hide');
             $('.show-card21').addClass('show').css('display', 'block');
             globalThis.flag=4
           }
           if(globalThis.flag==2){
+            setTimeout(function() {
+              $('.message9j').removeClass('hide');
+            $('.message9j').addClass('show').css('display', 'block');
+            }, 1100);
             $('.message9').removeClass('hide');
             $('.message9').addClass('show').css('display', 'block');
             $('.show-card15').removeClass('hide');
@@ -6563,6 +7906,10 @@ $('.xia').click(function(e) {
               $('.message6j').removeClass('hide');
             $('.message6j').addClass('show').css('display', 'block');
             }, 1100);
+            setTimeout(function() {
+              $('.message6j').removeClass('hide');
+            $('.message6j').addClass('show').css('display', 'block');
+            }, 2200);
             $('.show-card6').removeClass('hide');
             $('.show-card6').addClass('show').css('display', 'block');
             globalThis.flag=1
@@ -6625,94 +7972,95 @@ $('.st').click(function(e) {
   globalThis.r=0
   globalThis.e=0
 
-  var audio = document.getElementById("indexs");
-  var vol1 = 0.50;
-    var interval1 = 200; // 200ms interval
+//   var audio = document.getElementById("indexs");
+//   var vol1 = 0.50;
+//     var interval1 = 200; // 200ms interval
   
-  var fadeout = setInterval(
-    function() {
-      // Reduce volume by 0.05 as long as it is above 0
-      // This works as long as you start with a multiple of 0.05!
-      if (vol1 > 0) {
-        vol1 -= 0.05;
-        audio.volume = vol1;
-      }
-      else {
-        // Stop the setInterval when 0 is reached
-        clearInterval(fadeout);
-      }
-    }, interval1);
+//   var fadeout = setInterval(
+//     function() {
+//       // Reduce volume by 0.05 as long as it is above 0
+//       // This works as long as you start with a multiple of 0.05!
+//       if (vol1 > 0) {
+//         vol1 -= 0.05;
+//         audio.volume = vol1;
+//       }
+//       else {
+//         // Stop the setInterval when 0 is reached
+//         clearInterval(fadeout);
+//       }
+//     }, interval1);
 
 
 
-   setTimeout(function(){
-     $('.black1').removeClass('hide');
-     $('.black1').addClass('show').css('display', 'block');
-   },800);
+//    setTimeout(function(){
+//      $('.black1').removeClass('hide');
+//      $('.black1').addClass('show').css('display', 'block');
+//    },800);
   
    
-var audio1 = document.getElementById("ne");
+// var audio1 = document.getElementById("ne");
    
-    setTimeout(function(){ 
-    audio1.volume=0.5;
-    audio1.play();
-   },1000);
+//     setTimeout(function(){ 
+//     audio1.volume=0.5;
+//     audio1.play();
+//    },1000);
 
 
-  setTimeout(function(){
-    $('.oe').addClass('show').css('display', 'block');
-    $('.oe').removeClass('hide');
-  },4100);
-  setTimeout(function(){
-    $('.oe1').addClass('show').css('display', 'block');
-    $('.oe1').removeClass('hide');
-  },7200);
-  setTimeout(function(){
-    $('.oe2').addClass('show').css('display', 'block');
-    $('.oe2').removeClass('hide');
-  },8800);
-  setTimeout(function(){
-    $('.oe3').addClass('show').css('display', 'block');
-    $('.oe3').removeClass('hide');
-  },10300);
-  setTimeout(function(){
-    $('.oe4').addClass('show').css('display', 'block');
-    $('.oe4').removeClass('hide');
-  },11900);
-  setTimeout(function(){
-    $('.oe5').addClass('show').css('display', 'block');
-    $('.oe5').removeClass('hide');
-  },13500);
-  setTimeout(function(){
-    $('.oe6').addClass('show').css('display', 'block');
-    $('.oe6').removeClass('hide');
-  },16600);
-  setTimeout(function(){
-    $('.oe7').addClass('show').css('display', 'block');
-    $('.oe7').removeClass('hide');
-  },18200);
-  setTimeout(function(){
-    $('.oe8').addClass('show').css('display', 'block');
-    $('.oe8').removeClass('hide');
-  },19800);
-  setTimeout(function(){
-    $('.oe9').addClass('show').css('display', 'block');
-    $('.oe9').removeClass('hide');
-  },21400);
-  setTimeout(function(){
-    $('.oe10').addClass('show').css('display', 'block');
-    $('.oe10').removeClass('hide');
-  },26200);
+//   setTimeout(function(){
+//     $('.oe').addClass('show').css('display', 'block');
+//     $('.oe').removeClass('hide');
+//   },4100);
+//   setTimeout(function(){
+//     $('.oe1').addClass('show').css('display', 'block');
+//     $('.oe1').removeClass('hide');
+//   },7200);
+//   setTimeout(function(){
+//     $('.oe2').addClass('show').css('display', 'block');
+//     $('.oe2').removeClass('hide');
+//   },8800);
+//   setTimeout(function(){
+//     $('.oe3').addClass('show').css('display', 'block');
+//     $('.oe3').removeClass('hide');
+//   },11900);
+//   setTimeout(function(){
+//     $('.oe4').addClass('show').css('display', 'block');
+//     $('.oe4').removeClass('hide');
+//   },13500);
+//   setTimeout(function(){
+//     $('.oe5').addClass('show').css('display', 'block');
+//     $('.oe5').removeClass('hide');
+//   },15100);
+//   setTimeout(function(){
+//     $('.oe6').addClass('show').css('display', 'block');
+//     $('.oe6').removeClass('hide');
+//   },18200);
+//   setTimeout(function(){
+//     $('.oe7').addClass('show').css('display', 'block');
+//     $('.oe7').removeClass('hide');
+//   },19800);
+//   setTimeout(function(){
+//     $('.oe8').addClass('show').css('display', 'block');
+//     $('.oe8').removeClass('hide');
+//   },21400);
+//   setTimeout(function(){
+//     $('.oe9').addClass('show').css('display', 'block');
+//     $('.oe9').removeClass('hide');
+//   },23000);
+//   setTimeout(function(){
+//     $('.oe10').addClass('show').css('display', 'block');
+//     $('.oe10').removeClass('hide');
+//   },27800);
 
-   setTimeout(function(){
-     $('.black').removeClass('hide');
-     $('.black').addClass('show').css('display', 'block');
-   },31000);
-   setTimeout(function(){
-    $('.thanks').removeClass('hide');
-    $('.thanks').addClass('show').css('display', 'block');
-  },33500);
+//    setTimeout(function(){
+//      $('.black').removeClass('hide');
+//      $('.black').addClass('show').css('display', 'block');
+//    },32600);
+//    setTimeout(function(){
+//     $('.thanks').removeClass('hide');
+//     $('.thanks').addClass('show').css('display', 'block');
+//   },35100);
  
+
 
 
   setTimeout(function(){
