@@ -8120,9 +8120,9 @@ $('.show-card18').click(function(e) {
 
 $('.st').click(function(e) {
   $(this).attr("disabled","disabled"); 
-  //  var music = new Audio('data/se/se.wav');
-  //  music.volume=0.3;
-  //  music.play();
+    var music = new Audio('data/se/se.wav');
+    music.volume=0.3;
+    music.play();
   $(".st span").addClass("stop");
   $(".st").addClass("hide");
   globalThis.r=0
