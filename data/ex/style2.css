@@ -5051,7 +5051,7 @@ h3{
   -ms-user-select: none;
   user-select: none;
   transition: 0.5s;
-  transform: rotate(-30deg);
+  transform: rotate(10deg);
   
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
@@ -5059,12 +5059,13 @@ h3{
   opacity: 0;
 
   color: rgb(190, 69, 69);
-  font-size: 500%;
+  font-size: 400%;
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:50%;
-    right:3%;
+  top:40%;
+  right:5%;
+
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -5091,15 +5092,15 @@ h3{
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:60%;
-    right:7%;
+  top:40%;
+  right:5%;
+
   outline: none;
   text-align: center;
   text-decoration: none;
 }
 
 .show-card6 {
-  display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -5119,7 +5120,7 @@ h3{
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:10%;
+    top:20%;
     left:15%;
   outline: none;
   text-align: center;
@@ -5224,18 +5225,18 @@ h3{
   user-select: none;
   display: none;
   transition: 0.5s;
-  transform: rotate(30deg);
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
 
   color: rgb(190, 69, 69);
-  font-size: 150%;
+  font-size: 160%;
   line-height: 1.5;
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    bottom:30%;
-    right:0%;
+  top:86%;
+  left:5%;
+
   outline: none;
   text-align: center;
   text-decoration: none;
