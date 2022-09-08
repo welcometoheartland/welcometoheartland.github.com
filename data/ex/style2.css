@@ -1,4 +1,12 @@
-
+@font-face {
+  font-family: ‘pix’;
+  src: url(’fontName.eot’);
+  src: local(’fontName Regular’),
+  local(’fontName’),
+  url(’fontName.woff’) format(’woff’),
+  url(’fontName.ttf’) format(’truetype’),
+  url(’fontName.svg#fontName’) format(’svg’);
+  }
 
 .text-h-center {
   text-align: center;
@@ -14,6 +22,461 @@
   }
 }
 
+.r1 {
+display: none;
+  width:170px; height:170px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transition: 0.5s;
+  position:absolute;
+    top:53%;
+    left:27%;
+    transform: translate(-50%, -50%);
+    border:0;
+    background:transparent;
+
+}
+.r2 {
+
+  display: none;
+  width:300px; height:300px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transition: 0.5s;
+  position:absolute;
+    top:70%;
+    left:5%;
+    transform: translate(-50%, -50%);
+    border:0;
+    background:transparent;
+
+}
+
+.yin {
+  
+display: none;
+  width:150px; height:150px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(-40deg);
+  transition: 0.5s;
+  position:absolute;
+    top:40%;
+    left:12%;
+    border:0;
+    background:transparent;
+
+}
+.r3 {
+  display: none;
+  width:130px; height:130px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(-20deg);
+  transition: 0.5s;
+  position:absolute;
+    bottom:3%;
+    right:7%;
+    border:0;
+    background:transparent;
+}
+.bin {
+  display: none;
+  width:170px; height:170px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(20deg);
+  transition: 0.5s;
+  position:absolute;
+    top:35%;
+    right:2%;
+    border:0;
+    background:transparent;
+
+}
+
+.yin2 {
+  display: none;
+  width:170px; height:170px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(20deg);
+  transition: 0.5s;
+  position:absolute;
+    top:33%;
+    left:8%;
+    border:0;
+    background:transparent;
+
+}
+
+.r4 {
+  display: none;
+  width:300px; height:300px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(30deg);
+  transition: 0.5s;
+  position:absolute;
+    top:-10%;
+    right:13%;
+    border:0;
+    background:transparent;
+
+}
+
+.r5 {
+  display: none;
+  width:150px; height:150px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(20deg);
+  transition: 0.5s;
+  position:absolute;
+    bottom:4%;
+    right:2%;
+    border:0;
+    background:transparent;
+
+}
+
+.bin1 {
+  display: none;
+  width:270px; height:270px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(300deg);
+  transition: 0.5s;
+  position:absolute;
+    top:25%;
+    right:4%;
+    border:0;
+    background:transparent;
+
+}
+.q {
+  display: none;
+  width:300px; height:300px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+  transition: 0.5s;
+  position:absolute;
+    bottom: 4%;
+    right:3%;
+    border:0;
+    background:transparent;
+    transform: rotate(-10deg);
+
+}
+.q1 {
+  display: none;
+  width:300px; height:300px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+
+  opacity: 0;
+
+  transform: rotate(10deg);
+  transition: 0.5s;
+  position:absolute;
+    top:28%;
+    left:10%;
+    border:0;
+    background:transparent;
+
+}
+
+
+.jsh {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+
+.jsh1 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+
+.jsh2 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.jsh3 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+  
+          font-weight:bolder;
+  color: rgb(167, 50, 50);
+  font-size: 130%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position: absolute;            
+  top: 65%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.jsh31 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+  
+          font-weight:bolder;
+  color: rgb(167, 50, 50);
+  font-size: 130%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position: absolute;            
+  top: 65%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.jsh32 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+  
+          font-weight:bolder;
+  color: rgb(167, 50, 50);
+  font-size: 130%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position: absolute;            
+  top: 65%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.jsh4 {
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+  
+          font-weight:bolder;
+  color: rgb(167, 50, 50);
+  font-size: 130%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position: absolute;            
+  top: 65%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
 .sb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -314,6 +777,7 @@
   text-decoration: none;
 }
 .xb{
+
   display: none;
   
   transform: rotate(-2deg);
@@ -1022,13 +1486,13 @@ body {
           animation: fade-in 1s 1s forwards;
 }
 .ksh.show .det2 {
-  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
-          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+  -webkit-animation: show-detail-container 2s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
+          animation: show-detail-container 2s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
 }
 
 .ksh.show  .de {
-  -webkit-animation: fade-in 1s 1s forwards;
-          animation: fade-in 1s 1s forwards;
+  -webkit-animation: fade-in 2s 1s forwards;
+          animation: fade-in 2s 1s forwards;
 }
 
 .ssh.show .det2 {
@@ -1041,15 +1505,6 @@ body {
           animation: fade-in 1s 1s forwards;
 }
 
-.linshi.show .det2 {
-  -webkit-animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
-          animation: show-detail-container 0.7s 0s forwards cubic-bezier(.54,-0.38,.34,1.22);
-}
-
-.linshi.show  .de {
-  -webkit-animation: fade-in 1s 1s forwards;
-          animation: fade-in 1s 1s forwards;
-}
 
 
 
@@ -1110,7 +1565,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1125,7 +1580,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1140,7 +1595,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1155,7 +1610,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1170,7 +1625,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1185,7 +1640,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1200,7 +1655,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1215,7 +1670,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1230,7 +1685,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1245,7 +1700,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1260,7 +1715,7 @@ body {
   user-select: none;
   text-align: center;
   display: none;
-    top: 25%;
+    top: 15%;
     height: 50%;
     left: 34%;
     position: absolute;
@@ -1361,21 +1816,7 @@ body {
   width: 29%;
 }
 
-.linshi {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  text-align: center;
-  display: none;
-    top: 25%;
-    height: 50%;
-    left: 34%;
-    position: absolute;
-    width: 32%;
-}
+
 .oe {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -2384,7 +2825,7 @@ body {
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
     bottom:25%;
-    left:39%;
+    left:44%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -4504,8 +4945,9 @@ h3{
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:18%;
+    top:20%;
     left:-2%;
+    
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -4531,7 +4973,7 @@ h3{
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:30%;
+    top:35%;
     left:0%;
   outline: none;
   text-align: center;
@@ -5469,6 +5911,35 @@ h3{
   left: 6%;
   top: 25%;
 }
+
+
+.jsh3:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.jsh31:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
+.jsh32:hover {
+  
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 .b11:hover {
   
   background-color: rgb(167, 50, 50);
@@ -6142,6 +6613,42 @@ h3{
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
+}
+
+.jsh.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.jsh1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.jsh2.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.jsh3.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.jsh31.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.jsh32.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
+}
+.jsh4.hide {
+  opacity: 0;
+-webkit-animation: fade-out 1s forwards ease-out;
+        animation: fade-out 1s forwards ease-out;
 }
 
 
@@ -7123,104 +7630,117 @@ animation: fade-out 0.4s forwards ease-out;
   transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
   width: 29%;
 }
+
+
+
+
 .shang {
+
+  display: none;
+  width:70px; height:70px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  display: none;
-  transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
 
-  color: rgb(190, 69, 69);
-  font-size: 210%;
-  line-height: 1.5;
+
   opacity: 0;
-  padding: 0.1em 0.5em 0.1em 0.5em;
+
+  transition: 0.5s;
   position:absolute;
-    top:80%;
+    top:73%;
     left:50%;
-    bottom:0;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
+    transform: translate(-50%, -50%);
+    border:0;
+    background:transparent;
+
 }
 .xia {
+  border:0;
+  background:transparent;
+  display: none;
+  width:70px; height:70px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  display: none;
+
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
 
-  color: rgb(190, 69, 69);
-  font-size: 210%;
-  line-height: 1.5;
+  
   opacity: 0;
-  padding: 0.1em 0.5em 0.1em 0.5em;
+ 
   position:absolute;
-    top:85%;
-    left:50%;
-    bottom:0;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
+  top:87%;
+  left:50.2%;
+  transform: translate(-50%, -50%);
 }
 .zuo {
+  border:0;
+  background:transparent;
+  display: none;
+  width:70px; height:70px;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  display: none;
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
 
-  color: rgb(190, 69, 69);
-  font-size: 210%;
-  line-height: 1.5;
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:83%;
-    left:45%;
-    bottom:0;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
+  top:80%;
+  left:46%;
+  transform: translate(-50%, -50%);
+ 
 }
 .you {
+  border:0;
+  background:transparent;
+  display: none;
+  width:70px; height:70px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  display: none;
   transition: 0.5s;
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
 
-  color: rgb(190, 69, 69);
-  font-size: 210%;
-  line-height: 1.5;
+
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:83%;
-    left:55%;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
+  top:80%;
+    right:41%;
+    transform: translate(-50%, -50%);
+ 
 }
 
 .close {
@@ -8058,24 +8578,24 @@ animation: fade-out 0.4s forwards ease-out;
 
 .shang.hide{
     
-  -webkit-animation: fade-out 0s forwards ease-out;
-          animation: fade-out 0s forwards ease-out;
+  -webkit-animation: fade-out 0.5s forwards ease-out;
+          animation: fade-out 0.5s forwards ease-out;
 }
 
 .xia.hide{
     
-  -webkit-animation: fade-out 0s forwards ease-out;
-          animation: fade-out 0s forwards ease-out;
+  -webkit-animation: fade-out 0.5s forwards ease-out;
+          animation: fade-out 0.5s forwards ease-out;
 }
 .zuo.hide{
     
-  -webkit-animation: fade-out 0s forwards ease-out;
-          animation: fade-out 0s forwards ease-out;
+  -webkit-animation: fade-out 0.5s forwards ease-out;
+          animation: fade-out 0.5s forwards ease-out;
 }
 .you.hide{
     
-  -webkit-animation: fade-out 0s forwards ease-out;
-          animation: fade-out 0s forwards ease-out;
+  -webkit-animation: fade-out 0.5s forwards ease-out;
+          animation: fade-out 0.5s forwards ease-out;
 }
 
 
