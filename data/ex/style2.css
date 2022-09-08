@@ -19,6 +19,16 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
+.sb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.sb2.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .scb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -29,7 +39,7 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
-.xcb1.hide {
+.xcbb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
@@ -49,6 +59,16 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
+.xb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.xb2.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .zb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -62,6 +82,60 @@
 .sb{
   
   display: none;
+  transform: rotate(2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:43%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+.sb1{
+  
+  transform: rotate(2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:43%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+.sb2{
+  
   transform: rotate(2deg);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -141,6 +215,56 @@
   text-align: center;
   text-decoration: none;
 }
+.xb1{
+  
+  transform: rotate(-2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+   bottom:4%;
+    left:40%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.xb2{
+  
+  transform: rotate(-2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+   bottom:4%;
+    left:40%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
 .xcb{
   
   display: none;
@@ -167,7 +291,7 @@
   text-align: center;
   text-decoration: none;
 }
-.xcb1{
+.xcbb{
   display: none;
   
   transform: rotate(-2deg);
@@ -3126,6 +3250,29 @@ h3{
   text-align: center;
 }
 .message22jj {
+  
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  line-height: 1.5;
+  opacity: 0;
+  position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:40%;
+  text-align: center;
+}
+.message22jjj {
   
   display: none;
   -webkit-touch-callout: none;
