@@ -24,7 +24,7 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
-.sb2.hide {
+.zb2.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
@@ -34,7 +34,27 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
+.scb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.scb2.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .xcb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.xcb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.xcb2.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
@@ -49,7 +69,27 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
+.zcb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.zcb2.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .ycb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.ycb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.ycb2.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
@@ -64,7 +104,7 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
-.xb2.hide {
+.yb2.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
@@ -78,6 +118,34 @@
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
+}
+.scb2{
+  
+  display: none;
+  transform: rotate(2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:48%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+
+
 }
 .sb{
   
@@ -109,7 +177,8 @@
 }
 .sb1{
   
-  transform: rotate(2deg);
+  display: none;
+  transform: rotate(-8deg);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -127,15 +196,16 @@
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
     top:60%;
-    left:43%;
+    left:45%;
   outline: none;
   text-align: center;
   text-decoration: none;
 
 
 }
-.sb2{
+.yb2{
   
+  display: none;
   transform: rotate(2deg);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -154,7 +224,7 @@
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
     top:60%;
-    left:43%;
+    right:36%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -189,6 +259,60 @@
 
 
 }
+.scb1{
+  
+  display: none;
+  transform: rotate(-8deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:45%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+.xcb2{
+  
+  display: none;
+  transform: rotate(-2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+   bottom:4%;
+    left:44%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
 .xb{
   display: none;
   
@@ -217,7 +341,8 @@
 }
 .xb1{
   
-  transform: rotate(-2deg);
+  display: none;
+  transform: rotate(3deg);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -235,13 +360,14 @@
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
    bottom:4%;
-    left:40%;
+    left:42%;
   outline: none;
   text-align: center;
   text-decoration: none;
 }
-.xb2{
+.zb2{
   
+  display: none;
   transform: rotate(-2deg);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -260,7 +386,7 @@
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
    bottom:4%;
-    left:40%;
+    left:37%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -291,6 +417,7 @@
   text-align: center;
   text-decoration: none;
 }
+
 .xcbb{
   display: none;
   
@@ -313,6 +440,32 @@
   position:absolute;
    bottom:4%;
     left:40%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.xcb1{
+  
+  display: none;
+  transform: rotate(3deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+   bottom:4%;
+    left:42%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -369,6 +522,58 @@
   text-align: center;
   text-decoration: none;
 }
+.zcb1{
+  
+  display: none;
+  transform: rotate(16deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:65%;
+    left:37%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.zcb2{
+  
+  display: none;
+  transform: rotate(16deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:65%;
+    left:34%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
 .ycb{
   
   display: none;
@@ -389,8 +594,60 @@
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:56%;
+    top:60%;
     right:37%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.ycb1{
+  
+  display: none;
+  transform: rotate(-8deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:59%;
+    right:38%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.ycb2{
+  
+  display: none;
+  transform: rotate(-8deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:59%;
+    right:36%;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -796,6 +1053,9 @@ body {
 
 
 
+
+
+
 .ksh {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -841,6 +1101,175 @@ body {
   transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1);
   width: 29%;
 }
+.lbe {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe3 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe4 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe5 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe6 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe7 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe8 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe9 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+.lbe10 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: none;
+    top: 25%;
+    height: 50%;
+    left: 34%;
+    position: absolute;
+    width: 32%;
+}
+
+
+
+
 .abe {
   -webkit-touch-callout: none;
   -webkit-user-select: none;

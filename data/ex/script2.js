@@ -242,6 +242,27 @@ $('.b12').click(function(e){
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   $('.s5').addClass('hide');
   $('.s51').addClass('hide');
   $('.s52').addClass('hide');
@@ -299,6 +320,84 @@ $('.b12').click(function(e){
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
 
+    if(globalThis.start==1){ if(globalThis.e==1 && globalThis.s==1){
+        
+      $('.sb1').removeClass('hide');
+      $('.sb1').addClass('show').css('display', 'block');
+      $('.xcb1').removeClass('hide');
+      $('.xcb1').addClass('show').css('display', 'block');
+      $('.zcb1').removeClass('hide');
+      $('.zcb1').addClass('show').css('display', 'block');
+      $('.ycb1').removeClass('hide');
+      $('.ycb1').addClass('show').css('display', 'block');
+
+    }
+    if(globalThis.e==1 && globalThis.a==1){
+    
+      $('.sb1').removeClass('hide');
+      $('.sb1').addClass('show').css('display', 'block');
+      $('.xcb1').removeClass('hide');
+      $('.xcb1').addClass('show').css('display', 'block');
+      $('.zcb1').removeClass('hide');
+      $('.zcb1').addClass('show').css('display', 'block');
+      $('.ycb1').removeClass('hide');
+      $('.ycb1').addClass('show').css('display', 'block');
+
+    }
+    if(globalThis.e==1 && globalThis.k==1){
+    
+      $('.xb1').removeClass('hide');
+      $('.xb1').addClass('show').css('display', 'block');
+      $('.scb1').removeClass('hide');
+      $('.scb1').addClass('show').css('display', 'block');
+      $('.zcb1').removeClass('hide');
+      $('.zcb1').addClass('show').css('display', 'block');
+      $('.ycb1').removeClass('hide');
+      $('.ycb1').addClass('show').css('display', 'block');
+
+    }
+    if(globalThis.e==2 && globalThis.s==1){
+    
+      $('.zb2').removeClass('hide');
+      $('.zb2').addClass('show').css('display', 'block');
+      $('.xcb2').removeClass('hide');
+      $('.xcb2').addClass('show').css('display', 'block');
+      $('.scb2').removeClass('hide');
+      $('.scb2').addClass('show').css('display', 'block');
+      $('.ycb2').removeClass('hide');
+      $('.ycb2').addClass('show').css('display', 'block');
+      
+
+    }
+    if(globalThis.e==2 && globalThis.a==1){
+    
+      $('.yb2').removeClass('hide');
+      $('.yb2').addClass('show').css('display', 'block');
+      $('.xcb2').removeClass('hide');
+      $('.xcb2').addClass('show').css('display', 'block');
+      $('.scb2').removeClass('hide');
+      $('.scb2').addClass('show').css('display', 'block');
+      $('.zcb2').removeClass('hide');
+      $('.zcb2').addClass('show').css('display', 'block');
+
+    }
+    if(globalThis.e==2 && globalThis.k==1){
+    
+      $('.yb2').removeClass('hide');
+      $('.yb2').addClass('show').css('display', 'block');
+      $('.xcb2').removeClass('hide');
+      $('.xcb2').addClass('show').css('display', 'block');
+      $('.scb2').removeClass('hide');
+      $('.scb2').addClass('show').css('display', 'block');
+      $('.zcb2').removeClass('hide');
+      $('.zcb2').addClass('show').css('display', 'block');
+
+    }
+
+
+      globalThis.t=globalThis.t+'1'
+    globalThis.e=globalThis.e+1}
+
          
   }, 600);
 
@@ -307,6 +406,27 @@ $('.b12').click(function(e){
 
 });
 $('.b21').click(function(e) {
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -517,6 +637,27 @@ $('.message22jjj').addClass('hide');
 
 });
 $('.b31').click(function(e) {
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -730,6 +871,27 @@ $('.message22jjj').addClass('hide');
 
 });
 $('.b41').click(function(e) {
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -937,6 +1099,27 @@ $('.message22jjj').addClass('hide');
   
 });
 $('.b51').click(function(e) {
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -1152,6 +1335,27 @@ $('.message22jjj').addClass('hide');
   
 });
 $('.b52').click(function(e) {
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -1366,6 +1570,27 @@ $('.message22jjj').addClass('hide');
   
 });
 $('.b61').click(function(e) {
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -1577,6 +1802,27 @@ $('.message22jjj').addClass('hide');
 });
 
 $('.b22').click(function(e){
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -1637,43 +1883,83 @@ $('.b22').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
-            if(globalThis.e==1 && globalThis.s==1){
+            if(globalThis.start==1){ if(globalThis.e==1 && globalThis.s==1){
         
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.a==1){
             
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.k==1){
             
               $('.xb1').removeClass('hide');
               $('.xb1').addClass('show').css('display', 'block');
-    
+              $('.scb1').removeClass('hide');
+              $('.scb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.s==1){
             
-              $('.zb1').removeClass('hide');
-              $('.zb1').addClass('show').css('display', 'block');
-    
+              $('.zb2').removeClass('hide');
+              $('.zb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.ycb2').removeClass('hide');
+              $('.ycb2').addClass('show').css('display', 'block');
+              
+        
             }
             if(globalThis.e==2 && globalThis.a==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.k==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
-         
+        
+        
+              globalThis.t=globalThis.t+'1'
+            globalThis.e=globalThis.e+1}
   }, 600);
 
 
@@ -1681,6 +1967,27 @@ $('.b22').click(function(e){
 
 });
 $('.b32').click(function(e){
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -1741,42 +2048,83 @@ $('.b32').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
-            if(globalThis.e==1 && globalThis.s==1){
+            if(globalThis.start==1){ if(globalThis.e==1 && globalThis.s==1){
         
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.a==1){
             
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.k==1){
             
               $('.xb1').removeClass('hide');
               $('.xb1').addClass('show').css('display', 'block');
-    
+              $('.scb1').removeClass('hide');
+              $('.scb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.s==1){
             
-              $('.zb1').removeClass('hide');
-              $('.zb1').addClass('show').css('display', 'block');
-    
+              $('.zb2').removeClass('hide');
+              $('.zb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.ycb2').removeClass('hide');
+              $('.ycb2').addClass('show').css('display', 'block');
+              
+        
             }
             if(globalThis.e==2 && globalThis.a==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.k==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
+        
+        
+              globalThis.t=globalThis.t+'1'
+            globalThis.e=globalThis.e+1}
          
   }, 600);
 
@@ -1786,6 +2134,27 @@ $('.b32').click(function(e){
 });
 
 $('.b42').click(function(e){
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -1846,42 +2215,83 @@ $('.b42').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
-            if(globalThis.e==1 && globalThis.s==1){
+            if(globalThis.start==1){ if(globalThis.e==1 && globalThis.s==1){
         
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.a==1){
             
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.k==1){
             
               $('.xb1').removeClass('hide');
               $('.xb1').addClass('show').css('display', 'block');
-    
+              $('.scb1').removeClass('hide');
+              $('.scb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.s==1){
             
-              $('.zb1').removeClass('hide');
-              $('.zb1').addClass('show').css('display', 'block');
-    
+              $('.zb2').removeClass('hide');
+              $('.zb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.ycb2').removeClass('hide');
+              $('.ycb2').addClass('show').css('display', 'block');
+              
+        
             }
             if(globalThis.e==2 && globalThis.a==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.k==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
+        
+        
+              globalThis.t=globalThis.t+'1'
+            globalThis.e=globalThis.e+1}
          
   }, 600);
 
@@ -1950,42 +2360,83 @@ $('.b53').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
-            if(globalThis.e==1 && globalThis.s==1){
+            if(globalThis.start==1){ if(globalThis.e==1 && globalThis.s==1){
         
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.a==1){
             
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.k==1){
             
               $('.xb1').removeClass('hide');
               $('.xb1').addClass('show').css('display', 'block');
-    
+              $('.scb1').removeClass('hide');
+              $('.scb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.s==1){
             
-              $('.zb1').removeClass('hide');
-              $('.zb1').addClass('show').css('display', 'block');
-    
+              $('.zb2').removeClass('hide');
+              $('.zb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.ycb2').removeClass('hide');
+              $('.ycb2').addClass('show').css('display', 'block');
+              
+        
             }
             if(globalThis.e==2 && globalThis.a==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.k==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
+        
+        
+              globalThis.t=globalThis.t+'1'
+            globalThis.e=globalThis.e+1}
          
   }, 600);
 
@@ -1994,6 +2445,27 @@ $('.b53').click(function(e){
 });
 
 $('.b62').click(function(e){
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
@@ -2054,42 +2526,83 @@ $('.b62').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
-            if(globalThis.e==1 && globalThis.s==1){
+            if(globalThis.start==1){ if(globalThis.e==1 && globalThis.s==1){
         
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.a==1){
             
               $('.sb1').removeClass('hide');
               $('.sb1').addClass('show').css('display', 'block');
-    
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==1 && globalThis.k==1){
             
               $('.xb1').removeClass('hide');
               $('.xb1').addClass('show').css('display', 'block');
-    
+              $('.scb1').removeClass('hide');
+              $('.scb1').addClass('show').css('display', 'block');
+              $('.zcb1').removeClass('hide');
+              $('.zcb1').addClass('show').css('display', 'block');
+              $('.ycb1').removeClass('hide');
+              $('.ycb1').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.s==1){
             
-              $('.zb1').removeClass('hide');
-              $('.zb1').addClass('show').css('display', 'block');
-    
+              $('.zb2').removeClass('hide');
+              $('.zb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.ycb2').removeClass('hide');
+              $('.ycb2').addClass('show').css('display', 'block');
+              
+        
             }
             if(globalThis.e==2 && globalThis.a==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
             if(globalThis.e==2 && globalThis.k==1){
             
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
+              $('.yb2').removeClass('hide');
+              $('.yb2').addClass('show').css('display', 'block');
+              $('.xcb2').removeClass('hide');
+              $('.xcb2').addClass('show').css('display', 'block');
+              $('.scb2').removeClass('hide');
+              $('.scb2').addClass('show').css('display', 'block');
+              $('.zcb2').removeClass('hide');
+              $('.zcb2').addClass('show').css('display', 'block');
+        
             }
+        
+        
+              globalThis.t=globalThis.t+'1'
+            globalThis.e=globalThis.e+1}
          
   }, 600);
 
@@ -4527,7 +5040,27 @@ $('.card19 .close').click(function(e) {
   setTimeout(function() {
     $('.card19').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
-  
+  $('.sb').addClass('hide');
+  $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -4660,6 +5193,7 @@ $('.message22jjj').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
   $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
   $('.yb').addClass('hide');
   $('.xb').addClass('hide');
   $('.show-card').addClass('hide');
@@ -5101,8 +5635,29 @@ $('.message22jjj').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
   $('.zb').addClass('hide');
-  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
+  
+  
+
    
   var r=Math.floor(Math.random() * 100) + 1;
   if(globalThis.flag==7){
@@ -5259,6 +5814,7 @@ $('.message22jjj').addClass('hide');
 
     }else{
       if(globalThis.e==0){
+        globalThis.start=1
         globalThis.e=globalThis.e+1
         var s = [1,2,3,4];
            var rands = s[Math.floor(Math.random()*4)];
@@ -5329,8 +5885,8 @@ $('.message22jjj').addClass('hide');
               $('.zb').addClass('show').css('display', 'block');
               $('.zbj').removeClass('hide');
               $('.zbj').addClass('show').css('display', 'block');
-              $('.xcb1').removeClass('hide');
-              $('.xcb1').addClass('show').css('display', 'block');
+              $('.xcbb').removeClass('hide');
+              $('.xcbb').addClass('show').css('display', 'block');
               $('.scb').removeClass('hide');
               $('.scb').addClass('show').css('display', 'block');
               $('.ycb').removeClass('hide');
@@ -5341,7 +5897,7 @@ $('.message22jjj').addClass('hide');
           }, 6000);
 
       }else{
-      if(globalThis.e<4 && globalThis.e>0){
+      if(globalThis.e<3 && globalThis.e>0){
     
         var r=Math.floor(Math.random() * 100) + 1;
         if (r<50) {   
@@ -5458,25 +6014,7 @@ $('.message22jjj').addClass('hide');
           $('.zcb2').addClass('show').css('display', 'block');
 
         }
-        if(globalThis.e==3 && globalThis.s==1){
-        
-          $('.yb3').removeClass('hide');
-          $('.yb3').addClass('show').css('display', 'block');
 
-        }
-        if(globalThis.e==3 && globalThis.a==1){
-        
-          $('.yb3').removeClass('hide');
-          $('.yb3').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.k==1){
-        
-          $('.sb3').removeClass('hide');
-          $('.sb3').addClass('show').css('display', 'block');
-
-        }
-       
 
           globalThis.t=globalThis.t+'1'
         globalThis.e=globalThis.e+1
@@ -5522,10 +6060,10 @@ $('.message22jjj').addClass('hide');
     
         }
       }else{
-      if(globalThis.e==4){
+      if(globalThis.e==3){
         globalThis.t=globalThis.t+'1'
         if(globalThis.k==1){
-          if(globalThis.t='243'){
+          if(globalThis.t=='243'){
 
           $(".ksh").removeClass('hide');
           $(".ksh").addClass('show').css('display', 'block');
@@ -5546,12 +6084,17 @@ $('.message22jjj').addClass('hide');
         if(globalThis.a==1){
           
 
-           if(globalThis.t='413'){
+           if(globalThis.t=='413'){
              $(".ash").removeClass('hide');
            $(".ash").addClass('show').css('display', 'block');
           }else{
             
-          // 這裏放be
+            setTimeout(function(){
+              var m1 = new Audio('data/se/be.wav');
+              m1.play();
+              $('.red').removeClass('hide');
+              $('.red').addClass('show').css('display', 'block');
+            },600);
 
 
           }
@@ -5559,12 +6102,16 @@ $('.message22jjj').addClass('hide');
         }
         if(globalThis.s==1){
 
-          if(globalThis.t='112'){
+          if(globalThis.t=='112'){
             $(".ssh").removeClass('hide');
           $(".ssh").addClass('show').css('display', 'block');}else{
             
-          // 這裏放be
-
+            setTimeout(function(){
+              var m1 = new Audio('data/se/be.wav');
+              m1.play();
+              $('.red').removeClass('hide');
+              $('.red').addClass('show').css('display', 'block');
+            },600);
 
           }
         }
@@ -5797,8 +6344,25 @@ $('.zuo').click(function(e) {
   music.play();  
   $('.sb').addClass('hide');
   $('.zb').addClass('hide');
-  $('.yb').addClass('hide');
-  $('.xb').addClass('hide'); 
+  $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -6323,7 +6887,95 @@ $('.message22jjj').addClass('hide');
             $(".ksh").removeClass('hide');
           $(".ksh").addClass('show').css('display', 'block');}else{
             
-          // 這裏放be
+            var audio = document.getElementById("indexs");
+            var vol1 = 0.50;
+              var interval1 = 200; // 200ms interval
+            
+            var fadeout = setInterval(
+              function() {
+                // Reduce volume by 0.05 as long as it is above 0
+                // This works as long as you start with a multiple of 0.05!
+                if (vol1 > 0) {
+                  vol1 -= 0.05;
+                  audio.volume = vol1;
+                }
+                else {
+                  // Stop the setInterval when 0 is reached
+                  clearInterval(fadeout);
+                }
+              }, interval1);     
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.lbe').addClass('show').css('display', 'block');
+      $('.lbe').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.lbe1').addClass('show').css('display', 'block');
+      $('.lbe1').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.lbe2').addClass('show').css('display', 'block');
+      $('.lbe2').removeClass('hide');
+    },11000);
+    setTimeout(function(){
+      $('.lbe3').addClass('show').css('display', 'block');
+      $('.lbe3').removeClass('hide');
+    },14000);
+    setTimeout(function(){
+      $('.lbe4').addClass('show').css('display', 'block');
+      $('.lbe4').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.lbe5').addClass('show').css('display', 'block');
+      $('.lbe5').removeClass('hide');
+    },17000);
+    setTimeout(function(){
+      $('.lbe6').addClass('show').css('display', 'block');
+      $('.lbe6').removeClass('hide');
+    },20000);
+    setTimeout(function(){
+      $('.lbe7').addClass('show').css('display', 'block');
+      $('.lbe7').removeClass('hide');
+    },21500);
+    setTimeout(function(){
+      $('.lbe8').addClass('show').css('display', 'block');
+      $('.lbe8').removeClass('hide');
+    },23000);
+    setTimeout(function(){
+      $('.lbe9').addClass('show').css('display', 'block');
+      $('.lbe9').removeClass('hide');
+    },24500);
+    setTimeout(function(){
+      $('.lbe10').addClass('show').css('display', 'block');
+      $('.lbe10').removeClass('hide');
+    },30000);
+
+
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },32500);
+
 
 
           }
@@ -6336,7 +6988,95 @@ $('.message22jjj').addClass('hide');
             $(".ash").removeClass('hide');
           $(".ash").addClass('show').css('display', 'block');}else{
             
-          // 這裏放be
+            var audio = document.getElementById("indexs");
+            var vol1 = 0.50;
+              var interval1 = 200; // 200ms interval
+            
+            var fadeout = setInterval(
+              function() {
+                // Reduce volume by 0.05 as long as it is above 0
+                // This works as long as you start with a multiple of 0.05!
+                if (vol1 > 0) {
+                  vol1 -= 0.05;
+                  audio.volume = vol1;
+                }
+                else {
+                  // Stop the setInterval when 0 is reached
+                  clearInterval(fadeout);
+                }
+              }, interval1);     
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.lbe').addClass('show').css('display', 'block');
+      $('.lbe').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.lbe1').addClass('show').css('display', 'block');
+      $('.lbe1').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.lbe2').addClass('show').css('display', 'block');
+      $('.lbe2').removeClass('hide');
+    },11000);
+    setTimeout(function(){
+      $('.lbe3').addClass('show').css('display', 'block');
+      $('.lbe3').removeClass('hide');
+    },14000);
+    setTimeout(function(){
+      $('.lbe4').addClass('show').css('display', 'block');
+      $('.lbe4').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.lbe5').addClass('show').css('display', 'block');
+      $('.lbe5').removeClass('hide');
+    },17000);
+    setTimeout(function(){
+      $('.lbe6').addClass('show').css('display', 'block');
+      $('.lbe6').removeClass('hide');
+    },20000);
+    setTimeout(function(){
+      $('.lbe7').addClass('show').css('display', 'block');
+      $('.lbe7').removeClass('hide');
+    },21500);
+    setTimeout(function(){
+      $('.lbe8').addClass('show').css('display', 'block');
+      $('.lbe8').removeClass('hide');
+    },23000);
+    setTimeout(function(){
+      $('.lbe9').addClass('show').css('display', 'block');
+      $('.lbe9').removeClass('hide');
+    },24500);
+    setTimeout(function(){
+      $('.lbe10').addClass('show').css('display', 'block');
+      $('.lbe10').removeClass('hide');
+    },30000);
+
+
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },32500);
+
 
 
           }
@@ -6348,7 +7088,95 @@ $('.message22jjj').addClass('hide');
             $(".ssh").removeClass('hide');
           $(".ssh").addClass('show').css('display', 'block');}else{
             
-          // 這裏放be
+            var audio = document.getElementById("indexs");
+            var vol1 = 0.50;
+              var interval1 = 200; // 200ms interval
+            
+            var fadeout = setInterval(
+              function() {
+                // Reduce volume by 0.05 as long as it is above 0
+                // This works as long as you start with a multiple of 0.05!
+                if (vol1 > 0) {
+                  vol1 -= 0.05;
+                  audio.volume = vol1;
+                }
+                else {
+                  // Stop the setInterval when 0 is reached
+                  clearInterval(fadeout);
+                }
+              }, interval1);     
+    setTimeout(function(){
+      var m1 = new Audio('data/se/be.wav');
+      m1.play();
+      $('.red').removeClass('hide');
+      $('.red').addClass('show').css('display', 'block');
+    },600);
+    setTimeout(function(){
+    
+      $('.red1').removeClass('hide');
+      $('.red1').addClass('show').css('display', 'block');
+    },2100);
+    setTimeout(function(){
+    
+      $('.red2').removeClass('hide');
+      $('.red2').addClass('show').css('display', 'block');
+    },3600);
+    
+      setTimeout(function(){
+      $('.lbe').addClass('show').css('display', 'block');
+      $('.lbe').removeClass('hide');
+    },6500);
+    setTimeout(function(){
+      $('.lbe1').addClass('show').css('display', 'block');
+      $('.lbe1').removeClass('hide');
+    },9500);
+    setTimeout(function(){
+      $('.lbe2').addClass('show').css('display', 'block');
+      $('.lbe2').removeClass('hide');
+    },11000);
+    setTimeout(function(){
+      $('.lbe3').addClass('show').css('display', 'block');
+      $('.lbe3').removeClass('hide');
+    },14000);
+    setTimeout(function(){
+      $('.lbe4').addClass('show').css('display', 'block');
+      $('.lbe4').removeClass('hide');
+    },15500);
+    setTimeout(function(){
+      $('.lbe5').addClass('show').css('display', 'block');
+      $('.lbe5').removeClass('hide');
+    },17000);
+    setTimeout(function(){
+      $('.lbe6').addClass('show').css('display', 'block');
+      $('.lbe6').removeClass('hide');
+    },20000);
+    setTimeout(function(){
+      $('.lbe7').addClass('show').css('display', 'block');
+      $('.lbe7').removeClass('hide');
+    },21500);
+    setTimeout(function(){
+      $('.lbe8').addClass('show').css('display', 'block');
+      $('.lbe8').removeClass('hide');
+    },23000);
+    setTimeout(function(){
+      $('.lbe9').addClass('show').css('display', 'block');
+      $('.lbe9').removeClass('hide');
+    },24500);
+    setTimeout(function(){
+      $('.lbe10').addClass('show').css('display', 'block');
+      $('.lbe10').removeClass('hide');
+    },30000);
+
+
+    setTimeout(function(){
+      $('.black').addClass('show').css('display', 'block');
+      $('.black').removeClass('hide');
+      var m2 = new Audio('data/se/x.wav');
+      m2.play();
+      $('.show-carddc1').addClass('show').css('display', 'block');
+      $('.show-carddc1').removeClass('hide');
+    },32500);
+
 
 
           }
@@ -6543,8 +7371,25 @@ $('.you').click(function(e) {
   music.play();
   $('.sb').addClass('hide');
   $('.zb').addClass('hide');
-  $('.yb').addClass('hide');
   $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -7337,8 +8182,25 @@ $('.xia').click(function(e) {
   music.play();
   $('.sb').addClass('hide');
   $('.zb').addClass('hide');
-  $('.yb').addClass('hide');
   $('.xb').addClass('hide');
+  $('.zbj').addClass('hide');
+  $('.xb1').addClass('hide');
+  $('.sb1').addClass('hide');
+  $('.zb2').addClass('hide');
+  $('.yb2').addClass('hide');
+  $('.xcb').addClass('hide');
+  $('.scb').addClass('hide');
+  $('.zcb').addClass('hide');
+  $('.ycb').addClass('hide');
+  $('.xcbb').addClass('hide');
+  $('.xcb1').addClass('hide');
+  $('.scb1').addClass('hide');
+  $('.zcb1').addClass('hide');
+  $('.ycb1').addClass('hide');
+  $('.xcb2').addClass('hide');
+  $('.scb2').addClass('hide');
+  $('.zcb2').addClass('hide');
+  $('.ycb2').addClass('hide');
   $('.message22j').addClass('hide');
   $('.message22jj').addClass('hide');
   $('.message14j').addClass('hide');
@@ -7515,6 +8377,27 @@ $('.message22jjj').addClass('hide');
      $('.show-card38').addClass('hide');
      $('.show-card39').addClass('hide');
      $('.show-card40').addClass('hide');
+     $('.sb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.xb').addClass('hide');
+     $('.zbj').addClass('hide');
+     $('.xb1').addClass('hide');
+     $('.sb1').addClass('hide');
+     $('.zb2').addClass('hide');
+     $('.yb2').addClass('hide');
+     $('.xcb').addClass('hide');
+     $('.scb').addClass('hide');
+     $('.zcb').addClass('hide');
+     $('.ycb').addClass('hide');
+     $('.xcbb').addClass('hide');
+     $('.xcb1').addClass('hide');
+     $('.scb1').addClass('hide');
+     $('.zcb1').addClass('hide');
+     $('.ycb1').addClass('hide');
+     $('.xcb2').addClass('hide');
+     $('.scb2').addClass('hide');
+     $('.zcb2').addClass('hide');
+     $('.ycb2').addClass('hide');
      var div = document.getElementById('shang');
            var div1 = document.getElementById('xia');
            var div2 = document.getElementById('you');
@@ -8264,6 +9147,8 @@ $('.st').click(function(e) {
 //     $('.thanks').removeClass('hide');
 //     $('.thanks').addClass('show').css('display', 'block');
 //   },35100);
+$('.b31').removeClass('hide');
+$('.b31').addClass('show').css('display', 'block');
  
 
 
@@ -8342,8 +9227,6 @@ $('.openn').click(function(e) {
     
  
 });
-
-
 
 
 
