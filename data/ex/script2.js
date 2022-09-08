@@ -1,7 +1,5 @@
 window.ondragstart = function() {return false}
 $('.jsh3').click(function(e) {
-
-  
   var music = new Audio('data/se/se.wav');
   music.volume=0.5;
   music.play();
@@ -18,6 +16,8 @@ $('.jsh3').click(function(e) {
     $(".ksh").addClass('show').css('display', 'block');
   },1000);  
 });
+
+
 $('.jsh31').click(function(e) {
 
   
@@ -7331,7 +7331,7 @@ $('.show-carddc1').removeClass('hide');
 
   }else{
 
-    if (r<50) {
+    if (r<0) {
       if (r<25) {   
         var div = document.getElementById('shang');
         var div1 = document.getElementById('xia');
@@ -15797,6 +15797,7 @@ $('.st').click(function(e) {
   $(".st").addClass("hide");
   globalThis.r=0
   globalThis.e=0
+  globalThis.t=''
 
 //   var audio = document.getElementById("indexs");
 //   var vol1 = 0.50;
@@ -15885,7 +15886,6 @@ $('.st').click(function(e) {
 //     $('.thanks').removeClass('hide');
 //     $('.thanks').addClass('show').css('display', 'block');
 //   },35100);
-
 
 
 
