@@ -207,9 +207,10 @@ $('.show-carddc').click(function(e) {
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
-  setTimeout(function(){
-  window.location.href = "https://wj.qq.com/s2/10769036/5fa0/";
-  },600);  
+  window.open('https://wj.qq.com/s2/10769036/5fa0/','_blank');
+  // setTimeout(function(){
+  // window.location.href = "https://wj.qq.com/s2/10769036/5fa0/";
+  // },600);  
 });
 
 
