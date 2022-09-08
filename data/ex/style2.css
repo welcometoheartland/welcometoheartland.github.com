@@ -7169,6 +7169,11 @@ animation: fade-out 0.4s forwards ease-out;
   -webkit-animation: fade-out 0.4s forwards ease-out;
           animation: fade-out 0.4s forwards ease-out;
 }
+.message22jjj.hide {
+  
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+          animation: fade-out 0.4s forwards ease-out;
+}
 .message23.hide {
   
   -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -7813,7 +7818,7 @@ user-select: none;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
   top:80%;
-    right:41.2%;
+    left:54%;
     transform: translate(-50%, -50%);
  
 }

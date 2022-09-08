@@ -13174,7 +13174,12 @@ $('.show-carddc1').removeClass('hide');
       setTimeout(function() {
         $('.message22jj').removeClass('hide');
       $('.message22jj').addClass('show').css('display', 'block');
-      }, 1100);
+      }, 2200);
+      setTimeout(function() {
+        $('.message22jjj').removeClass('hide');
+      $('.message22jjj').addClass('show').css('display', 'block');
+      }, 3300);
+      
       $('.show-card32').removeClass('hide');
       $('.show-card32').addClass('show').css('display', 'block');
       globalThis.flag=7
