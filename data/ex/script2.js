@@ -297,42 +297,7 @@ $('.b12').click(function(e){
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
-            if(globalThis.e==1 && globalThis.s==1){
-        
-              $('.sb1').removeClass('hide');
-              $('.sb1').addClass('show').css('display', 'block');
-    
-            }
-            if(globalThis.e==1 && globalThis.a==1){
-            
-              $('.sb1').removeClass('hide');
-              $('.sb1').addClass('show').css('display', 'block');
-    
-            }
-            if(globalThis.e==1 && globalThis.k==1){
-            
-              $('.xb1').removeClass('hide');
-              $('.xb1').addClass('show').css('display', 'block');
-    
-            }
-            if(globalThis.e==2 && globalThis.s==1){
-            
-              $('.zb1').removeClass('hide');
-              $('.zb1').addClass('show').css('display', 'block');
-    
-            }
-            if(globalThis.e==2 && globalThis.a==1){
-            
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
-            }
-            if(globalThis.e==2 && globalThis.k==1){
-            
-              $('.yb1').removeClass('hide');
-              $('.yb1').addClass('show').css('display', 'block');
-    
-            }
+
          
   }, 600);
 
@@ -5084,7 +5049,7 @@ $('.message2j').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
   $('.zb').addClass('hide');
-  $('.yb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
    
   var r=Math.floor(Math.random() * 100) + 1;
@@ -5106,7 +5071,7 @@ $('.message2j').addClass('hide');
     if(globalThis.r==0){ 
       if(globalThis.e==2){
 
-        $('.show-card').addClass('hide');
+    $('.show-card').addClass('hide');
     $('.show-card1').addClass('hide');
     $('.show-card2').addClass('hide');
     $('.show-card3').addClass('hide');
@@ -5147,8 +5112,8 @@ $('.message2j').addClass('hide');
     $('.show-card38').addClass('hide');
     $('.show-card39').addClass('hide');
     $('.show-card40').addClass('hide');
-          $(".linshi").removeClass('hide');
-            $(".linshi").addClass('show').css('display', 'block');
+    $(".linshi").removeClass('hide');
+    $(".linshi").addClass('show').css('display', 'block');
       }
       if(globalThis.e<2){
         globalThis.e=globalThis.e +1
@@ -5286,18 +5251,38 @@ $('.message2j').addClass('hide');
         
               $('.sb').removeClass('hide');
               $('.sb').addClass('show').css('display', 'block');
+              $('.xcb').removeClass('hide');
+              $('.xcb').addClass('show').css('display', 'block');
+              $('.zcb').removeClass('hide');
+              $('.zcb').addClass('show').css('display', 'block');
+              $('.ycb').removeClass('hide');
+              $('.ycb').addClass('show').css('display', 'block');
     
             }
             if(globalThis.a==1){
         
               $('.xb').removeClass('hide');
               $('.xb').addClass('show').css('display', 'block');
+              $('.scb').removeClass('hide');
+              $('.scb').addClass('show').css('display', 'block');
+              $('.zcb').removeClass('hide');
+              $('.zcb').addClass('show').css('display', 'block');
+              $('.ycb').removeClass('hide');
+              $('.ycb').addClass('show').css('display', 'block');
     
             }
             if(globalThis.k==1){
         
               $('.zb').removeClass('hide');
               $('.zb').addClass('show').css('display', 'block');
+              $('.zbj').removeClass('hide');
+              $('.zbj').addClass('show').css('display', 'block');
+              $('.xcb1').removeClass('hide');
+              $('.xcb1').addClass('show').css('display', 'block');
+              $('.scb').removeClass('hide');
+              $('.scb').addClass('show').css('display', 'block');
+              $('.ycb').removeClass('hide');
+              $('.ycb').addClass('show').css('display', 'block');
     
             }
 
@@ -5306,86 +5291,6 @@ $('.message2j').addClass('hide');
       }else{
       if(globalThis.e<4 && globalThis.e>0){
     
-        if(globalThis.e==1 && globalThis.s==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==1 && globalThis.a==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==1 && globalThis.k==1){
-        
-          $('.xb').removeClass('hide');
-          $('.xb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==2 && globalThis.s==1){
-        
-          $('.zb').removeClass('hide');
-          $('.zb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==2 && globalThis.a==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==2 && globalThis.k==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.s==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.a==1){
-        
-          $('.yb').removeClass('hide');
-          $('.yb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==3 && globalThis.k==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==4 && globalThis.s==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==4 && globalThis.a==1){
-        
-          $('.sb').removeClass('hide');
-          $('.sb').addClass('show').css('display', 'block');
-
-        }
-        if(globalThis.e==4 && globalThis.k==1){
-        
-          $('.xb').removeClass('hide');
-          $('.xb').addClass('show').css('display', 'block');
-
-        }
-
-        if(globalThis.e<5){
-          globalThis.t=globalThis.t+'1'}
-        globalThis.e=globalThis.e+1
-
-
-
-
         var r=Math.floor(Math.random() * 100) + 1;
         if (r<50) {   
            var s = [1,2,3,4];
@@ -5427,6 +5332,102 @@ $('.message2j').addClass('hide');
             div1.style.visibility = 'visible';
             div2.style.visibility = 'visible';
             div3.style.visibility = 'visible';
+            
+        if(globalThis.e==1 && globalThis.s==1){
+        
+          $('.sb1').removeClass('hide');
+          $('.sb1').addClass('show').css('display', 'block');
+          $('.xcb1').removeClass('hide');
+          $('.xcb1').addClass('show').css('display', 'block');
+          $('.zcb1').removeClass('hide');
+          $('.zcb1').addClass('show').css('display', 'block');
+          $('.ycb1').removeClass('hide');
+          $('.ycb1').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.a==1){
+        
+          $('.sb1').removeClass('hide');
+          $('.sb1').addClass('show').css('display', 'block');
+          $('.xcb1').removeClass('hide');
+          $('.xcb1').addClass('show').css('display', 'block');
+          $('.zcb1').removeClass('hide');
+          $('.zcb1').addClass('show').css('display', 'block');
+          $('.ycb1').removeClass('hide');
+          $('.ycb1').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==1 && globalThis.k==1){
+        
+          $('.xb1').removeClass('hide');
+          $('.xb1').addClass('show').css('display', 'block');
+          $('.scb1').removeClass('hide');
+          $('.scb1').addClass('show').css('display', 'block');
+          $('.zcb1').removeClass('hide');
+          $('.zcb1').addClass('show').css('display', 'block');
+          $('.ycb1').removeClass('hide');
+          $('.ycb1').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.s==1){
+        
+          $('.zb2').removeClass('hide');
+          $('.zb2').addClass('show').css('display', 'block');
+          $('.xcb2').removeClass('hide');
+          $('.xcb2').addClass('show').css('display', 'block');
+          $('.scb2').removeClass('hide');
+          $('.scb2').addClass('show').css('display', 'block');
+          $('.ycb2').removeClass('hide');
+          $('.ycb2').addClass('show').css('display', 'block');
+          
+
+        }
+        if(globalThis.e==2 && globalThis.a==1){
+        
+          $('.yb2').removeClass('hide');
+          $('.yb2').addClass('show').css('display', 'block');
+          $('.xcb2').removeClass('hide');
+          $('.xcb2').addClass('show').css('display', 'block');
+          $('.scb2').removeClass('hide');
+          $('.scb2').addClass('show').css('display', 'block');
+          $('.zcb2').removeClass('hide');
+          $('.zcb2').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==2 && globalThis.k==1){
+        
+          $('.yb2').removeClass('hide');
+          $('.yb2').addClass('show').css('display', 'block');
+          $('.xcb2').removeClass('hide');
+          $('.xcb2').addClass('show').css('display', 'block');
+          $('.scb2').removeClass('hide');
+          $('.scb2').addClass('show').css('display', 'block');
+          $('.zcb2').removeClass('hide');
+          $('.zcb2').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.s==1){
+        
+          $('.yb3').removeClass('hide');
+          $('.yb3').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.a==1){
+        
+          $('.yb3').removeClass('hide');
+          $('.yb3').addClass('show').css('display', 'block');
+
+        }
+        if(globalThis.e==3 && globalThis.k==1){
+        
+          $('.sb3').removeClass('hide');
+          $('.sb3').addClass('show').css('display', 'block');
+
+        }
+       
+
+          globalThis.t=globalThis.t+'1'
+        globalThis.e=globalThis.e+1
 
           }, 6000);
         } else {   
@@ -5469,29 +5470,34 @@ $('.message2j').addClass('hide');
     
         }
       }else{
-      if(globalThis.e==6){
+      if(globalThis.e==4){
+        globalThis.t=globalThis.t+'1'
         if(globalThis.k==1){
-          if(globalThis.t='24314'){
+          if(globalThis.t='243'){
 
-            $(".ksh").removeClass('hide');
+          $(".ksh").removeClass('hide');
           $(".ksh").addClass('show').css('display', 'block');
         
         
         }else{
             
-          // 這裏放be
+          setTimeout(function(){
+            var m1 = new Audio('data/se/be.wav');
+            m1.play();
+            $('.red').removeClass('hide');
+            $('.red').addClass('show').css('display', 'block');
+          },600);
 
 
           }
-          
-
         }
         if(globalThis.a==1){
           
 
-          // if(globalThis.t='41331'){
-          //   $(".ash").removeClass('hide');
-          // $(".ash").addClass('show').css('display', 'block');}else{
+           if(globalThis.t='413'){
+             $(".ash").removeClass('hide');
+           $(".ash").addClass('show').css('display', 'block');
+          }else{
             
           // 這裏放be
 
@@ -5501,7 +5507,7 @@ $('.message2j').addClass('hide');
         }
         if(globalThis.s==1){
 
-          if(globalThis.t='11231'){
+          if(globalThis.t='112'){
             $(".ssh").removeClass('hide');
           $(".ssh").addClass('show').css('display', 'block');}else{
             
@@ -5512,7 +5518,7 @@ $('.message2j').addClass('hide');
         }
   
       }
-    }}
+    }}}
 
 
   }else{

@@ -19,6 +19,31 @@
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
+.scb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.xcb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.xcb1.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.zcb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
+.ycb.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .xb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;
@@ -54,7 +79,35 @@
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    top:55%;
+    top:60%;
+    left:43%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+.scb{
+  
+  display: none;
+  transform: rotate(2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
     left:43%;
   outline: none;
   text-align: center;
@@ -82,7 +135,59 @@
   opacity: 0;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-   bottom:7%;
+   bottom:4%;
+    left:40%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.xcb{
+  
+  display: none;
+  transform: rotate(-2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+   bottom:4%;
+    left:40%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.xcb1{
+  display: none;
+  
+  transform: rotate(-2deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+   bottom:4%;
     left:40%;
   outline: none;
   text-align: center;
@@ -110,6 +215,58 @@
   position:absolute;
     top:60%;
     left:37%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.zcb{
+  
+  display: none;
+  transform: rotate(1deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:60%;
+    left:37%;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
+.ycb{
+  
+  display: none;
+  transform: rotate(-6deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
+          animation: fade-in 1s 0.5s forwards ease-out;
+
+  color: rgb(190, 69, 69);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  position:absolute;
+    top:56%;
+    right:37%;
   outline: none;
   text-align: center;
   text-decoration: none;
