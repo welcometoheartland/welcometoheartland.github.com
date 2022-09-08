@@ -5667,7 +5667,6 @@ h3{
   text-decoration: none;
 }
 .show-card26 {
-  
   display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -5676,7 +5675,7 @@ h3{
   -ms-user-select: none;
   user-select: none;
   transition: 0.5s;
-  transform: rotate(40deg);
+  transform: rotate(20deg);
   
   -webkit-animation: fade-in 1s 0.5s forwards ease-out;
           animation: fade-in 1s 0.5s forwards ease-out;
@@ -5688,7 +5687,7 @@ h3{
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    bottom:33%;
+    bottom:38%;
     left:5%;
   outline: none;
   text-align: center;
@@ -5780,7 +5779,6 @@ h3{
 }
 
 .show-card30 {
-  
   display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -5801,7 +5799,7 @@ h3{
   line-height: 1.5;
   padding: 0.1em 0.5em 0.1em 0.5em;
   position:absolute;
-    bottom:33%;
+    bottom:30%;
     left:8%;
   outline: none;
   text-align: center;
