@@ -5854,8 +5854,8 @@ h3{
   user-select: none;
   transition: 0.5s;
   
-  -webkit-animation: fade-in 1s 0.5s forwards ease-out;
-          animation: fade-in 1s 0.5s forwards ease-out;
+  -webkit-animation: fade-in 1s 4.5s forwards ease-out;
+          animation: fade-in 1s 4.5s forwards ease-out;
           
   opacity: 0;
 

@@ -23,8 +23,8 @@ document.getElementById("astral").addEventListener("scroll", function() {
    
    if(diff < 5) {
     setTimeout(function(){
-      $(".jsh41").removeClass('hide');
-      $(".jsh41").addClass('show').css('display', 'block');
+      $(".jsh4").removeClass('hide');
+      $(".jsh4").addClass('show').css('display', 'block');
     },600); 
     }
 });
@@ -35,8 +35,8 @@ document.getElementById("shayu").addEventListener("scroll", function() {
    
    if(diff < 5) {
     setTimeout(function(){
-      $(".jsh42").removeClass('hide');
-      $(".jsh42").addClass('show').css('display', 'block');
+      $(".jsh4").removeClass('hide');
+      $(".jsh4").addClass('show').css('display', 'block');
     },600); 
     }
 });
@@ -451,7 +451,8 @@ $('.b12').click(function(e){
   music.volume=0.5;
   music.play();
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -614,7 +615,8 @@ $('.b12').click(function(e){
 });
 $('.b21').click(function(e) {
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -846,7 +848,8 @@ $('.message22jjj').addClass('hide');
 });
 $('.b31').click(function(e) {
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -1083,7 +1086,8 @@ $('.message22jjj').addClass('hide');
 });
 $('.b41').click(function(e) {
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -1313,7 +1317,8 @@ $('.message22jjj').addClass('hide');
 });
 $('.b51').click(function(e) {
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -1551,7 +1556,8 @@ $('.message22jjj').addClass('hide');
 });
 $('.b52').click(function(e) {
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -1788,7 +1794,8 @@ $('.message22jjj').addClass('hide');
 });
 $('.b61').click(function(e) {
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -2022,7 +2029,8 @@ $('.message22jjj').addClass('hide');
 
 $('.b22').click(function(e){
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -2186,7 +2194,8 @@ $('.b22').click(function(e){
 });
 $('.b32').click(function(e){
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -2352,7 +2361,8 @@ $('.b32').click(function(e){
 
 $('.b42').click(function(e){
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -2661,7 +2671,8 @@ $('.b53').click(function(e){
 
 $('.b62').click(function(e){
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -5289,7 +5300,8 @@ $('.card19 .close').click(function(e) {
     $('.card19').css('display', 'none').removeClass('show').removeClass('hide');
   }, 600);
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -5441,7 +5453,8 @@ $('.message22jjj').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.yb').addClass('hide');
   $('.xb').addClass('hide');
@@ -5886,7 +5899,8 @@ $('.message22jjj').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
@@ -6406,7 +6420,8 @@ $('.show-carddc1').removeClass('hide');
         if(globalThis.k==1){
           if(globalThis.t=='243'){
             $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -6558,7 +6573,8 @@ $('.message22jjj').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.yb').addClass('hide');
   $('.xb').addClass('hide');
@@ -6764,7 +6780,8 @@ $('.show-carddc1').removeClass('hide');
 
            if(globalThis.t=='413'){
             $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -6916,7 +6933,8 @@ $('.message22jjj').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.yb').addClass('hide');
   $('.xb').addClass('hide');
@@ -7121,7 +7139,8 @@ $('.show-carddc1').removeClass('hide');
 
           if(globalThis.t=='112'){
             $('.sb').addClass('hide');
-            $('.zb').addClass('hide');
+               $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
             $('.xb').addClass('hide');
             $('.zbj').addClass('hide');
             $('.xb1').addClass('hide');
@@ -7273,7 +7292,8 @@ $('.show-carddc1').removeClass('hide');
             $('.b61').addClass('hide');
             $('.b62').addClass('hide');
             $('.sb').addClass('hide');
-            $('.zb').addClass('hide');
+               $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
             $('.xb').addClass('hide');
             $('.yb').addClass('hide');
             $('.xb').addClass('hide');
@@ -7701,7 +7721,8 @@ $('.zuo').click(function(e) {
   music.volume=0.5;
   music.play();  
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -9304,7 +9325,8 @@ $('.show-carddc1').removeClass('hide');
         if(globalThis.k==1){
           if(globalThis.t=='243'){
             $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -9456,7 +9478,8 @@ $('.message22jjj').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.yb').addClass('hide');
   $('.xb').addClass('hide');
@@ -9662,7 +9685,8 @@ $('.show-carddc1').removeClass('hide');
 
            if(globalThis.t=='413'){
             $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -9814,7 +9838,8 @@ $('.message22jjj').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.yb').addClass('hide');
   $('.xb').addClass('hide');
@@ -10019,7 +10044,8 @@ $('.show-carddc1').removeClass('hide');
 
           if(globalThis.t=='112'){
             $('.sb').addClass('hide');
-            $('.zb').addClass('hide');
+               $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
             $('.xb').addClass('hide');
             $('.zbj').addClass('hide');
             $('.xb1').addClass('hide');
@@ -10171,7 +10197,8 @@ $('.show-carddc1').removeClass('hide');
             $('.b61').addClass('hide');
             $('.b62').addClass('hide');
             $('.sb').addClass('hide');
-            $('.zb').addClass('hide');
+               $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
             $('.xb').addClass('hide');
             $('.yb').addClass('hide');
             $('.xb').addClass('hide');
@@ -10559,7 +10586,8 @@ $('.you').click(function(e) {
   music.volume=0.5;
   music.play();
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -11948,7 +11976,8 @@ $('.show-carddc1').removeClass('hide');
        if(globalThis.k==1){
          if(globalThis.t=='243'){
            $('.sb').addClass('hide');
- $('.zb').addClass('hide');
+    $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
  $('.xb').addClass('hide');
  $('.zbj').addClass('hide');
  $('.xb1').addClass('hide');
@@ -12100,7 +12129,8 @@ $('.message22jjj').addClass('hide');
  $('.b61').addClass('hide');
  $('.b62').addClass('hide');
  $('.sb').addClass('hide');
- $('.zb').addClass('hide');
+    $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
  $('.xb').addClass('hide');
  $('.yb').addClass('hide');
  $('.xb').addClass('hide');
@@ -12306,7 +12336,8 @@ $('.show-carddc1').removeClass('hide');
 
           if(globalThis.t=='413'){
            $('.sb').addClass('hide');
- $('.zb').addClass('hide');
+    $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
  $('.xb').addClass('hide');
  $('.zbj').addClass('hide');
  $('.xb1').addClass('hide');
@@ -12458,7 +12489,8 @@ $('.message22jjj').addClass('hide');
  $('.b61').addClass('hide');
  $('.b62').addClass('hide');
  $('.sb').addClass('hide');
- $('.zb').addClass('hide');
+    $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
  $('.xb').addClass('hide');
  $('.yb').addClass('hide');
  $('.xb').addClass('hide');
@@ -12663,7 +12695,8 @@ $('.show-carddc1').removeClass('hide');
 
          if(globalThis.t=='112'){
            $('.sb').addClass('hide');
-           $('.zb').addClass('hide');
+              $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
            $('.xb').addClass('hide');
            $('.zbj').addClass('hide');
            $('.xb1').addClass('hide');
@@ -12815,7 +12848,8 @@ $('.show-carddc1').removeClass('hide');
            $('.b61').addClass('hide');
            $('.b62').addClass('hide');
            $('.sb').addClass('hide');
-           $('.zb').addClass('hide');
+              $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
            $('.xb').addClass('hide');
            $('.yb').addClass('hide');
            $('.xb').addClass('hide');
@@ -13222,7 +13256,8 @@ $('.xia').click(function(e) {
   music.volume=0.5;
   music.play();
   $('.sb').addClass('hide');
-  $('.zb').addClass('hide');
+     $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   $('.xb').addClass('hide');
   $('.zbj').addClass('hide');
   $('.xb1').addClass('hide');
@@ -13422,7 +13457,8 @@ $('.message22jjj').addClass('hide');
   //    $('.show-card39').addClass('hide');
   //    $('.show-card40').addClass('hide');
   //    $('.sb').addClass('hide');
-  //    $('.zb').addClass('hide');
+  //       $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
   // $('.xb').addClass('hide');
   //    $('.zbj').addClass('hide');
   //    $('.xb1').addClass('hide');
@@ -14635,7 +14671,8 @@ $('.show-carddc1').removeClass('hide');
       if(globalThis.k==1){
         if(globalThis.t=='243'){
           $('.sb').addClass('hide');
-$('.zb').addClass('hide');
+   $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
 $('.xb').addClass('hide');
 $('.zbj').addClass('hide');
 $('.xb1').addClass('hide');
@@ -14787,7 +14824,8 @@ $('.b58').addClass('hide');
 $('.b61').addClass('hide');
 $('.b62').addClass('hide');
 $('.sb').addClass('hide');
-$('.zb').addClass('hide');
+   $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
 $('.xb').addClass('hide');
 $('.yb').addClass('hide');
 $('.xb').addClass('hide');
@@ -14993,7 +15031,8 @@ $('.show-carddc1').removeClass('hide');
 
          if(globalThis.t=='413'){
           $('.sb').addClass('hide');
-$('.zb').addClass('hide');
+   $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
 $('.xb').addClass('hide');
 $('.zbj').addClass('hide');
 $('.xb1').addClass('hide');
@@ -15145,7 +15184,8 @@ $('.b58').addClass('hide');
 $('.b61').addClass('hide');
 $('.b62').addClass('hide');
 $('.sb').addClass('hide');
-$('.zb').addClass('hide');
+   $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
 $('.xb').addClass('hide');
 $('.yb').addClass('hide');
 $('.xb').addClass('hide');
@@ -15350,7 +15390,8 @@ $('.show-carddc1').removeClass('hide');
 
         if(globalThis.t=='112'){
           $('.sb').addClass('hide');
-          $('.zb').addClass('hide');
+             $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
           $('.xb').addClass('hide');
           $('.zbj').addClass('hide');
           $('.xb1').addClass('hide');
@@ -15502,7 +15543,8 @@ $('.show-carddc1').removeClass('hide');
           $('.b61').addClass('hide');
           $('.b62').addClass('hide');
           $('.sb').addClass('hide');
-          $('.zb').addClass('hide');
+             $('.zb').addClass('hide');
+  $('.zbj').addClass('hide');
           $('.xb').addClass('hide');
           $('.yb').addClass('hide');
           $('.xb').addClass('hide');
