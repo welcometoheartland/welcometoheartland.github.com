@@ -588,6 +588,11 @@ user-select: none;
 -webkit-animation: fade-out 0.4s forwards ease-out;
         animation: fade-out 0.4s forwards ease-out;
 }
+.zbj.hide {
+  opacity: 0;
+-webkit-animation: fade-out 0.4s forwards ease-out;
+        animation: fade-out 0.4s forwards ease-out;
+}
 .yb.hide {
   opacity: 0;
 -webkit-animation: fade-out 0.4s forwards ease-out;

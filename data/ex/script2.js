@@ -380,6 +380,33 @@ $('.b11').click(function(e) {
   $('.b58').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
+  //20220908
+  var div = document.getElementById('b11');
+        var div1 = document.getElementById('b12');
+        var div2 = document.getElementById('b21');
+        var div3 = document.getElementById('b22');
+        div.style.visibility = 'hidden';
+        div1.style.visibility = 'hidden';
+        div2.style.visibility = 'hidden';
+        div3.style.visibility = 'hidden';
+        var div4 = document.getElementById('b31');
+        var div5 = document.getElementById('b32');
+        var div6 = document.getElementById('b41');
+        var div7 = document.getElementById('b42');
+        div4.style.visibility = 'hidden';
+        div5.style.visibility = 'hidden';
+        div6.style.visibility = 'hidden';
+        div7.style.visibility = 'hidden';
+        var div8 = document.getElementById('b51');
+        var div9 = document.getElementById('b52');
+        var div10 = document.getElementById('b53');
+        div8.style.visibility = 'hidden';
+        div9.style.visibility = 'hidden';
+        div10.style.visibility = 'hidden';
+        var div16 = document.getElementById('b61');
+        var div17 = document.getElementById('b62');
+        div16.style.visibility = 'hidden';
+        div17.style.visibility = 'hidden';
   
   
   var audio = document.getElementById("indexs");
@@ -517,7 +544,7 @@ $('.b12').click(function(e){
   var div2 = document.getElementById('you');
   var div3 = document.getElementById('zuo');
   setTimeout(function() {
-    $('.shang').removeClass('hide');
+            $('.shang').removeClass('hide');
             $('.shang').addClass('show').css('display', 'block');
             $('.xia').removeClass('hide');
             $('.xia').addClass('show').css('display', 'block');
@@ -4306,6 +4333,9 @@ $('.message22jjj').addClass('hide');
     $('.red').removeClass('hide');
     $('.red').addClass('show').css('display', 'block');
   },600);
+  setTimeout(function(){
+    $('.red').addClass('hide');
+  },2200);
 });
 $('.show-card23').click(function(e) {
   var music = new Audio('data/se/open.mp3');
@@ -4870,6 +4900,9 @@ $('.show-card31').click(function(e) {
     $('.red').removeClass('hide');
     $('.red').addClass('show').css('display', 'block');
   },600);
+  setTimeout(function(){
+    $('.red').addClass('hide');
+  },2200);
 
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
@@ -7868,13 +7901,9 @@ $('.message22jjj').addClass('hide');
   $('.b51').addClass('hide');
   $('.b52').addClass('hide');
   $('.b53').addClass('hide');
-  $('.b54').addClass('hide');
-  $('.b55').addClass('hide');
-  $('.b56').addClass('hide');
-  $('.b57').addClass('hide');
-  $('.b58').addClass('hide');
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
+
 
    var r=Math.floor(Math.random() * 100) + 1;
   // if(globalThis.flag==7){
