@@ -4335,6 +4335,9 @@ $('.message22jjj').addClass('hide');
   },600);
   setTimeout(function(){
     $('.red').addClass('hide');
+    $('.red').removeClass('show');
+    var div = document.getElementById('red');
+          div.style.visibility = 'hidden';
   },2200);
 });
 $('.show-card23').click(function(e) {
@@ -4902,6 +4905,10 @@ $('.show-card31').click(function(e) {
   },600);
   setTimeout(function(){
     $('.red').addClass('hide');
+    
+    $('.red').removeClass('show');
+    var div = document.getElementById('red');
+          div.style.visibility = 'hidden';
   },2200);
 
   var music = new Audio('data/se/open.mp3');
