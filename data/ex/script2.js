@@ -16137,13 +16137,33 @@ $('.openm').click(function(e) {
 
 
 $('.openn').click(function(e) {
-  this.style.visibility='hidden'
-  globalThis.flag=0
+  var audio = document.getElementById("indexs");
+  var vol1 = 0.50;
+    var interval1 = 200; // 200ms interval
+  
+  var fadeout = setInterval(
+    function() {
+      // Reduce volume by 0.05 as long as it is above 0
+      // This works as long as you start with a multiple of 0.05!
+      if (vol1 > 0) {
+        vol1 -= 0.05;
+        audio.volume = vol1;
+      }
+      else {
+        // Stop the setInterval when 0 is reached
+        clearInterval(fadeout);
+      }
+    }, interval1);
+
   var music = new Audio('data/se/open.mp3');
   music.volume=0.5;
   music.play();
+  setTimeout(function(){
+    $('.black').removeClass('hide');
+    $('.black').addClass('show').css('display', 'block');
+  },600);
+  
 
-  window.close() ;
 
     
  
