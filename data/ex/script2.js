@@ -235,7 +235,6 @@ $('.b11').click(function(e) {
   music.volume=0.5;
   music.play();
     $('.message1').addClass('hide');
-
     $('.message2').addClass('hide');
     $('.message2j').addClass('hide');
     $('.message3').addClass('hide');
@@ -381,32 +380,7 @@ $('.b11').click(function(e) {
   $('.b61').addClass('hide');
   $('.b62').addClass('hide');
   //20220908
-  var div = document.getElementById('b11');
-        var div1 = document.getElementById('b12');
-        var div2 = document.getElementById('b21');
-        var div3 = document.getElementById('b22');
-        div.style.visibility = 'hidden';
-        div1.style.visibility = 'hidden';
-        div2.style.visibility = 'hidden';
-        div3.style.visibility = 'hidden';
-        var div4 = document.getElementById('b31');
-        var div5 = document.getElementById('b32');
-        var div6 = document.getElementById('b41');
-        var div7 = document.getElementById('b42');
-        div4.style.visibility = 'hidden';
-        div5.style.visibility = 'hidden';
-        div6.style.visibility = 'hidden';
-        div7.style.visibility = 'hidden';
-        var div8 = document.getElementById('b51');
-        var div9 = document.getElementById('b52');
-        var div10 = document.getElementById('b53');
-        div8.style.visibility = 'hidden';
-        div9.style.visibility = 'hidden';
-        div10.style.visibility = 'hidden';
-        var div16 = document.getElementById('b61');
-        var div17 = document.getElementById('b62');
-        div16.style.visibility = 'hidden';
-        div17.style.visibility = 'hidden';
+
   
   
   var audio = document.getElementById("indexs");
