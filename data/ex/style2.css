@@ -2920,9 +2920,34 @@ body {
   text-decoration: none;
 }
 
-
+.open1{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border:1px solid rgb(167, 50, 50);
+  
+  padding: 0.5em 0em 2.2em 1.3em;
+  -webkit-animation: fade-in 1.5s 0.5s forwards ease-out;
+          animation: fade-in 1.5s 0.5s forwards ease-out;
+  color: rgb(167, 50, 50);
+  font-size: 150%;
+  line-height: 1.5;
+  opacity: 0;
+  position: absolute;
+    width:200px;
+    height:80px;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
 
 .open{
+  display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -2948,7 +2973,38 @@ body {
     margin:auto;
 }
 
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
+
+.openm1{
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+  padding: 0em 0.5em 0em 0.5em;
+  -webkit-animation: fade-in 1.5s 0.5s forwards ease-out;
+          animation: fade-in 1.5s 0.5s forwards ease-out;
+  color: rgb(167, 50, 50);
+  font-size: 100%;
+  line-height: 1.5;
+  opacity: 0;
+  position: absolute;
+  top: 77%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);   
+}
+
+
 .openm{
+  
+  display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -2970,6 +3026,7 @@ body {
 
 
 .openn{
+  display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -3032,6 +3089,36 @@ h1{
   opacity: 0;
   color: rgb(255, 255, 255);
   font-size: 450%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position:absolute;
+  left: 50%;
+  top: 50%;
+
+  
+
+}
+
+.cw{
+  
+  display: none;
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+  animation-name:fade-in;
+  animation-duration:1.5s;
+  animation-timing-function:linear;
+  animation-delay:0.5s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  animation-direction:normal;
+  text-align: center;
+  opacity: 0;
+  color: rgb(167, 50, 50);
+  font-size: 320%;
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   position:absolute;
@@ -6443,6 +6530,14 @@ h3{
               0 0 50px rgb(167, 50, 50),
               0 0 100px rgb(167, 50, 50);
 }
+.openm1:hover {
+  background-color: rgb(167, 50, 50);
+  color: rgb(44, 42, 42);
+  box-shadow: 0 0 5px rgb(167, 50, 50),
+              0 0 25px rgb(167, 50, 50),
+              0 0 50px rgb(167, 50, 50),
+              0 0 100px rgb(167, 50, 50);
+}
 
 .openn:hover {
   background-color: rgb(167, 50, 50);
@@ -8651,8 +8746,19 @@ user-select: none;
   z-index:0
 
 }
+.open1.hide{
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+  animation: fade-out 0.4s forwards ease-out;
+  z-index:0
+
+}
 
 .openm.hide{
+  -webkit-animation: fade-out 0.4s forwards ease-out;
+  animation: fade-out 0.4s forwards ease-out;
+  z-index:0
+}
+.openm1.hide{
   -webkit-animation: fade-out 0.4s forwards ease-out;
   animation: fade-out 0.4s forwards ease-out;
   z-index:0

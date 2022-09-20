@@ -1,3 +1,41 @@
+$('.openm1').click(function(e) {
+  var music = new Audio('data/se/se.wav');
+  music.volume=0.5;
+  music.play();
+  var p = document.getElementById("pass").value;  
+
+  if(p == 'AS99DoiDoi'){
+    setTimeout(function(){
+      $(".open1").removeClass('show');
+      $(".open1").addClass('hide');
+    },600); 
+    
+    setTimeout(function(){
+      $('.open').removeClass('hide');
+      $('.open').addClass('show').css('display', 'block');
+      $('.openn').removeClass('hide');
+      $('.openn').addClass('show').css('display', 'block');
+      $('.openm').removeClass('hide');
+      $('.openm').addClass('show').css('display', 'block');
+    },1000);
+  }else{
+
+    setTimeout(function(){
+      $(".open1").removeClass('show');
+      $(".open1").addClass('hide');
+    },600); 
+    setTimeout(function(){
+      $('.cw').removeClass('hide');
+      $('.cw').addClass('show').css('display', 'block');
+    },1000);
+
+  }
+
+ 
+});
+
+
+
 
 
 
@@ -40,6 +78,10 @@ document.getElementById("shayu").addEventListener("scroll", function() {
     },600); 
     }
 });
+
+
+
+
 
 $('.jsh4').click(function(e) {
   var music = new Audio('data/se/se.wav');
